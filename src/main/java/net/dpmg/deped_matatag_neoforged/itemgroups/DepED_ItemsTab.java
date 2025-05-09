@@ -2,6 +2,7 @@ package net.dpmg.deped_matatag_neoforged.itemgroups;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
+import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,10 @@ public class DepED_ItemsTab {
                     .title(Component.translatable("creativemodetabs.deped_matatag.deped_matatag_items"))
                     .displayItems((itemDisplayParameters, output) -> {
 
+                    //DepED Mineral Items
+                    output.accept(DepED_MineralItems.RAW_DEPED);
+
+                    //DepED Core Items
                     output.accept(DepED_CoreItems.DEPED_CORE);
                     output.accept(DepED_CoreItems.GMATHS_CORE);
                     output.accept(DepED_CoreItems.GMANHS_CORE);

@@ -1,0 +1,40 @@
+package net.dpmg.deped_matatag_neoforged.block;
+
+import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
+import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.function.Supplier;
+
+public class DepED_BlockPlaceables {
+    public static final DeferredRegister.Blocks DEPED_BLOCKS = DeferredRegister.createBlocks(DepEDMatatagNeoForgeEdition.MOD_ID);
+
+    //DepED BlockPlaceables - DepED Variants
+    public static final DeferredBlock<Block> DEPED_BLOCK = registerDepED_Blocks("deped_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    //Misc
+    public static final DeferredBlock<Block> THE_GMATHS_TORCH = registerDepED_Blocks("the_gmaths_torch", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(3f, 4f).lightLevel(state -> 15).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
+
+    private static <T extends Block> DeferredBlock<T> registerDepED_Blocks(String name, Supplier<T> block) {
+        DeferredBlock<T> toReturn = DEPED_BLOCKS.register(name, block);
+        registerDepED_BlockItem(name, toReturn);
+        return toReturn;
+    }
+
+    private static <T extends Block> void registerDepED_BlockItem(String name, DeferredBlock<T> block) {
+        DepED_CoreItems.DPMG_CORE_ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+    }
+
+    public static void registerDPMG_BlockPlaceables(IEventBus eventBus) {
+        DEPED_BLOCKS.register(eventBus);
+    }
+}

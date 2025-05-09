@@ -1,6 +1,9 @@
 package net.dpmg.deped_matatag_neoforged;
 
+import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
+import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
+import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_BlocksTab;
 import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_ItemsTab;
 import org.slf4j.Logger;
@@ -34,12 +37,15 @@ public class DepEDMatatagNeoForgeEdition {
 
         //DepED_CreativeModeTabs
         DepED_ItemsTab.registerDPMG_ItemsTabs(modEventBus);
-        DepED_BlocksTab.registerDPMG_BlocksTab(modEventBus);
+        DepED_BlocksTab.registerDPMG_BlocksTabs(modEventBus);
 
         //DepED_Blocks
+        DepED_BlockPlaceables.registerDPMG_BlockPlaceables(modEventBus);
+        DepED_OreSector.registerDPMG_OreSector(modEventBus);
 
         //DepED_Items
         DepED_CoreItems.registerDPMG_Items(modEventBus);
+        DepED_MineralItems.registerDPMG_MineralItems(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 

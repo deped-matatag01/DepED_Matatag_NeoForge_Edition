@@ -10,7 +10,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class DepED_CoreItems {
     public static final DeferredRegister.Items DPMG_CORE_ITEMS = DeferredRegister.createItems(DepEDMatatagNeoForgeEdition.MOD_ID);
 
-    public static final DeferredItem<Item> DEPED_CORE = DPMG_CORE_ITEMS.register("deped_core", () -> new Item(new Item.Properties().rarity(Rarity.COMMON)));
+    public static final DeferredItem<Item> DEPED_CORE = DPMG_CORE_ITEMS.register("deped_core", () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final DeferredItem<Item> GMATHS_CORE = DPMG_CORE_ITEMS.register("gmaths_core", () -> new Item(new Item.Properties().rarity(Rarity.RARE)));
     public static final DeferredItem<Item> GMANHS_CORE = DPMG_CORE_ITEMS.register("gmanhs_core", () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
 

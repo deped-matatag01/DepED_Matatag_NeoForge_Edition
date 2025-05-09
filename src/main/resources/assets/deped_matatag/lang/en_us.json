@@ -2,6 +2,12 @@
   "creativemodetabs.deped_matatag.deped_matatag_items": "DepED Matatag - Items",
   "creativemodetabs.deped_matatag.deped_matatag_blocks": "DepED Matatag - Blocks",
 
+  "block.deped_matatag.deped_ore": "DepED Ore",
+  "block.deped_matatag.deepslate_deped_ore": "Deepslate DepED Ore",
+  "block.deped_matatag.deped_block": "DepED Block",
+  "block.deped_matatag.the_gmaths_torch": "The GMATHS Torch",
+
+  "item.deped_matatag.raw_deped": "Raw DepED",
   "item.deped_matatag.deped_core": "DepED Core",
   "item.deped_matatag.gmaths_core": "GMATHS Core",
   "item.deped_matatag.gmanhs_core": "GMANHS Core"
