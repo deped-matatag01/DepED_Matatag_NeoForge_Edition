@@ -47,6 +47,8 @@ public class DepEDMatatagNeoForgeEdition {
         DepED_CoreItems.registerDPMG_Items(modEventBus);
         DepED_MineralItems.registerDPMG_MineralItems(modEventBus);
 
+        //DepED_CustomTags
+
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
