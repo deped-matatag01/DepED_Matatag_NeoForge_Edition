@@ -8,7 +8,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
-public class DepED_Tags {
+public class DepED_CustomTags {
     public static class Blocks {
 
 
