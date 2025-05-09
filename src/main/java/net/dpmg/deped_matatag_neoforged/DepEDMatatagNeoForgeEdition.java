@@ -1,5 +1,8 @@
 package net.dpmg.deped_matatag_neoforged;
 
+import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
+import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_BlocksTab;
+import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_ItemsTab;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -28,6 +31,15 @@ public class DepEDMatatagNeoForgeEdition {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        //DepED_CreativeModeTabs
+        DepED_ItemsTab.registerDPMG_ItemsTabs(modEventBus);
+        DepED_BlocksTab.registerDPMG_BlocksTab(modEventBus);
+
+        //DepED_Blocks
+
+        //DepED_Items
+        DepED_CoreItems.registerDPMG_Items(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
