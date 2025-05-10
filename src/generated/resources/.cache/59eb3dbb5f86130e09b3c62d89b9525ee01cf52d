@@ -1,5 +1,13 @@
-// 1.21.1	2025-05-09T22:40:38.3807948	Loot Tables
+// 1.21.1	2025-05-10T21:21:18.490891	Loot Tables
+2eaaa0557767fc29df7e53cb844d00f9a2bf2bf8 data/deped_matatag/loot_table/blocks/block_of_gmanhs.json
+d150c70ebe504c99e5be66e683912d59eb7f653e data/deped_matatag/loot_table/blocks/block_of_gmaths.json
 34dc25065d75626b78f84e0818906f315fc6a2e5 data/deped_matatag/loot_table/blocks/deepslate_deped_ore.json
+2f6e1b2fa85139f579c19012b221b6a839119f13 data/deped_matatag/loot_table/blocks/deepslate_gmanhs_ore.json
+9c4b9dd8c71f5655308c64dcf8467b8fdecc6ff1 data/deped_matatag/loot_table/blocks/deepslate_gmaths_ore.json
 1b54890e5542e473b9815696a397c713afb4e308 data/deped_matatag/loot_table/blocks/deped_block.json
 d9854e4bf7dd4a24b003aaf82d628faa38bd3987 data/deped_matatag/loot_table/blocks/deped_ore.json
+0594596ef87d83f2c077451cc67106b32be7e86b data/deped_matatag/loot_table/blocks/gmanhs_ore.json
+2bc4d56e9d1bcd98669425db3c81eab5990f15eb data/deped_matatag/loot_table/blocks/gmaths_ore.json
+3601eb62a23c96c9f0d9189b214791fe549e69a3 data/deped_matatag/loot_table/blocks/sjchs_block.json
 376ca898a2fb9e7600cf3239840a0d8e878acd40 data/deped_matatag/loot_table/blocks/the_gmaths_torch.json
+28ab1769f41f756c8f54ba776de06c69ffdb27c3 data/deped_matatag/loot_table/blocks/yes_o.json

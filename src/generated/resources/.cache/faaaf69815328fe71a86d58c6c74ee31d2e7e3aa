@@ -1,5 +1,7 @@
-// 1.21.1	2025-05-10T12:43:39.4899119	Item Models: deped_matatag
+// 1.21.1	2025-05-10T21:20:37.4248466	Item Models: deped_matatag
 a527297c1ac7181dc1c66ed93aa77c83185ed165 assets/deped_matatag/models/item/deped_core.json
 7bb47bca25ec20ed0a6a096c728ba30bdf6acf26 assets/deped_matatag/models/item/gmanhs_core.json
 3dd06a3f2998b7fa042a752fc6f72d9acfb02ce9 assets/deped_matatag/models/item/gmaths_core.json
 12836b381133c3aa68da7b9b158dd1ef5226d5a3 assets/deped_matatag/models/item/raw_deped.json
+1089bbd9add4d46436e78c5454bb586faeee5397 assets/deped_matatag/models/item/raw_gmanhs.json
+104881c0f5926164a23fbcf605dd34dd4bd0420e assets/deped_matatag/models/item/raw_gmaths.json

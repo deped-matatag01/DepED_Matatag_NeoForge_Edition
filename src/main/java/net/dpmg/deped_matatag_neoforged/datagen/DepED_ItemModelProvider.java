@@ -22,5 +22,7 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
 
         //DepED Mineral Items
         basicItem(DepED_MineralItems.RAW_DEPED.get());
+        basicItem(DepED_MineralItems.RAW_GMATHS.get());
+        basicItem(DepED_MineralItems.RAW_GMANHS.get());
     }
 }

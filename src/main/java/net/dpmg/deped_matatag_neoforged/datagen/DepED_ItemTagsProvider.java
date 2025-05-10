@@ -21,6 +21,7 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
 
     //JSON-Based Tagging
     public static final TagKey<Item> DEPED_CORES_TAG = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_cores"));
+    public static final TagKey<Item> DEPED_RAW_MINERALS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_cores"));
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
@@ -29,5 +30,10 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmaths_core"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("minecraft", "heavy_core"));
+
+        tag(DEPED_RAW_MINERALS)
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "raw_deped"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "raw_gmaths"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "raw_gmanhs"));
     }
 }

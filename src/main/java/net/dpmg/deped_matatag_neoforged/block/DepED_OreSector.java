@@ -21,6 +21,14 @@ public class DepED_OreSector {
             .strength(1.5f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final DeferredBlock<Block> DEEPSLATE_DEPED_ORE = register_DepED_OreMinerals("deepslate_deped_ore", () -> new Block(BlockBehaviour.Properties.of()
             .strength(3f, 5f).lightLevel(state -> 5).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final DeferredBlock<Block> GMATHS_ORE = register_DepED_OreMinerals("gmaths_ore", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1.5f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> DEEPSLATE_GMATHS_ORE = register_DepED_OreMinerals("deepslate_gmaths_ore", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(3f, 5f).lightLevel(state -> 5).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final DeferredBlock<Block> GMANHS_ORE = register_DepED_OreMinerals("gmanhs_ore", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1.5f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> DEEPSLATE_GMANHS_ORE = register_DepED_OreMinerals("deepslate_gmanhs_ore", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(3f, 5f).lightLevel(state -> 5).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     //DepED Raw Block Materials
 

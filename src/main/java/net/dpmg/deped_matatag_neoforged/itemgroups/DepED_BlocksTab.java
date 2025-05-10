@@ -23,10 +23,26 @@ public class DepED_BlocksTab {
                     //DepED_Ore Sector - Ores
                     output.accept(DepED_OreSector.DEPED_ORE);
                     output.accept(DepED_OreSector.DEEPSLATE_DEPED_ORE);
+                    output.accept(DepED_OreSector.GMATHS_ORE);
+                    output.accept(DepED_OreSector.DEEPSLATE_GMATHS_ORE);
+                    output.accept(DepED_OreSector.GMANHS_ORE);
+                    output.accept(DepED_OreSector.DEEPSLATE_GMANHS_ORE);
 
-                    //DepED_BlockPlaceables
+                    //DepED_BlockPlaceables - DepED Variants
                     output.accept(DepED_BlockPlaceables.DEPED_BLOCK);
+
+                    //DepED_BlockPlaceables - GMATHS Variants
+                    output.accept(DepED_BlockPlaceables.BLOCK_OF_GMATHS);
+
+                    //DepED_BlockPlaceables - GMANHS Variants
+                    output.accept(DepED_BlockPlaceables.BLOCK_OF_GMANHS);
+
+                    //DepED_BlockPlaceables - SJCHS Variants
+                    output.accept(DepED_BlockPlaceables.SJCHS_BLOCK);
+
+                    //DepED_Block Placeables - Misc
                     output.accept(DepED_BlockPlaceables.THE_GMATHS_TORCH);
+                    output.accept(DepED_BlockPlaceables.YES_O);
 
                     }).build());
 

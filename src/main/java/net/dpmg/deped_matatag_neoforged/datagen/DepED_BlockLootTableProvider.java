@@ -32,14 +32,28 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
         //DepED BlockPlaceables - DepED Variants
         dropSelf(DepED_BlockPlaceables.DEPED_BLOCK.get());
 
+        //DepED BlockPlaceables - GMATHS Variants
+        dropSelf(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get());
+
+        //DepED BlockPlaceables - GMANHS Variants
+        dropSelf(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get());
+
+        //DepED BlockPlaceables - SJCHS Variants
+        dropSelf(DepED_BlockPlaceables.SJCHS_BLOCK.get());
+
         //DepED BlockPlaceables - Misc
         dropSelf(DepED_BlockPlaceables.THE_GMATHS_TORCH.get());
+        dropSelf(DepED_BlockPlaceables.YES_O.get());
 
         //DepED OreSector - Raw Materials
 
         //DepED OreSector - Ores
         add(DepED_OreSector.DEPED_ORE.get(), block -> createMultipleOreDrops(DepED_OreSector.DEPED_ORE.get(), DepED_MineralItems.RAW_DEPED.get(), 1, 4));
         add(DepED_OreSector.DEEPSLATE_DEPED_ORE.get(), block -> createMultipleOreDrops(DepED_OreSector.DEEPSLATE_DEPED_ORE.get(), DepED_MineralItems.RAW_DEPED.get(), 1, 4));
+        add(DepED_OreSector.GMATHS_ORE.get(), block -> createMultipleOreDrops(DepED_OreSector.GMATHS_ORE.get(), DepED_MineralItems.RAW_GMATHS.get(), 1, 4));
+        add(DepED_OreSector.DEEPSLATE_GMATHS_ORE.get(), block -> createMultipleOreDrops(DepED_OreSector.DEEPSLATE_GMATHS_ORE.get(), DepED_MineralItems.RAW_GMATHS.get(), 1, 4));
+        add(DepED_OreSector.GMANHS_ORE.get(), block -> createMultipleOreDrops(DepED_OreSector.GMANHS_ORE.get(), DepED_MineralItems.RAW_GMANHS.get(), 1, 4));
+        add(DepED_OreSector.DEEPSLATE_GMANHS_ORE.get(), block -> createMultipleOreDrops(DepED_OreSector.DEEPSLATE_GMANHS_ORE.get(), DepED_MineralItems.RAW_GMANHS.get(), 1, 4));
 
     }
 

@@ -19,15 +19,43 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        tag(BlockTags.MINEABLE_WITH_HOE)
+                .add(DepED_BlockPlaceables.YES_O.get());
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                //DepED_BlockPlaceables - DepED Variants
                 .add(DepED_BlockPlaceables.DEPED_BLOCK.get())
+
+                //DepED_BlockPlaceables - DepED Variants
+                .add(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get())
+
+                //DepED_BlockPlaceables - DepED Variants
+                .add(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get())
+
+                //DepED_BlockPlaceables - DepED Variants
+                .add(DepED_BlockPlaceables.SJCHS_BLOCK.get())
+
+                //DepED_BlockPlaceables - DepED Variants
                 .add(DepED_BlockPlaceables.THE_GMATHS_TORCH.get())
+
+                //DepED_OreSector - Ores
                 .add(DepED_OreSector.DEPED_ORE.get())
-                .add(DepED_OreSector.DEEPSLATE_DEPED_ORE.get());
+                .add(DepED_OreSector.DEEPSLATE_DEPED_ORE.get())
+                .add(DepED_OreSector.GMATHS_ORE.get())
+                .add(DepED_OreSector.DEEPSLATE_GMATHS_ORE.get())
+                .add(DepED_OreSector.GMANHS_ORE.get())
+                .add(DepED_OreSector.DEEPSLATE_GMANHS_ORE.get());
+
+                //DepED_OreSector - Raw Minerals
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(DepED_OreSector.DEPED_ORE.get())
                 .add(DepED_OreSector.DEEPSLATE_DEPED_ORE.get());
+
+        tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(DepED_OreSector.GMATHS_ORE.get())
+                .add(DepED_OreSector.DEEPSLATE_GMATHS_ORE.get())
+                .add(DepED_OreSector.GMANHS_ORE.get())
+                .add(DepED_OreSector.DEEPSLATE_GMANHS_ORE.get());
     }
 }

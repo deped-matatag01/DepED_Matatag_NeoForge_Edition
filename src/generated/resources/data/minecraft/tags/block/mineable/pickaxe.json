@@ -1,8 +1,15 @@
 {
   "values": [
     "deped_matatag:deped_block",
+    "deped_matatag:block_of_gmaths",
+    "deped_matatag:block_of_gmanhs",
+    "deped_matatag:sjchs_block",
     "deped_matatag:the_gmaths_torch",
     "deped_matatag:deped_ore",
-    "deped_matatag:deepslate_deped_ore"
+    "deped_matatag:deepslate_deped_ore",
+    "deped_matatag:gmaths_ore",
+    "deped_matatag:deepslate_gmaths_ore",
+    "deped_matatag:gmanhs_ore",
+    "deped_matatag:deepslate_gmanhs_ore"
   ]
 }

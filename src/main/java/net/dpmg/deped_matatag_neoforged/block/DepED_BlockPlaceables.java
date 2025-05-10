@@ -20,9 +20,23 @@ public class DepED_BlockPlaceables {
     public static final DeferredBlock<Block> DEPED_BLOCK = registerDepED_Blocks("deped_block", () -> new Block(BlockBehaviour.Properties.of()
             .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    //DepED BlockPlaceables - GMATHS Variants
+    public static final DeferredBlock<Block> BLOCK_OF_GMATHS = registerDepED_Blocks("block_of_gmaths", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    //DepED BlockPlaceables - GMANHS Variants
+    public static final DeferredBlock<Block> BLOCK_OF_GMANHS = registerDepED_Blocks("block_of_gmanhs", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    //DepED BlockPlaceables - GMANHS Variants
+    public static final DeferredBlock<Block> SJCHS_BLOCK = registerDepED_Blocks("sjchs_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
     //Misc
     public static final DeferredBlock<Block> THE_GMATHS_TORCH = registerDepED_Blocks("the_gmaths_torch", () -> new Block(BlockBehaviour.Properties.of()
             .strength(3f, 4f).lightLevel(state -> 15).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
+    public static final DeferredBlock<Block> YES_O = registerDepED_Blocks("yes_o", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(0.8f, 1.5f).sound(SoundType.CHERRY_LEAVES)));
 
     private static <T extends Block> DeferredBlock<T> registerDepED_Blocks(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = DEPED_BLOCKS.register(name, block);

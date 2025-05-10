@@ -22,6 +22,8 @@ public class DepED_ItemsTab {
 
                     //DepED Mineral Items
                     output.accept(DepED_MineralItems.RAW_DEPED);
+                    output.accept(DepED_MineralItems.RAW_GMATHS);
+                    output.accept(DepED_MineralItems.RAW_GMANHS);
 
                     //DepED Core Items
                     output.accept(DepED_CoreItems.DEPED_CORE);
