@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "deped_matatag:deped_core",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmaths_core",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmanhs_core",
+      "required": false
+    },
+    {
+      "id": "minecraft:heavy_core",
+      "required": false
+    }
+  ]
+}
