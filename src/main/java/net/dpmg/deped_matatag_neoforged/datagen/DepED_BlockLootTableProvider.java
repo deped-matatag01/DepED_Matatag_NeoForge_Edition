@@ -29,8 +29,10 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
-        //DepED BlockPlaceables
+        //DepED BlockPlaceables - DepED Variants
         dropSelf(DepED_BlockPlaceables.DEPED_BLOCK.get());
+
+        //DepED BlockPlaceables - Misc
         dropSelf(DepED_BlockPlaceables.THE_GMATHS_TORCH.get());
 
         //DepED OreSector - Raw Materials
