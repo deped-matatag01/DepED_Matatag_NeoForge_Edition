@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "deped_matatag:the_gmaths_torch"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "deped_matatag:blocks/the_gmaths_torch"
+}
