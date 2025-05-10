@@ -8,6 +8,7 @@ import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
@@ -25,17 +26,22 @@ public class DepED_DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
-        //DATAGEN HOOKUP
+        //LOOT TABLE PROVIDER
         generator.addProvider(event.includeServer(), new LootTableProvider(packOutput, Collections.emptySet(), List.of(
                 new LootTableProvider.SubProviderEntry(DepED_BlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
 
-        //2
+        //BLOCKSTATES AND ITEM MODEL PROVIDER
+        generator.addProvider(event.includeClient(), new DepED_BlockStatesProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeClient(), new DepED_ItemModelProvider(packOutput, existingFileHelper));
 
-        //3
+        //BLOCKTAGS PROVIDER
+        BlockTagsProvider blockTagsProvider = new DepED_BlockTagsProvider(packOutput, lookupProvider, existingFileHelper);
+        generator.addProvider(event.includeServer(), blockTagsProvider);
 
-        //4
+        //ITEMTAGS PROVIDER
+        generator.addProvider(event.includeServer(), new DepED_ItemTagsProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
 
-        //5
+        //RECIPE PROVIDER
 
         //6
     }
