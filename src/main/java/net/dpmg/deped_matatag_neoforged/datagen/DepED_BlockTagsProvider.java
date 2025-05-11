@@ -26,17 +26,21 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
                 //DepED_BlockPlaceables - DepED Variants
                 .add(DepED_BlockPlaceables.DEPED_BLOCK.get())
 
-                //DepED_BlockPlaceables - DepED Variants
+                //DepED_BlockPlaceables - GMATHS Variants
                 .add(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get())
 
-                //DepED_BlockPlaceables - DepED Variants
+                //DepED_BlockPlaceables - GMANHS Variants
                 .add(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get())
 
-                //DepED_BlockPlaceables - DepED Variants
+                //DepED_BlockPlaceables - SJCHS Variants
                 .add(DepED_BlockPlaceables.SJCHS_BLOCK.get())
 
                 //DepED_BlockPlaceables - DepED Variants
                 .add(DepED_BlockPlaceables.THE_GMATHS_TORCH.get())
+
+                //DepED_BlockPlaceables - Misc
+                .add(DepED_BlockPlaceables.SIR_ELIE_BLOCK.get())
+                .add(DepED_BlockPlaceables.SIR_ELIE_BLOCK_BODY.get())
 
                 //DepED_OreSector - Ores
                 .add(DepED_OreSector.DEPED_ORE.get())
@@ -44,18 +48,43 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
                 .add(DepED_OreSector.GMATHS_ORE.get())
                 .add(DepED_OreSector.DEEPSLATE_GMATHS_ORE.get())
                 .add(DepED_OreSector.GMANHS_ORE.get())
-                .add(DepED_OreSector.DEEPSLATE_GMANHS_ORE.get());
+                .add(DepED_OreSector.DEEPSLATE_GMANHS_ORE.get())
 
                 //DepED_OreSector - Raw Minerals
+                .add(DepED_OreSector.RAW_DEPED_BLOCK.get())
+                .add(DepED_OreSector.RAW_GMATHS_BLOCK.get())
+                .add(DepED_OreSector.RAW_GMANHS_BLOCK.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
+                //DepED_BlockPlaceables - DepED Variants
+                .add(DepED_BlockPlaceables.DEPED_BLOCK.get())
+
+                //DepED_BlockPlaceables - GMATHS Variants
+                .add(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get())
+
+                //DepED_BlockPlaceables - GMANHS Variants
+                .add(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get())
+
+                //DepED_BlockPlaceables - SJCHS Variants
+                .add(DepED_BlockPlaceables.SJCHS_BLOCK.get())
+
+                //DepED_BlockPlaceables - Misc
+                .add(DepED_BlockPlaceables.SIR_ELIE_BLOCK.get())
+                .add(DepED_BlockPlaceables.SIR_ELIE_BLOCK_BODY.get())
+                .add(DepED_BlockPlaceables.THE_GMATHS_TORCH.get())
+
                 .add(DepED_OreSector.DEPED_ORE.get())
-                .add(DepED_OreSector.DEEPSLATE_DEPED_ORE.get());
+                .add(DepED_OreSector.DEEPSLATE_DEPED_ORE.get())
+                .add(DepED_OreSector.RAW_DEPED_BLOCK.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(DepED_OreSector.GMATHS_ORE.get())
                 .add(DepED_OreSector.DEEPSLATE_GMATHS_ORE.get())
+                .add(DepED_OreSector.RAW_GMATHS_BLOCK.get());
+
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(DepED_OreSector.GMANHS_ORE.get())
-                .add(DepED_OreSector.DEEPSLATE_GMANHS_ORE.get());
+                .add(DepED_OreSector.DEEPSLATE_GMANHS_ORE.get())
+                .add(DepED_OreSector.RAW_GMANHS_BLOCK.get());
     }
 }

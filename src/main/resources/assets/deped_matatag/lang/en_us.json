@@ -7,6 +7,8 @@
   "block.deped_matatag.block_of_gmanhs": "Block of GMANHS",
   "block.deped_matatag.sjchs_block": "SJCHS Block",
 
+  "block.deped_matatag.sir_elie_block": "Sir Elizer Alvarez Block",
+  "block.deped_matatag.sir_elie_block_body": "Body of Sir Elizer Alvarez Block",
   "block.deped_matatag.the_gmaths_torch": "The GMATHS Torch",
   "block.deped_matatag.yes_o": "Yes-O Environmentalist",
 
@@ -17,7 +19,9 @@
   "block.deped_matatag.gmanhs_ore": "GMANHS Ore",
   "block.deped_matatag.deepslate_gmanhs_ore": "Deepslate GMANHS Ore",
 
-
+  "block.deped_matatag.raw_deped_block": "Raw DepED Block",
+  "block.deped_matatag.raw_gmaths_block": "Raw GMATHS Block",
+  "block.deped_matatag.raw_gmanhs_block": "Raw GMANHS Block",
 
   "item.deped_matatag.raw_deped": "Raw DepED",
   "item.deped_matatag.deped_ingot": "DepED Ingot",

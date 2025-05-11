@@ -31,6 +31,12 @@ public class DepED_OreSector {
             .strength(3f, 5f).lightLevel(state -> 5).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     //DepED Raw Block Materials
+    public static final DeferredBlock<Block> RAW_DEPED_BLOCK = register_DepED_OreMinerals("raw_deped_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(2.25f, 5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> RAW_GMATHS_BLOCK = register_DepED_OreMinerals("raw_gmaths_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(2.25f, 5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> RAW_GMANHS_BLOCK = register_DepED_OreMinerals("raw_gmanhs_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(2.25f, 5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     private static <T extends Block> DeferredBlock<T> register_DepED_OreMinerals(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = DEPED_ORE_RAW_MATERIALS.register(name, block);

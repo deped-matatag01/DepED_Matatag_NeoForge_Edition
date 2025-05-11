@@ -29,6 +29,8 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
         DPMG_BlockWithItem(DepED_BlockPlaceables.SJCHS_BLOCK);
 
         //DepED_BlockPlaceables - Misc
+        DPMG_BlockWithItem(DepED_BlockPlaceables.SIR_ELIE_BLOCK);
+        DPMG_BlockWithItem(DepED_BlockPlaceables.SIR_ELIE_BLOCK_BODY);
         DPMG_BlockWithItem(DepED_BlockPlaceables.THE_GMATHS_TORCH);
         DPMG_BlockWithItem(DepED_BlockPlaceables.YES_O);
 
@@ -40,7 +42,10 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
         DPMG_BlockWithItem(DepED_OreSector.GMANHS_ORE);
         DPMG_BlockWithItem(DepED_OreSector.DEEPSLATE_GMANHS_ORE);
 
-        //DepED_OreSector - Raw Materials
+        //DepED_OreSector - Raw Blocks
+        DPMG_BlockWithItem(DepED_OreSector.RAW_DEPED_BLOCK);
+        DPMG_BlockWithItem(DepED_OreSector.RAW_GMATHS_BLOCK);
+        DPMG_BlockWithItem(DepED_OreSector.RAW_GMANHS_BLOCK);
 
     }
 

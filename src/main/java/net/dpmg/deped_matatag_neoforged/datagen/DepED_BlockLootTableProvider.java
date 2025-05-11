@@ -42,10 +42,15 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(DepED_BlockPlaceables.SJCHS_BLOCK.get());
 
         //DepED BlockPlaceables - Misc
+        dropSelf(DepED_BlockPlaceables.SIR_ELIE_BLOCK.get());
+        dropSelf(DepED_BlockPlaceables.SIR_ELIE_BLOCK_BODY.get());
         dropSelf(DepED_BlockPlaceables.THE_GMATHS_TORCH.get());
         dropSelf(DepED_BlockPlaceables.YES_O.get());
 
         //DepED OreSector - Raw Materials
+        dropSelf(DepED_OreSector.RAW_DEPED_BLOCK.get());
+        dropSelf(DepED_OreSector.RAW_GMATHS_BLOCK.get());
+        dropSelf(DepED_OreSector.RAW_GMANHS_BLOCK.get());
 
         //DepED OreSector - Ores
         add(DepED_OreSector.DEPED_ORE.get(), block -> createMultipleOreDrops(DepED_OreSector.DEPED_ORE.get(), DepED_MineralItems.RAW_DEPED.get(), 1, 4));

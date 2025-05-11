@@ -5,11 +5,16 @@
     "deped_matatag:block_of_gmanhs",
     "deped_matatag:sjchs_block",
     "deped_matatag:the_gmaths_torch",
+    "deped_matatag:sir_elie_block",
+    "deped_matatag:sir_elie_block_body",
     "deped_matatag:deped_ore",
     "deped_matatag:deepslate_deped_ore",
     "deped_matatag:gmaths_ore",
     "deped_matatag:deepslate_gmaths_ore",
     "deped_matatag:gmanhs_ore",
-    "deped_matatag:deepslate_gmanhs_ore"
+    "deped_matatag:deepslate_gmanhs_ore",
+    "deped_matatag:raw_deped_block",
+    "deped_matatag:raw_gmaths_block",
+    "deped_matatag:raw_gmanhs_block"
   ]
 }
