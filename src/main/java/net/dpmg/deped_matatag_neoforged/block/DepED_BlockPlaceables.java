@@ -33,6 +33,7 @@ public class DepED_BlockPlaceables {
             .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     //Misc
+
     public static final DeferredBlock<Block> THE_GMATHS_TORCH = registerDepED_Blocks("the_gmaths_torch", () -> new Block(BlockBehaviour.Properties.of()
             .strength(3f, 4f).lightLevel(state -> 15).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
     public static final DeferredBlock<Block> YES_O = registerDepED_Blocks("yes_o", () -> new Block(BlockBehaviour.Properties.of()

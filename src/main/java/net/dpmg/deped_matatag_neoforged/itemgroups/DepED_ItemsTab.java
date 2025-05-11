@@ -22,8 +22,16 @@ public class DepED_ItemsTab {
 
                     //DepED Mineral Items
                     output.accept(DepED_MineralItems.RAW_DEPED);
+                    output.accept(DepED_MineralItems.DEPED_INGOT);
+                    output.accept(DepED_MineralItems.DEPED_NUGGET);
+
                     output.accept(DepED_MineralItems.RAW_GMATHS);
+                    output.accept(DepED_MineralItems.GMATHS_INGOT);
+                    output.accept(DepED_MineralItems.GMATHS_NUGGET);
+
                     output.accept(DepED_MineralItems.RAW_GMANHS);
+                    output.accept(DepED_MineralItems.GMANHS_INGOT);
+                    output.accept(DepED_MineralItems.GMANHS_NUGGET);
 
                     //DepED Core Items
                     output.accept(DepED_CoreItems.DEPED_CORE);

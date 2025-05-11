@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "deped_matatag:deped_nugget",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmaths_nugget",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmanhs_nugget",
+      "required": false
+    }
+  ]
+}
