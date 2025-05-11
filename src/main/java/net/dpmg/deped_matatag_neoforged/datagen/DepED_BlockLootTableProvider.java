@@ -31,6 +31,9 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
 
         //DepED BlockPlaceables - DepED Variants
         dropSelf(DepED_BlockPlaceables.DEPED_BLOCK.get());
+        dropSelf(DepED_BlockPlaceables.DEPED_STAIRS.get());
+        add(DepED_BlockPlaceables.DEPED_SLAB.get(), block -> createSlabItemTable(DepED_BlockPlaceables.DEPED_SLAB.get()));
+        dropSelf(DepED_BlockPlaceables.DEPED_WALL.get());
 
         //DepED BlockPlaceables - GMATHS Variants
         dropSelf(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get());

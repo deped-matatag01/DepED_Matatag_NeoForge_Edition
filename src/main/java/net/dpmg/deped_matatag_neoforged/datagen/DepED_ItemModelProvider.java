@@ -1,11 +1,15 @@
 package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
+import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredBlock;
 
 public class DepED_ItemModelProvider extends ItemModelProvider {
     public DepED_ItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
@@ -37,5 +41,23 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         basicItem(DepED_MineralItems.RAW_GMANHS.get());
         basicItem(DepED_MineralItems.GMANHS_INGOT.get());
         basicItem(DepED_MineralItems.GMANHS_NUGGET.get());
+
+        //Wall Presets
+        DPMG_WallItem(DepED_BlockPlaceables.DEPED_WALL, DepED_BlockPlaceables.DEPED_BLOCK);
+
+        //Fence Presets
+
+    }
+
+    public void DPMG_FenceItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/fence_inventory"))
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(DepEDMatatagNeoForgeEdition.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
+    }
+
+    public void DPMG_WallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall",  ResourceLocation.fromNamespaceAndPath(DepEDMatatagNeoForgeEdition.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
     }
 }

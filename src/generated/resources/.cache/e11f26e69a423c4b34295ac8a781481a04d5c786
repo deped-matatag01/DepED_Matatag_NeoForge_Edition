@@ -1,6 +1,7 @@
-// 1.21.1	2025-05-11T21:53:57.9577449	Tags for minecraft:block mod id deped_matatag
+// 1.21.1	2025-05-11T22:39:03.7207197	Tags for minecraft:block mod id deped_matatag
 57cb253cdfb3ef6ca1aef19b79c522b7dae7ace4 data/minecraft/tags/block/mineable/hoe.json
-04035f6bf90b7859382008a5689c3bc2a519c97e data/minecraft/tags/block/mineable/pickaxe.json
+71a621cb5ed12ac8f70996053fd1db59b4a69c68 data/minecraft/tags/block/mineable/pickaxe.json
 7514c7beae7882efa375918beffe93854fcfc7d7 data/minecraft/tags/block/needs_diamond_tool.json
 fd8245a8f15c3e58b7d96df97baaa78a8ca26830 data/minecraft/tags/block/needs_iron_tool.json
-3ec802cf83ea0a89431f0e220314aeff30df9dbf data/minecraft/tags/block/needs_stone_tool.json
+b1523963d84fe2ead6681bc6e81b1583588d85fb data/minecraft/tags/block/needs_stone_tool.json
+ccfd861595cef508f32e82fbf738b2b83baa212d data/minecraft/tags/block/walls.json

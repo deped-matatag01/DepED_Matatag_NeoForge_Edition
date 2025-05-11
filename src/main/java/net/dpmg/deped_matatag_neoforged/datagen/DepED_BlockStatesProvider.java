@@ -5,6 +5,7 @@ import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
@@ -18,6 +19,12 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
 
         //DepED_BlockPlaceables - DepED Block Variants
         DPMG_BlockWithItem(DepED_BlockPlaceables.DEPED_BLOCK);
+        stairsBlock(DepED_BlockPlaceables.DEPED_STAIRS.get(), blockTexture(DepED_BlockPlaceables.DEPED_BLOCK.get()));
+        slabBlock(DepED_BlockPlaceables.DEPED_SLAB.get(), blockTexture(DepED_BlockPlaceables.DEPED_BLOCK.get()), blockTexture(DepED_BlockPlaceables.DEPED_BLOCK.get()));
+        wallBlock(DepED_BlockPlaceables.DEPED_WALL.get(), blockTexture(DepED_BlockPlaceables.DEPED_BLOCK.get()));
+
+        DPMG_BlockItemHandler(DepED_BlockPlaceables.DEPED_STAIRS);
+        DPMG_BlockItemHandler(DepED_BlockPlaceables.DEPED_SLAB);
 
         //DepED_BlockPlaceables - GMATHS Block Variants
         DPMG_BlockWithItem(DepED_BlockPlaceables.BLOCK_OF_GMATHS);
@@ -51,5 +58,13 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
 
     private void DPMG_BlockWithItem(DeferredBlock<?> deferredBlock) {
         simpleBlockWithItem(deferredBlock.get(), cubeAll(deferredBlock.get()));
+    }
+
+    private void DPMG_BlockItemHandler(DeferredBlock<?> deferredBlock) {
+        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("deped_matatag:block/" + deferredBlock.getId().getPath()));
+    }
+
+    private void DPMG_BlockItemAppendix(DeferredBlock<?> deferredBlock, String appendix) {
+        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("deped_matatag:block/" + deferredBlock.getId().getPath() + appendix));
     }
 }

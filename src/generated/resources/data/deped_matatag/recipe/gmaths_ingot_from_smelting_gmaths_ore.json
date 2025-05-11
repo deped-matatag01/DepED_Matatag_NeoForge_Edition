@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.5,
+  "group": "gmaths_ingot",
+  "ingredient": {
+    "item": "deped_matatag:gmaths_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "deped_matatag:gmaths_ingot"
+  }
+}

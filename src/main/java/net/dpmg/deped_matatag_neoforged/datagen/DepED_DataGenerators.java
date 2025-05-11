@@ -42,7 +42,6 @@ public class DepED_DataGenerators {
         generator.addProvider(event.includeServer(), new DepED_ItemTagsProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
 
         //RECIPE PROVIDER
-
-        //6
+        generator.addProvider(event.includeServer(), new DepED_RecipeProvider(packOutput, lookupProvider));
     }
 }

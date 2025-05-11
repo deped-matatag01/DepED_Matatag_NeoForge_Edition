@@ -1,6 +1,9 @@
 {
   "values": [
     "deped_matatag:deped_block",
+    "deped_matatag:deped_stairs",
+    "deped_matatag:deped_slab",
+    "deped_matatag:deped_wall",
     "deped_matatag:block_of_gmaths",
     "deped_matatag:block_of_gmanhs",
     "deped_matatag:sjchs_block",

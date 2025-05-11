@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 5.0,
+  "group": "deped_ingot",
+  "ingredient": {
+    "item": "deped_matatag:raw_deped"
+  },
+  "result": {
+    "count": 1,
+    "id": "deped_matatag:deped_ingot"
+  }
+}

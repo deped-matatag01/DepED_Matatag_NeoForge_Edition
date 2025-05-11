@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deped_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "deped_matatag:deped_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "deped_matatag:deped_ingot_from_blasting_deped_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_deped_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "deped_matatag:deped_ingot_from_blasting_deped_ore"
+    ]
+  }
+}

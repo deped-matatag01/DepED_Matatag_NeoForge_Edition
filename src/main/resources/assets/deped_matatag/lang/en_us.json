@@ -3,9 +3,25 @@
   "creativemodetabs.deped_matatag.deped_matatag_blocks": "DepED Matatag - Blocks",
 
   "block.deped_matatag.deped_block": "DepED Block",
+  "block.deped_matatag.deped_stairs": "DepED Stairs",
+  "block.deped_matatag.deped_slab": "DepED Slab",
+  "block.deped_matatag.deped_wall": "DepED Wall",
+
   "block.deped_matatag.block_of_gmaths": "Block of GMATHS",
+  "block.deped_matatag.gmaths_stairs": "GMATHS Stairs",
+  "block.deped_matatag.gmaths_slab": "GMATHS Slab",
+  "block.deped_matatag.gmaths_wall": "GMATHS Wall",
+
   "block.deped_matatag.block_of_gmanhs": "Block of GMANHS",
+  "block.deped_matatag.gmanhs_stairs": "GMANHS Stairs",
+  "block.deped_matatag.gmanhs_slab": "GMANHS Slab",
+  "block.deped_matatag.gmanhs_wall": "GMANHS Wall",
+
   "block.deped_matatag.sjchs_block": "SJCHS Block",
+  "block.deped_matatag.sjchs_stairs": "SJCHS Stairs",
+  "block.deped_matatag.sjchs_slab": "SJCHS Slab",
+  "block.deped_matatag.sjchs_wall": "SJCHS Wall",
+
 
   "block.deped_matatag.sir_elie_block": "Sir Elizer Alvarez Block",
   "block.deped_matatag.sir_elie_block_body": "Body of Sir Elizer Alvarez Block",

@@ -4,8 +4,7 @@ import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -18,6 +17,12 @@ public class DepED_BlockPlaceables {
 
     //DepED BlockPlaceables - DepED Variants
     public static final DeferredBlock<Block> DEPED_BLOCK = registerDepED_Blocks("deped_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<StairBlock> DEPED_STAIRS = registerDepED_Blocks("deped_stairs", () -> new StairBlock(DepED_BlockPlaceables.DEPED_BLOCK.get().defaultBlockState(),
+            BlockBehaviour.Properties.of().strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<SlabBlock> DEPED_SLAB = registerDepED_Blocks("deped_slab", () -> new SlabBlock(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<WallBlock> DEPED_WALL = registerDepED_Blocks("deped_wall", () -> new WallBlock(BlockBehaviour.Properties.of()
             .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     //DepED BlockPlaceables - GMATHS Variants

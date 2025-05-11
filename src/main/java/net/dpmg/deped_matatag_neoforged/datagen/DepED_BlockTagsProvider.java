@@ -19,12 +19,18 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        tag(BlockTags.WALLS)
+                .add(DepED_BlockPlaceables.DEPED_WALL.get());
+
         tag(BlockTags.MINEABLE_WITH_HOE)
                 .add(DepED_BlockPlaceables.YES_O.get());
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 //DepED_BlockPlaceables - DepED Variants
                 .add(DepED_BlockPlaceables.DEPED_BLOCK.get())
+                .add(DepED_BlockPlaceables.DEPED_STAIRS.get())
+                .add(DepED_BlockPlaceables.DEPED_SLAB.get())
+                .add(DepED_BlockPlaceables.DEPED_WALL.get())
 
                 //DepED_BlockPlaceables - GMATHS Variants
                 .add(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get())
@@ -58,6 +64,9 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.NEEDS_STONE_TOOL)
                 //DepED_BlockPlaceables - DepED Variants
                 .add(DepED_BlockPlaceables.DEPED_BLOCK.get())
+                .add(DepED_BlockPlaceables.DEPED_STAIRS.get())
+                .add(DepED_BlockPlaceables.DEPED_SLAB.get())
+                .add(DepED_BlockPlaceables.DEPED_WALL.get())
 
                 //DepED_BlockPlaceables - GMATHS Variants
                 .add(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get())

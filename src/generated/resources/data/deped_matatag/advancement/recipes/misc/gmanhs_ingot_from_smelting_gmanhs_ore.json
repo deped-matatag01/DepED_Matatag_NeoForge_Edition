@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gmanhs_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "deped_matatag:gmanhs_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "deped_matatag:gmanhs_ingot_from_smelting_gmanhs_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gmanhs_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "deped_matatag:gmanhs_ingot_from_smelting_gmanhs_ore"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 5.0,
+  "group": "gmaths_ingot",
+  "ingredient": {
+    "item": "deped_matatag:deepslate_gmaths_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "deped_matatag:gmaths_ingot"
+  }
+}
