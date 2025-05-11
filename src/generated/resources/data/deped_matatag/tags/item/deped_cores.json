@@ -13,19 +13,27 @@
       "required": false
     },
     {
+      "id": "deped_matatag:kva_sbo_core",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:sjchs_core",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:sgii_es_core",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:seta_heas",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:uphg_ccs_core",
+      "required": false
+    },
+    {
       "id": "minecraft:heavy_core",
-      "required": false
-    },
-    {
-      "id": "deped_matatag:raw_deped",
-      "required": false
-    },
-    {
-      "id": "deped_matatag:raw_gmaths",
-      "required": false
-    },
-    {
-      "id": "deped_matatag:raw_gmanhs",
       "required": false
     }
   ]

@@ -37,6 +37,11 @@ public class DepED_ItemsTab {
                     output.accept(DepED_CoreItems.DEPED_CORE);
                     output.accept(DepED_CoreItems.GMATHS_CORE);
                     output.accept(DepED_CoreItems.GMANHS_CORE);
+                    output.accept(DepED_CoreItems.KVA_SBO_CORE);
+                    output.accept(DepED_CoreItems.SJCHS_CORE);
+                    output.accept(DepED_CoreItems.SGII_ES_CORE);
+                    output.accept(DepED_CoreItems.SETA_HEAD);
+                    output.accept(DepED_CoreItems.UPHG_CCS_CORE);
 
                     }).build());
 

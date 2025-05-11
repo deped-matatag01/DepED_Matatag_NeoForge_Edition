@@ -21,7 +21,7 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
 
     //JSON-Based Tagging
     public static final TagKey<Item> DEPED_CORES_TAG = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_cores"));
-    public static final TagKey<Item> DEPED_RAW_MINERALS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_cores"));
+    public static final TagKey<Item> DEPED_RAW_MINERALS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_raw_minerals"));
     public static final TagKey<Item> DEPED_INGOTS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_ingots"));
     public static final TagKey<Item> DEPED_NUGGETS= TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_nuggets"));
 
@@ -31,6 +31,11 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_core"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmaths_core"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "sjchs_core"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "sgii_es_core"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "seta_heas"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("minecraft", "heavy_core"));
 
         tag(DEPED_RAW_MINERALS)

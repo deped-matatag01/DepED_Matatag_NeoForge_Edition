@@ -17,11 +17,24 @@
   "block.deped_matatag.gmanhs_ore": "GMANHS Ore",
   "block.deped_matatag.deepslate_gmanhs_ore": "Deepslate GMANHS Ore",
 
+
+
   "item.deped_matatag.raw_deped": "Raw DepED",
+  "item.deped_matatag.deped_ingot": "DepED Ingot",
+  "item.deped_matatag.deped_nugget": "DepED Nugget",
   "item.deped_matatag.raw_gmaths": "Raw GMATHS",
+  "item.deped_matatag.gmaths_ingot": "GMATHS Ingot",
+  "item.deped_matatag.gmaths_nugget": "GMATHS Nugget",
   "item.deped_matatag.raw_gmanhs": "Raw GMANHS",
+  "item.deped_matatag.gmanhs_ingot": "GMANHS Ingot",
+  "item.deped_matatag.gmanhs_nugget": "GMANHS Nugget",
 
   "item.deped_matatag.deped_core": "DepED Core",
   "item.deped_matatag.gmaths_core": "GMATHS Core",
-  "item.deped_matatag.gmanhs_core": "GMANHS Core"
+  "item.deped_matatag.gmanhs_core": "GMANHS Core",
+  "item.deped_matatag.kva_sbo_core": "Core of the KVA Student Body Organization 2024-2025",
+  "item.deped_matatag.sjchs_core": "SJCHS Core",
+  "item.deped_matatag.sgii_es_core": "SG2 ES Core",
+  "item.deped_matatag.seta_head": "Elizer T. Alvarez",
+  "item.deped_matatag.uphg_ccs_core": "UPHS College of Computer Studies Core"
 }

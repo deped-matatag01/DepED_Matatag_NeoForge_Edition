@@ -19,6 +19,11 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         basicItem(DepED_CoreItems.DEPED_CORE.get());
         basicItem(DepED_CoreItems.GMATHS_CORE.get());
         basicItem(DepED_CoreItems.GMANHS_CORE.get());
+        basicItem(DepED_CoreItems.KVA_SBO_CORE.get());
+        basicItem(DepED_CoreItems.SJCHS_CORE.get());
+        basicItem(DepED_CoreItems.SGII_ES_CORE.get());
+        basicItem(DepED_CoreItems.SETA_HEAD.get());
+        basicItem(DepED_CoreItems.UPHG_CCS_CORE.get());
 
         //DepED Mineral Items
         basicItem(DepED_MineralItems.RAW_DEPED.get());

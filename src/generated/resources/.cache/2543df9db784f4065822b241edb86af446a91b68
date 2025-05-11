@@ -1,4 +1,5 @@
-// 1.21.1	2025-05-11T20:19:10.5746242	Tags for minecraft:item mod id deped_matatag
-5aded519e08a6039005e7108ebc36f4f8598c8a2 data/deped_matatag/tags/item/deped_cores.json
+// 1.21.1	2025-05-11T21:08:44.8863609	Tags for minecraft:item mod id deped_matatag
+bf56a396eb88fe1e69fe9f071cfb7ce10a9fef39 data/deped_matatag/tags/item/deped_cores.json
 9af6078301b7bb0d8100fb1bed18cb109aa3f218 data/deped_matatag/tags/item/deped_ingots.json
 87ec06f96c0f53d5b7992836e0c3a64e20ec5bb1 data/deped_matatag/tags/item/deped_nuggets.json
+ae02e3a4e119b9e7cc8390e358e3ee3d4682bd41 data/deped_matatag/tags/item/deped_raw_minerals.json
