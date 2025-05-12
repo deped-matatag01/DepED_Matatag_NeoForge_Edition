@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "deped_matatag:sjchs_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "deped_matatag:sjchs_wall"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sjchs_blocks",
+  "key": {
+    "#": {
+      "item": "deped_matatag:sjchs_block"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "deped_matatag:sjchs_stairs"
+  }
+}

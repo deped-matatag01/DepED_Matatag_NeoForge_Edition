@@ -104,6 +104,19 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .unlockedBy("has_raw_gmaths", has(DepED_MineralItems.RAW_GMATHS))
                 .save(recipeOutput, "deped_matatag:raw_gmaths_block_from_raw_gmaths");
 
+        //DepED_BlockPlaceables - GMATHS Variant Recipes
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMATHS), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMATHS_STAIRS, 2)
+                .unlockedBy("has_gmaths_block", has(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
+                .save(recipeOutput, "deped_matatag:gmaths_stairs_from_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMATHS), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMATHS_SLAB, 2)
+                .unlockedBy("has_gmaths_block", has(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
+                .save(recipeOutput, "deped_matatag:gmaths_slab_from_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMATHS), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMATHS_WALL)
+                .unlockedBy("has_gmaths_block", has(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
+                .save(recipeOutput, "deped_matatag:gmaths_wall_from_stonecutting");
+
         //GMANHS Mineral Smeltables & Recipes
         List<ItemLike> GMANHS_MINERAL_SMELTABLES = List.of(
                 DepED_MineralItems.RAW_GMANHS,
@@ -138,6 +151,49 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .define('G', DepED_MineralItems.RAW_GMANHS.get())
                 .unlockedBy("has_raw_gmanhs", has(DepED_MineralItems.RAW_GMANHS))
                 .save(recipeOutput, "deped_matatag:raw_gmanhs_block_from_raw_gmanhs");
+
+        //DepED_BlockPlaceables - GMANHS Variant Recipes
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMANHS), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMANHS_STAIRS, 2)
+                .unlockedBy("has_gmanhs_block", has(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
+                .save(recipeOutput, "deped_matatag:gmanhs_stairs_from_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMANHS), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMANHS_SLAB, 2)
+                .unlockedBy("has_gmanhs_block", has(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
+                .save(recipeOutput, "deped_matatag:gmanhs_slab_from_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMANHS), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMANHS_WALL)
+                .unlockedBy("has_gmanhs_block", has(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
+                .save(recipeOutput, "deped_matatag:gmanhs_wall_from_stonecutting");
+
+        //DepED_BlockPlaceables - SJCHS Variant Recipes
+        stairBuilder(DepED_BlockPlaceables.SJCHS_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK)).group("sjchs_blocks")
+                .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
+                .save(recipeOutput, "deped_matatag:sjchs_stairs_from_crafting");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_SLAB.get(), 6).group("sjchs_blocks")
+                .pattern("SSS")
+                .define('S', DepED_BlockPlaceables.SJCHS_BLOCK)
+                .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
+                .save(recipeOutput, "deped_matatag:sjchs_slab_from_crafting");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_WALL.get(), 6).group("sjchs_blocks")
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', DepED_BlockPlaceables.SJCHS_BLOCK)
+                .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
+                .save(recipeOutput, "deped_matatag:sjchs_wall_from_crafting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_STAIRS, 2)
+                .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
+                .save(recipeOutput, "deped_matatag:sjchs_stairs_from_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_SLAB, 2)
+                .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
+                .save(recipeOutput, "deped_matatag:sjchs_slab_from_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_WALL)
+                .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
+                .save(recipeOutput, "deped_matatag:sjchs_wall_from_stonecutting");
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
