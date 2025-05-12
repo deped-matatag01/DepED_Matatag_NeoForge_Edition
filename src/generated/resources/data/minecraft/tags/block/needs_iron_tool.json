@@ -1,5 +1,9 @@
 {
   "values": [
+    "deped_matatag:block_of_gmanhs",
+    "deped_matatag:gmanhs_stairs",
+    "deped_matatag:gmanhs_slab",
+    "deped_matatag:gmanhs_wall",
     "deped_matatag:gmaths_ore",
     "deped_matatag:deepslate_gmaths_ore",
     "deped_matatag:raw_gmaths_block"

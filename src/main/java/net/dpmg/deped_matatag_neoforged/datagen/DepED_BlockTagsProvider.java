@@ -86,12 +86,6 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
                 .add(DepED_BlockPlaceables.GMATHS_SLAB.get())
                 .add(DepED_BlockPlaceables.GMATHS_WALL.get())
 
-                //DepED_BlockPlaceables - GMANHS Variants
-                .add(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get())
-                .add(DepED_BlockPlaceables.GMANHS_STAIRS.get())
-                .add(DepED_BlockPlaceables.GMANHS_SLAB.get())
-                .add(DepED_BlockPlaceables.GMANHS_WALL.get())
-
                 //DepED_BlockPlaceables - SJCHS Variants
                 .add(DepED_BlockPlaceables.SJCHS_BLOCK.get())
                 .add(DepED_BlockPlaceables.SJCHS_STAIRS.get())
@@ -108,6 +102,12 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
                 .add(DepED_OreSector.RAW_DEPED_BLOCK.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
+                //DepED_BlockPlaceables - GMANHS Variants
+                .add(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get())
+                .add(DepED_BlockPlaceables.GMANHS_STAIRS.get())
+                .add(DepED_BlockPlaceables.GMANHS_SLAB.get())
+                .add(DepED_BlockPlaceables.GMANHS_WALL.get())
+
                 .add(DepED_OreSector.GMATHS_ORE.get())
                 .add(DepED_OreSector.DEEPSLATE_GMATHS_ORE.get())
                 .add(DepED_OreSector.RAW_GMATHS_BLOCK.get());
