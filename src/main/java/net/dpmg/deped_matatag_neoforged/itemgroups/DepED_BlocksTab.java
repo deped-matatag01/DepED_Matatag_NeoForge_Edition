@@ -47,9 +47,15 @@ public class DepED_BlocksTab {
 
                     //DepED_BlockPlaceables - GMANHS Variants
                     output.accept(DepED_BlockPlaceables.BLOCK_OF_GMANHS);
+                    output.accept(DepED_BlockPlaceables.GMANHS_STAIRS);
+                    output.accept(DepED_BlockPlaceables.GMANHS_SLAB);
+                    output.accept(DepED_BlockPlaceables.GMANHS_WALL);
 
                     //DepED_BlockPlaceables - SJCHS Variants
                     output.accept(DepED_BlockPlaceables.SJCHS_BLOCK);
+                    output.accept(DepED_BlockPlaceables.SJCHS_STAIRS);
+                    output.accept(DepED_BlockPlaceables.SJCHS_SLAB);
+                    output.accept(DepED_BlockPlaceables.SJCHS_WALL);
 
                     //DepED_Block Placeables - Misc
                     output.accept(DepED_BlockPlaceables.SIR_ELIE_BLOCK);

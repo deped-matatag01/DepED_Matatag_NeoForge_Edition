@@ -38,9 +38,21 @@ public class DepED_BlockPlaceables {
     //DepED BlockPlaceables - GMANHS Variants
     public static final DeferredBlock<Block> BLOCK_OF_GMANHS = registerDepED_Blocks("block_of_gmanhs", () -> new Block(BlockBehaviour.Properties.of()
             .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<StairBlock> GMANHS_STAIRS = registerDepED_Blocks("gmanhs_stairs", () -> new StairBlock(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get().defaultBlockState(),
+            BlockBehaviour.Properties.of().strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<SlabBlock> GMANHS_SLAB = registerDepED_Blocks("gmanhs_slab", () -> new SlabBlock(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<WallBlock> GMANHS_WALL = registerDepED_Blocks("gmanhs_wall", () -> new WallBlock(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     //DepED BlockPlaceables - GMANHS Variants
     public static final DeferredBlock<Block> SJCHS_BLOCK = registerDepED_Blocks("sjchs_block", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<StairBlock> SJCHS_STAIRS = registerDepED_Blocks("sjchs_stairs", () -> new StairBlock(DepED_BlockPlaceables.SJCHS_BLOCK.get().defaultBlockState(),
+            BlockBehaviour.Properties.of().strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<SlabBlock> SJCHS_SLAB = registerDepED_Blocks("sjchs_slab", () -> new SlabBlock(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<WallBlock> SJCHS_WALL = registerDepED_Blocks("sjchs_wall", () -> new WallBlock(BlockBehaviour.Properties.of()
             .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     //Misc

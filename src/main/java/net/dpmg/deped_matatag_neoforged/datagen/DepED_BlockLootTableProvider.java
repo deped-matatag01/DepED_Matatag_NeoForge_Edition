@@ -43,9 +43,15 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
 
         //DepED BlockPlaceables - GMANHS Variants
         dropSelf(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get());
+        dropSelf(DepED_BlockPlaceables.GMANHS_STAIRS.get());
+        add(DepED_BlockPlaceables.GMANHS_SLAB.get(), block -> createSlabItemTable(DepED_BlockPlaceables.GMANHS_SLAB.get()));
+        dropSelf(DepED_BlockPlaceables.GMANHS_WALL.get());
 
         //DepED BlockPlaceables - SJCHS Variants
         dropSelf(DepED_BlockPlaceables.SJCHS_BLOCK.get());
+        dropSelf(DepED_BlockPlaceables.SJCHS_STAIRS.get());
+        add(DepED_BlockPlaceables.SJCHS_SLAB.get(), block -> createSlabItemTable(DepED_BlockPlaceables.SJCHS_SLAB.get()));
+        dropSelf(DepED_BlockPlaceables.SJCHS_WALL.get());
 
         //DepED BlockPlaceables - Misc
         dropSelf(DepED_BlockPlaceables.SIR_ELIE_BLOCK.get());

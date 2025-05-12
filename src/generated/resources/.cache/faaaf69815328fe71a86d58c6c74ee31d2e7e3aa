@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-12T08:25:09.4306371	Item Models: deped_matatag
+// 1.21.1	2025-05-12T09:03:24.8577139	Item Models: deped_matatag
 a527297c1ac7181dc1c66ed93aa77c83185ed165 assets/deped_matatag/models/item/deped_core.json
 de32630776916593f5fef907e8befa80c41f892f assets/deped_matatag/models/item/deped_ingot.json
 c80c5e9cca17fb5d4171c65b9857b1ac827ce156 assets/deped_matatag/models/item/deped_nugget.json
@@ -6,6 +6,7 @@ c80c5e9cca17fb5d4171c65b9857b1ac827ce156 assets/deped_matatag/models/item/deped_
 7bb47bca25ec20ed0a6a096c728ba30bdf6acf26 assets/deped_matatag/models/item/gmanhs_core.json
 ddd9142b06d8236c1dba44c9c6bd23128e541158 assets/deped_matatag/models/item/gmanhs_ingot.json
 518a3c183e451cfd5644cb06c62d1bf4dddbbbce assets/deped_matatag/models/item/gmanhs_nugget.json
+752632b853b067a2f8df9b26c2b48f228dd8498b assets/deped_matatag/models/item/gmanhs_wall.json
 3dd06a3f2998b7fa042a752fc6f72d9acfb02ce9 assets/deped_matatag/models/item/gmaths_core.json
 210063c4131baecb1d677d557a5368368b82f2a7 assets/deped_matatag/models/item/gmaths_ingot.json
 8fe695ffcc68351b6b2704715651463c3590b276 assets/deped_matatag/models/item/gmaths_nugget.json
@@ -17,4 +18,5 @@ ddd9142b06d8236c1dba44c9c6bd23128e541158 assets/deped_matatag/models/item/gmanhs
 a64f84a458d926f068b50f4c5aad322dd70f6c75 assets/deped_matatag/models/item/seta_head.json
 7b3b308562ce13cfe861af1f096cdf15b31b1003 assets/deped_matatag/models/item/sgii_es_core.json
 f95e889204c9819c83771f32042b21a5b5ef39dd assets/deped_matatag/models/item/sjchs_core.json
+37898d3ce5fa4c946f307c954838f891c9847cfe assets/deped_matatag/models/item/sjchs_wall.json
 e5605c9bf973a44767e7c780c0023abe8c49ffcf assets/deped_matatag/models/item/uphg_ccs_core.json

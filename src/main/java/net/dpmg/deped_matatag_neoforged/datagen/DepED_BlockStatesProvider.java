@@ -37,9 +37,21 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
 
         //DepED_BlockPlaceables - GMANHS Block Variants
         DPMG_BlockWithItem(DepED_BlockPlaceables.BLOCK_OF_GMANHS);
+        stairsBlock(DepED_BlockPlaceables.GMANHS_STAIRS.get(), blockTexture(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get()));
+        slabBlock(DepED_BlockPlaceables.GMANHS_SLAB.get(), blockTexture(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get()), blockTexture(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get()));
+        wallBlock(DepED_BlockPlaceables.GMANHS_WALL.get(), blockTexture(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get()));
+
+        DPMG_BlockItemHandler(DepED_BlockPlaceables.GMANHS_STAIRS);
+        DPMG_BlockItemHandler(DepED_BlockPlaceables.GMANHS_SLAB);
 
         //DepED_BlockPlaceables - SJCHS Block Variants
         DPMG_BlockWithItem(DepED_BlockPlaceables.SJCHS_BLOCK);
+        stairsBlock(DepED_BlockPlaceables.SJCHS_STAIRS.get(), blockTexture(DepED_BlockPlaceables.SJCHS_BLOCK.get()));
+        slabBlock(DepED_BlockPlaceables.SJCHS_SLAB.get(), blockTexture(DepED_BlockPlaceables.SJCHS_BLOCK.get()), blockTexture(DepED_BlockPlaceables.SJCHS_BLOCK.get()));
+        wallBlock(DepED_BlockPlaceables.SJCHS_WALL.get(), blockTexture(DepED_BlockPlaceables.SJCHS_BLOCK.get()));
+
+        DPMG_BlockItemHandler(DepED_BlockPlaceables.SJCHS_STAIRS);
+        DPMG_BlockItemHandler(DepED_BlockPlaceables.SJCHS_SLAB);
 
         //DepED_BlockPlaceables - Misc
         DPMG_BlockWithItem(DepED_BlockPlaceables.SIR_ELIE_BLOCK);

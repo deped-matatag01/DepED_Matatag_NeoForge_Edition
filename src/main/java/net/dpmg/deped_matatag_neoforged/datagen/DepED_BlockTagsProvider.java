@@ -21,7 +21,9 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.WALLS)
                 .add(DepED_BlockPlaceables.DEPED_WALL.get())
-                .add(DepED_BlockPlaceables.GMATHS_WALL.get());
+                .add(DepED_BlockPlaceables.GMATHS_WALL.get())
+                .add(DepED_BlockPlaceables.GMANHS_WALL.get())
+                .add(DepED_BlockPlaceables.SJCHS_WALL.get());
 
         tag(BlockTags.MINEABLE_WITH_HOE)
                 .add(DepED_BlockPlaceables.YES_O.get());
@@ -41,9 +43,15 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
 
                 //DepED_BlockPlaceables - GMANHS Variants
                 .add(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get())
+                .add(DepED_BlockPlaceables.GMANHS_STAIRS.get())
+                .add(DepED_BlockPlaceables.GMANHS_SLAB.get())
+                .add(DepED_BlockPlaceables.GMANHS_WALL.get())
 
                 //DepED_BlockPlaceables - SJCHS Variants
                 .add(DepED_BlockPlaceables.SJCHS_BLOCK.get())
+                .add(DepED_BlockPlaceables.SJCHS_STAIRS.get())
+                .add(DepED_BlockPlaceables.SJCHS_SLAB.get())
+                .add(DepED_BlockPlaceables.SJCHS_WALL.get())
 
                 //DepED_BlockPlaceables - DepED Variants
                 .add(DepED_BlockPlaceables.THE_GMATHS_TORCH.get())
@@ -80,9 +88,15 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
 
                 //DepED_BlockPlaceables - GMANHS Variants
                 .add(DepED_BlockPlaceables.BLOCK_OF_GMANHS.get())
+                .add(DepED_BlockPlaceables.GMANHS_STAIRS.get())
+                .add(DepED_BlockPlaceables.GMANHS_SLAB.get())
+                .add(DepED_BlockPlaceables.GMANHS_WALL.get())
 
                 //DepED_BlockPlaceables - SJCHS Variants
                 .add(DepED_BlockPlaceables.SJCHS_BLOCK.get())
+                .add(DepED_BlockPlaceables.SJCHS_STAIRS.get())
+                .add(DepED_BlockPlaceables.SJCHS_SLAB.get())
+                .add(DepED_BlockPlaceables.SJCHS_WALL.get())
 
                 //DepED_BlockPlaceables - Misc
                 .add(DepED_BlockPlaceables.SIR_ELIE_BLOCK.get())

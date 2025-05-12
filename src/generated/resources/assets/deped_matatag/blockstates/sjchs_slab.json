@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "deped_matatag:block/sjchs_slab"
+    },
+    "type=double": {
+      "model": "deped_matatag:block/sjchs_block"
+    },
+    "type=top": {
+      "model": "deped_matatag:block/sjchs_slab_top"
+    }
+  }
+}

@@ -45,6 +45,8 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         //Wall Presets
         DPMG_WallItem(DepED_BlockPlaceables.DEPED_WALL, DepED_BlockPlaceables.DEPED_BLOCK);
         DPMG_WallItem(DepED_BlockPlaceables.GMATHS_WALL, DepED_BlockPlaceables.BLOCK_OF_GMATHS);
+        DPMG_WallItem(DepED_BlockPlaceables.GMANHS_WALL, DepED_BlockPlaceables.BLOCK_OF_GMANHS);
+        DPMG_WallItem(DepED_BlockPlaceables.SJCHS_WALL, DepED_BlockPlaceables.SJCHS_BLOCK);
 
         //Fence Presets
 
