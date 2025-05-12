@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "deped_matatag:sjchs_block"
+      "item": "deped_matatag:block_of_gmanhs"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "deped_matatag:sjchs_stairs"
+    "id": "deped_matatag:gmanhs_stairs"
   }
 }

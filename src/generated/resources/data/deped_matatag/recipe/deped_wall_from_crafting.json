@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "S": {
-      "item": "deped_matatag:sjchs_block"
+      "item": "deped_matatag:deped_block"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "deped_matatag:sjchs_wall"
+    "id": "deped_matatag:deped_wall"
   }
 }

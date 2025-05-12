@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gmanhs_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "deped_matatag:block_of_gmanhs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "deped_matatag:gmanhs_slab_from_crafting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gmanhs_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "deped_matatag:gmanhs_slab_from_crafting"
+    ]
+  }
+}

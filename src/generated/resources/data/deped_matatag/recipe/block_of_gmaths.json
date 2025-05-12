@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "deped_matatag:gmaths_core"
+    },
+    "S": {
+      "tag": "minecraft:slabs"
+    },
+    "W": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "result": {
+    "count": 6,
+    "id": "deped_matatag:block_of_gmaths"
+  }
+}

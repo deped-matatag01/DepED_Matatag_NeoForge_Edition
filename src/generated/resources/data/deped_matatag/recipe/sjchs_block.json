@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "deped_matatag:sjchs_core"
+    },
+    "S": {
+      "tag": "minecraft:slabs"
+    },
+    "W": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "result": {
+    "count": 6,
+    "id": "deped_matatag:sjchs_block"
+  }
+}

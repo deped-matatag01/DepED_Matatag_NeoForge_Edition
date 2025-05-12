@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
-  "group": "sjchs_blocks",
   "key": {
     "S": {
       "item": "deped_matatag:sjchs_block"

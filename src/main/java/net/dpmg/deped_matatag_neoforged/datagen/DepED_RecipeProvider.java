@@ -3,10 +3,13 @@ package net.dpmg.deped_matatag_neoforged.datagen;
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
+import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -57,6 +60,33 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .save(recipeOutput, "deped_matatag:raw_deped_block_from_raw_deped");
 
         //DepED_BlockPlaceables - DepED Variant Recipes
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_BLOCK.get(), 6)
+                .pattern("WSW")
+                .pattern("SCS")
+                .pattern("WSW")
+                .define('W', Ingredient.of(ItemTags.STONE_TOOL_MATERIALS))
+                .define('C', DepED_CoreItems.DEPED_CORE)
+                .define('S', DepED_MineralItems.DEPED_INGOT)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput);
+
+        stairBuilder(DepED_BlockPlaceables.DEPED_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.DEPED_BLOCK))
+                .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
+                .save(recipeOutput, "deped_matatag:deped_stairs_from_crafting");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_SLAB.get(), 6)
+                .pattern("SSS")
+                .define('S', DepED_BlockPlaceables.DEPED_BLOCK)
+                .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
+                .save(recipeOutput, "deped_matatag:deped_slab_from_crafting");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_WALL.get(), 6)
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', DepED_BlockPlaceables.DEPED_BLOCK)
+                .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
+                .save(recipeOutput, "deped_matatag:deped_wall_from_crafting");
+
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.DEPED_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_STAIRS, 2)
                 .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
                 .save(recipeOutput, "deped_matatag:deped_stairs_from_stonecutting");
@@ -105,6 +135,33 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .save(recipeOutput, "deped_matatag:raw_gmaths_block_from_raw_gmaths");
 
         //DepED_BlockPlaceables - GMATHS Variant Recipes
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.BLOCK_OF_GMATHS.get(), 6)
+                .pattern("WSW")
+                .pattern("SCS")
+                .pattern("WSW")
+                .define('W',Items.NETHERRACK)
+                .define('C', DepED_CoreItems.GMATHS_CORE)
+                .define('S', Ingredient.of(ItemTags.SLABS))
+                .unlockedBy("has_gmaths_core", has(DepED_CoreItems.GMATHS_CORE))
+                .save(recipeOutput);
+
+        stairBuilder(DepED_BlockPlaceables.GMATHS_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
+                .unlockedBy("has_gmaths_block", has(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
+                .save(recipeOutput, "deped_matatag:gmaths_stairs_from_crafting");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMATHS_SLAB.get(), 6)
+                .pattern("SSS")
+                .define('S', DepED_BlockPlaceables.BLOCK_OF_GMATHS)
+                .unlockedBy("has_gmaths_block", has(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
+                .save(recipeOutput, "deped_matatag:gmaths_slab_from_crafting");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMATHS_WALL.get(), 6)
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', DepED_BlockPlaceables.BLOCK_OF_GMATHS)
+                .unlockedBy("has_gmaths_block", has(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
+                .save(recipeOutput, "deped_matatag:gmaths_wall_from_crafting");
+
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMATHS), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMATHS_STAIRS, 2)
                 .unlockedBy("has_gmaths_block", has(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
                 .save(recipeOutput, "deped_matatag:gmaths_stairs_from_stonecutting");
@@ -153,6 +210,33 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .save(recipeOutput, "deped_matatag:raw_gmanhs_block_from_raw_gmanhs");
 
         //DepED_BlockPlaceables - GMANHS Variant Recipes
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.BLOCK_OF_GMANHS.get(), 6)
+                .pattern("WSW")
+                .pattern("SCS")
+                .pattern("WSW")
+                .define('W',Items.COBBLESTONE)
+                .define('C', DepED_CoreItems.GMANHS_CORE)
+                .define('S', Ingredient.of(ItemTags.SLABS))
+                .unlockedBy("has_gmanhs_core", has(DepED_CoreItems.GMANHS_CORE))
+                .save(recipeOutput);
+
+        stairBuilder(DepED_BlockPlaceables.GMANHS_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
+                .unlockedBy("has_gmanhs_block", has(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
+                .save(recipeOutput, "deped_matatag:gmanhs_stairs_from_crafting");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMANHS_SLAB.get(), 6)
+                .pattern("SSS")
+                .define('S', DepED_BlockPlaceables.BLOCK_OF_GMANHS)
+                .unlockedBy("has_gmanhs_block", has(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
+                .save(recipeOutput, "deped_matatag:gmanhs_slab_from_crafting");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMANHS_WALL.get(), 6)
+                .pattern("SSS")
+                .pattern("SSS")
+                .define('S', DepED_BlockPlaceables.BLOCK_OF_GMANHS)
+                .unlockedBy("has_gmanhs_block", has(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
+                .save(recipeOutput, "deped_matatag:gmanhs_wall_from_crafting");
+
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMANHS), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.GMANHS_STAIRS, 2)
                 .unlockedBy("has_gmanhs_block", has(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
                 .save(recipeOutput, "deped_matatag:gmanhs_stairs_from_stonecutting");
@@ -166,17 +250,27 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .save(recipeOutput, "deped_matatag:gmanhs_wall_from_stonecutting");
 
         //DepED_BlockPlaceables - SJCHS Variant Recipes
-        stairBuilder(DepED_BlockPlaceables.SJCHS_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK)).group("sjchs_blocks")
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_BLOCK.get(), 6)
+                .pattern("WSW")
+                .pattern("SCS")
+                .pattern("WSW")
+                .define('W',Items.MOSSY_COBBLESTONE)
+                .define('C', DepED_CoreItems.SJCHS_CORE)
+                .define('S', Ingredient.of(ItemTags.SLABS))
+                .unlockedBy("has_sjchs_core", has(DepED_CoreItems.SJCHS_CORE))
+                .save(recipeOutput);
+
+        stairBuilder(DepED_BlockPlaceables.SJCHS_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK))
                 .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
                 .save(recipeOutput, "deped_matatag:sjchs_stairs_from_crafting");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_SLAB.get(), 6).group("sjchs_blocks")
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_SLAB.get(), 6)
                 .pattern("SSS")
                 .define('S', DepED_BlockPlaceables.SJCHS_BLOCK)
                 .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
                 .save(recipeOutput, "deped_matatag:sjchs_slab_from_crafting");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_WALL.get(), 6).group("sjchs_blocks")
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_WALL.get(), 6)
                 .pattern("SSS")
                 .pattern("SSS")
                 .define('S', DepED_BlockPlaceables.SJCHS_BLOCK)

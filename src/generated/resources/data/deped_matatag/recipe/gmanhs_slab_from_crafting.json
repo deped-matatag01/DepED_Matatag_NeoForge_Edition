@@ -3,15 +3,14 @@
   "category": "building",
   "key": {
     "S": {
-      "item": "deped_matatag:sjchs_block"
+      "item": "deped_matatag:block_of_gmanhs"
     }
   },
   "pattern": [
-    "SSS",
     "SSS"
   ],
   "result": {
     "count": 6,
-    "id": "deped_matatag:sjchs_wall"
+    "id": "deped_matatag:gmanhs_slab"
   }
 }

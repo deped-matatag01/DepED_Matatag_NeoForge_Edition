@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "deped_matatag:gmanhs_core"
+    },
+    "S": {
+      "tag": "minecraft:slabs"
+    },
+    "W": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "result": {
+    "count": 6,
+    "id": "deped_matatag:block_of_gmanhs"
+  }
+}
