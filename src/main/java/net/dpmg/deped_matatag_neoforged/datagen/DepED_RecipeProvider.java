@@ -29,6 +29,19 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
         oreSmelting(recipeOutput, DEPED_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.DEPED_INGOT.get(), 2.5f, 200, "deped_ingot");
         oreBlasting(recipeOutput, DEPED_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.DEPED_INGOT.get(), 5f, 100, "deped_ingot");
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DepED_MineralItems.DEPED_NUGGET.get(), 9)
+                .requires(DepED_MineralItems.DEPED_INGOT)
+                .unlockedBy("has_deped_ingot", has(DepED_MineralItems.DEPED_INGOT))
+                .save(recipeOutput, "deped_matatag:deped_nugget_from_deped_ingot");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_MineralItems.DEPED_INGOT.get())
+                .pattern("DDD")
+                .pattern("DDD")
+                .pattern("DDD")
+                .define('D', DepED_MineralItems.DEPED_NUGGET.get())
+                .unlockedBy("has_deped_nugget", has(DepED_MineralItems.DEPED_NUGGET))
+                .save(recipeOutput, "deped_matatag:deped_ingot_from_deped_nugget");
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DepED_MineralItems.RAW_DEPED.get(), 9)
                 .requires(DepED_OreSector.RAW_DEPED_BLOCK)
                 .unlockedBy("has_raw_deped_block", has(DepED_OreSector.RAW_DEPED_BLOCK))
@@ -50,6 +63,19 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
 
         oreSmelting(recipeOutput, GMATHS_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.GMATHS_INGOT.get(), 2.5f, 200, "gmaths_ingot");
         oreBlasting(recipeOutput, GMATHS_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.GMATHS_INGOT.get(), 5f, 100, "gmaths_ingot");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DepED_MineralItems.GMATHS_NUGGET.get(), 9)
+                .requires(DepED_MineralItems.GMATHS_INGOT)
+                .unlockedBy("has_gmaths_ingot", has(DepED_MineralItems.GMATHS_INGOT))
+                .save(recipeOutput, "deped_matatag:gmaths_nugget_from_gmaths_ingot");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_MineralItems.GMATHS_INGOT.get())
+                .pattern("GGG")
+                .pattern("GGG")
+                .pattern("GGG")
+                .define('G', DepED_MineralItems.GMATHS_NUGGET.get())
+                .unlockedBy("has_gmaths_nugget", has(DepED_MineralItems.GMATHS_NUGGET))
+                .save(recipeOutput, "deped_matatag:gmaths_ingot_from_gmaths_nugget");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DepED_MineralItems.RAW_GMATHS.get(), 9)
                 .requires(DepED_OreSector.RAW_GMATHS_BLOCK)
@@ -73,6 +99,19 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
         oreSmelting(recipeOutput, GMANHS_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.GMANHS_INGOT.get(), 2.5f, 200, "gmanhs_ingot");
         oreBlasting(recipeOutput, GMANHS_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.GMANHS_INGOT.get(), 5f, 100, "gmanhs_ingot");
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DepED_MineralItems.GMANHS_NUGGET.get(), 9)
+                .requires(DepED_MineralItems.GMANHS_INGOT)
+                .unlockedBy("has_gmanhs_ingot", has(DepED_MineralItems.GMANHS_INGOT))
+                .save(recipeOutput, "deped_matatag:gmanhs_nugget_from_gmanhs_ingot");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_MineralItems.GMANHS_INGOT.get())
+                .pattern("GGG")
+                .pattern("GGG")
+                .pattern("GGG")
+                .define('G', DepED_MineralItems.GMANHS_NUGGET.get())
+                .unlockedBy("has_gmanhs_nugget", has(DepED_MineralItems.GMANHS_NUGGET))
+                .save(recipeOutput, "deped_matatag:gmanhs_ingot_from_gmanhs_nugget");
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DepED_MineralItems.RAW_GMANHS.get(), 9)
                 .requires(DepED_OreSector.RAW_GMANHS_BLOCK)
                 .unlockedBy("has_raw_gmanhs_block", has(DepED_OreSector.RAW_GMANHS_BLOCK))
@@ -85,7 +124,6 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .define('G', DepED_MineralItems.RAW_GMANHS.get())
                 .unlockedBy("has_raw_gmanhs", has(DepED_MineralItems.RAW_GMANHS))
                 .save(recipeOutput, "deped_matatag:raw_gmanhs_block_from_raw_gmanhs");
-
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
