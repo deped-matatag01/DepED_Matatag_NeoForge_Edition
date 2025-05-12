@@ -5,10 +5,7 @@ import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.RecipeCategory;
-import net.minecraft.data.recipes.RecipeOutput;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
+import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -23,7 +20,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
-        //DepED Mineral Smeltables
+        //DepED Mineral Smeltables & Recipes
         List<ItemLike> DEPED_MINERAL_SMELTABLES = List.of(
                 DepED_MineralItems.RAW_DEPED,
                 DepED_OreSector.DEPED_ORE,
@@ -32,7 +29,20 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
         oreSmelting(recipeOutput, DEPED_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.DEPED_INGOT.get(), 2.5f, 200, "deped_ingot");
         oreBlasting(recipeOutput, DEPED_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.DEPED_INGOT.get(), 5f, 100, "deped_ingot");
 
-        //GMATHS Mineral Smeltables
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, DepED_MineralItems.RAW_DEPED.get(), 9)
+                .requires(DepED_OreSector.RAW_DEPED_BLOCK)
+                .unlockedBy("has_raw_deped_block", has(DepED_OreSector.RAW_DEPED_BLOCK))
+                .save(recipeOutput, "deped_matatag:raw_deped_from_raw_deped_block");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_OreSector.RAW_DEPED_BLOCK.get())
+                .pattern("DDD")
+                .pattern("DDD")
+                .pattern("DDD")
+                .define('D', DepED_MineralItems.RAW_DEPED.get())
+                .unlockedBy("has_raw_deped", has(DepED_MineralItems.RAW_DEPED))
+                .save(recipeOutput, "deped_matatag:raw_deped_block_from_raw_deped");
+
+        //GMATHS Mineral Smeltables & Recipes
         List<ItemLike> GMATHS_MINERAL_SMELTABLES = List.of(
                 DepED_MineralItems.RAW_GMATHS,
                 DepED_OreSector.GMATHS_ORE,
@@ -41,7 +51,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
         oreSmelting(recipeOutput, GMATHS_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.GMATHS_INGOT.get(), 2.5f, 200, "gmaths_ingot");
         oreBlasting(recipeOutput, GMATHS_MINERAL_SMELTABLES, RecipeCategory.MISC, DepED_MineralItems.GMATHS_INGOT.get(), 5f, 100, "gmaths_ingot");
 
-        //GMANHS Mineral Smeltables
+        //GMANHS Mineral Smeltables & Recipes
         List<ItemLike> GMANHS_MINERAL_SMELTABLES = List.of(
                 DepED_MineralItems.RAW_GMANHS,
                 DepED_OreSector.GMANHS_ORE,
