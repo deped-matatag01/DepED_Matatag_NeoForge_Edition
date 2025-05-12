@@ -1,6 +1,7 @@
 package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
+import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.core.HolderLookup;
@@ -54,6 +55,19 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .define('D', DepED_MineralItems.RAW_DEPED.get())
                 .unlockedBy("has_raw_deped", has(DepED_MineralItems.RAW_DEPED))
                 .save(recipeOutput, "deped_matatag:raw_deped_block_from_raw_deped");
+
+        //DepED_BlockPlaceables - DepED Variant Recipes
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.DEPED_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_STAIRS, 2)
+                .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
+                .save(recipeOutput, "deped_matatag:deped_stairs_from_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.DEPED_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_SLAB, 2)
+                .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
+                .save(recipeOutput, "deped_matatag:deped_slab_from_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.DEPED_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_WALL, 2)
+                .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
+                .save(recipeOutput, "deped_matatag:deped_wall_from_stonecutting");
 
         //GMATHS Mineral Smeltables & Recipes
         List<ItemLike> GMATHS_MINERAL_SMELTABLES = List.of(
