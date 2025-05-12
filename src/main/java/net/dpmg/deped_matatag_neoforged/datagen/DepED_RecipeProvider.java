@@ -65,7 +65,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
                 .save(recipeOutput, "deped_matatag:deped_slab_from_stonecutting");
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.DEPED_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_WALL, 2)
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.DEPED_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.DEPED_WALL)
                 .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
                 .save(recipeOutput, "deped_matatag:deped_wall_from_stonecutting");
 
