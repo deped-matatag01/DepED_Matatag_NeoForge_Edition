@@ -28,6 +28,12 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
 
         //DepED_BlockPlaceables - GMATHS Block Variants
         DPMG_BlockWithItem(DepED_BlockPlaceables.BLOCK_OF_GMATHS);
+        stairsBlock(DepED_BlockPlaceables.GMATHS_STAIRS.get(), blockTexture(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get()));
+        slabBlock(DepED_BlockPlaceables.GMATHS_SLAB.get(), blockTexture(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get()), blockTexture(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get()));
+        wallBlock(DepED_BlockPlaceables.GMATHS_WALL.get(), blockTexture(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get()));
+
+        DPMG_BlockItemHandler(DepED_BlockPlaceables.GMATHS_STAIRS);
+        DPMG_BlockItemHandler(DepED_BlockPlaceables.GMATHS_SLAB);
 
         //DepED_BlockPlaceables - GMANHS Block Variants
         DPMG_BlockWithItem(DepED_BlockPlaceables.BLOCK_OF_GMANHS);

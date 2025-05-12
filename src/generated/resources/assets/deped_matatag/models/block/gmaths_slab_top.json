@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "deped_matatag:block/block_of_gmaths",
+    "side": "deped_matatag:block/block_of_gmaths",
+    "top": "deped_matatag:block/block_of_gmaths"
+  }
+}

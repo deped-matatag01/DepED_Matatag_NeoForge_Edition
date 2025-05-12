@@ -41,6 +41,9 @@ public class DepED_BlocksTab {
 
                     //DepED_BlockPlaceables - GMATHS Variants
                     output.accept(DepED_BlockPlaceables.BLOCK_OF_GMATHS);
+                    output.accept(DepED_BlockPlaceables.GMATHS_STAIRS);
+                    output.accept(DepED_BlockPlaceables.GMATHS_SLAB);
+                    output.accept(DepED_BlockPlaceables.GMATHS_WALL);
 
                     //DepED_BlockPlaceables - GMANHS Variants
                     output.accept(DepED_BlockPlaceables.BLOCK_OF_GMANHS);

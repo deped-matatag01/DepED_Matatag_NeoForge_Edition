@@ -28,6 +28,12 @@ public class DepED_BlockPlaceables {
     //DepED BlockPlaceables - GMATHS Variants
     public static final DeferredBlock<Block> BLOCK_OF_GMATHS = registerDepED_Blocks("block_of_gmaths", () -> new Block(BlockBehaviour.Properties.of()
             .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<StairBlock> GMATHS_STAIRS = registerDepED_Blocks("gmaths_stairs", () -> new StairBlock(DepED_BlockPlaceables.BLOCK_OF_GMATHS.get().defaultBlockState(),
+            BlockBehaviour.Properties.of().strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<SlabBlock> GMATHS_SLAB = registerDepED_Blocks("gmaths_slab", () -> new SlabBlock(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<WallBlock> GMATHS_WALL = registerDepED_Blocks("gmaths_wall", () -> new WallBlock(BlockBehaviour.Properties.of()
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     //DepED BlockPlaceables - GMANHS Variants
     public static final DeferredBlock<Block> BLOCK_OF_GMANHS = registerDepED_Blocks("block_of_gmanhs", () -> new Block(BlockBehaviour.Properties.of()

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "deped_matatag:block/gmaths_slab"
+    },
+    "type=double": {
+      "model": "deped_matatag:block/block_of_gmaths"
+    },
+    "type=top": {
+      "model": "deped_matatag:block/gmaths_slab_top"
+    }
+  }
+}
