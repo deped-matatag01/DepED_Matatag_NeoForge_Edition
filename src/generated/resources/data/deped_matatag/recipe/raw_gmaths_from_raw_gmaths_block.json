@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deped_matatag:raw_gmaths_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "deped_matatag:raw_gmaths"
+  }
+}
