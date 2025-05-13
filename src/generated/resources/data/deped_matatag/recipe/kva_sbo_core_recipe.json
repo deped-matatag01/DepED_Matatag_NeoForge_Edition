@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "deped_matatag:deped_core"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "pattern": [
+    "LDL",
+    "CEC",
+    "LDL"
+  ],
+  "result": {
+    "count": 4,
+    "id": "deped_matatag:kva_sbo_core"
+  }
+}

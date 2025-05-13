@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_nugget"
+    },
+    "C": {
+      "item": "deped_matatag:deped_core"
+    },
+    "G": {
+      "item": "deped_matatag:gmaths_ingot"
+    }
+  },
+  "pattern": [
+    "GBG",
+    "BCB",
+    "GBG"
+  ],
+  "result": {
+    "count": 4,
+    "id": "deped_matatag:gmaths_core"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " ABA ",
+    "ACUCA",
+    "BU#UB",
+    "ACUCA",
+    " ABA "
+  ],
+  "key": {
+    "#": {
+      "item": "deped_matatag:kva_sbo_core"
+    },
+    "A": {
+      "item": "minecraft:coal_block"
+    },
+    "B": {
+      "item": "create:blaze_cake_base"
+    },
+    "C": {
+      "item": "create:blaze_cake"
+    },
+    "U": {
+      "item": "deped_matatag:uphg_ccs_core"
+    }
+  },
+  "result": {
+    "id": "create:creative_blaze_cake",
+    "count": 1
+  },
+  "accept_mirrored": false
+}

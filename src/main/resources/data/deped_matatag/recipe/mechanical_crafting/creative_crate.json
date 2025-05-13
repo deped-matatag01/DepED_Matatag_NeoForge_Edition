@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ESE",
+    "SBS",
+    "ESE"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    },
+    "E": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "id": "create:creative_crate",
+    "count": 1
+  },
+  "accept_mirrored": false
+}

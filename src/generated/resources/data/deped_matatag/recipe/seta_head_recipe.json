@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "B": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "C": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "minecraft:magma_cream"
+    },
+    "G": {
+      "item": "deped_matatag:deped_core"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BGC",
+    " D "
+  ],
+  "result": {
+    "count": 6,
+    "id": "deped_matatag:seta_head"
+  }
+}

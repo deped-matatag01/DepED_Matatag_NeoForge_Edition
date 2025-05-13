@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " B ",
+    " D ",
+    "ESE",
+    "ECE",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:powdered_obsidian"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "minecraft:end_rod"
+    },
+    "E": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "C": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "id": "create:handheld_worldshaper",
+    "count": 1
+  },
+  "accept_mirrored": false
+}

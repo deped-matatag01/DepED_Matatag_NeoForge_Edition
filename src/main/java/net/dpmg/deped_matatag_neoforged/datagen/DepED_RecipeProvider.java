@@ -288,6 +288,97 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_WALL)
                 .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
                 .save(recipeOutput, "deped_matatag:sjchs_wall_from_stonecutting");
+
+        //DepED_BlockPlaceables - Misc
+
+        //DepED_CoreItems
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.DEPED_CORE, 8)
+                .pattern("DAD")
+                .pattern("AGA")
+                .pattern("DAD")
+                .define('D', DepED_MineralItems.DEPED_INGOT)
+                .define('A', Items.IRON_NUGGET)
+                .define('G', Items.COPPER_BLOCK)
+                .unlockedBy("has_deped_ingot", has(DepED_MineralItems.DEPED_INGOT))
+                .save(recipeOutput, "deped_matatag:deped_core_recipe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.GMATHS_CORE, 4)
+                .pattern("GBG")
+                .pattern("BCB")
+                .pattern("GBG")
+                .define('G', DepED_MineralItems.GMATHS_INGOT)
+                .define('B', Items.IRON_NUGGET)
+                .define('C', DepED_CoreItems.DEPED_CORE)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, "deped_matatag:gmaths_core_recipe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.GMANHS_CORE, 4)
+                .pattern("GBG")
+                .pattern("BCB")
+                .pattern("GBG")
+                .define('G', DepED_MineralItems.GMANHS_INGOT)
+                .define('B', Items.LIME_DYE)
+                .define('C', DepED_CoreItems.DEPED_CORE)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, "deped_matatag:gmanhs_core_recipe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.KVA_SBO_CORE, 4)
+                .pattern("LDL")
+                .pattern("CEC")
+                .pattern("LDL")
+                .define('L', Items.LAPIS_BLOCK)
+                .define('E', DepED_CoreItems.DEPED_CORE)
+                .define('C', Items.IRON_INGOT)
+                .define('D', Items.DIAMOND)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, "deped_matatag:kva_sbo_core_recipe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.SJCHS_CORE, 4)
+                .pattern("MCM")
+                .pattern("OGO")
+                .pattern("MCM")
+                .define('M', Items.LEATHER)
+                .define('O', Items.PAPER)
+                .define('G', DepED_CoreItems.DEPED_CORE)
+                .define('C', Items.BOOK)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, "deped_matatag:sjchs_core_recipe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.SGII_ES_CORE, 8)
+                .pattern(" A ")
+                .pattern("AGA")
+                .pattern(" A ")
+                .define('A', Items.IRON_NUGGET)
+                .define('G', DepED_CoreItems.DEPED_CORE)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, "deped_matatag:sgii_es_core_recipe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.SETA_HEAD, 6)
+                .pattern(" A ")
+                .pattern("BGC")
+                .pattern(" D ")
+                .define('A', Items.ROTTEN_FLESH)
+                .define('B', Items.FERMENTED_SPIDER_EYE)
+                .define('C', Items.SLIME_BALL)
+                .define('D', Items.MAGMA_CREAM)
+                .define('G', DepED_CoreItems.DEPED_CORE)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, "deped_matatag:seta_head_recipe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.UPHG_CCS_CORE, 2)
+                .pattern("XLX")
+                .pattern("RCR")
+                .pattern("XLX")
+                .define('C', DepED_CoreItems.KVA_SBO_CORE)
+                .define('X', DepED_CoreItems.DEPED_CORE)
+                .define('L', Items.REDSTONE_TORCH)
+                .define('R', Items.REDSTONE)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, "deped_matatag:uphg_ccs_core_recipe");
+
+
+
+        //Consumeables
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

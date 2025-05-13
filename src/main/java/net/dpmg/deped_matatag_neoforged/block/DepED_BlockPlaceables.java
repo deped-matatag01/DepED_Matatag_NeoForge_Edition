@@ -57,9 +57,9 @@ public class DepED_BlockPlaceables {
 
     //Misc
     public static final DeferredBlock<Block> SIR_ELIE_BLOCK = registerDepED_Blocks("sir_elie_block", () -> new Block(BlockBehaviour.Properties.of()
-            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final DeferredBlock<Block> SIR_ELIE_BLOCK_BODY = registerDepED_Blocks("sir_elie_block_body", () -> new Block(BlockBehaviour.Properties.of()
-            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+            .strength(1.75f, 4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final DeferredBlock<Block> THE_GMATHS_TORCH = registerDepED_Blocks("the_gmaths_torch", () -> new Block(BlockBehaviour.Properties.of()
             .strength(3f, 4f).lightLevel(state -> 15).requiresCorrectToolForDrops().sound(SoundType.LANTERN)));
     public static final DeferredBlock<Block> YES_O = registerDepED_Blocks("yes_o", () -> new Block(BlockBehaviour.Properties.of()

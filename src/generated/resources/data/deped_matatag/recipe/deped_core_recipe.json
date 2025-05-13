@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    },
+    "D": {
+      "item": "deped_matatag:deped_ingot"
+    },
+    "G": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "pattern": [
+    "DAD",
+    "AGA",
+    "DAD"
+  ],
+  "result": {
+    "count": 8,
+    "id": "deped_matatag:deped_core"
+  }
+}

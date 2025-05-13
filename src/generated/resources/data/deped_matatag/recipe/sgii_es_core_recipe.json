@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    },
+    "G": {
+      "item": "deped_matatag:deped_core"
+    }
+  },
+  "pattern": [
+    " A ",
+    "AGA",
+    " A "
+  ],
+  "result": {
+    "count": 8,
+    "id": "deped_matatag:sgii_es_core"
+  }
+}
