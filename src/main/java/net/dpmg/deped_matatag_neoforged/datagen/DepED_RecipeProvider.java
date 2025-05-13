@@ -376,9 +376,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
                 .save(recipeOutput, "deped_matatag:uphg_ccs_core_recipe");
 
-
-
-        //Consumeables
+        //Consumables
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
