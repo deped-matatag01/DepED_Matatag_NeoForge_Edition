@@ -2,18 +2,18 @@
   "type": "create:mechanical_crafting",
   "pattern": [
     "ESE",
-    "SBS",
+    "S#S",
     "ESE"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:nether_star"
+    "#": {
+      "item": "deped_matatag:kva_sbo_core"
     },
-    "B": {
-      "item": "minecraft:barrel"
+    "S": {
+      "item": "minecraft:purple_dye"
     },
     "E": {
-      "item": "minecraft:crying_obsidian"
+      "item": "minecraft:barrel"
     }
   },
   "result": {
