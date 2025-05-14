@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "C": {
+      "item": "deped_matatag:kva_sbo_core"
+    },
+    "G": {
+      "item": "deped_matatag:gmanhs_core"
+    },
+    "R": {
+      "item": "minecraft:wind_charge"
+    },
+    "T": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "TBT",
+    "GCG",
+    "TRT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:totem_of_undying"
+  }
+}

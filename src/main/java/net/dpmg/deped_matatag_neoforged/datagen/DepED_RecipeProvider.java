@@ -8,6 +8,7 @@ import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
@@ -68,7 +69,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .define('C', DepED_CoreItems.DEPED_CORE)
                 .define('S', DepED_MineralItems.DEPED_INGOT)
                 .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
-                .save(recipeOutput);
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_block_recipe"));
 
         stairBuilder(DepED_BlockPlaceables.DEPED_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.DEPED_BLOCK))
                 .unlockedBy("has_deped_block", has(DepED_BlockPlaceables.DEPED_BLOCK))
@@ -143,7 +144,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .define('C', DepED_CoreItems.GMATHS_CORE)
                 .define('S', Ingredient.of(ItemTags.SLABS))
                 .unlockedBy("has_gmaths_core", has(DepED_CoreItems.GMATHS_CORE))
-                .save(recipeOutput);
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "block_of_gmaths_recipe"));
 
         stairBuilder(DepED_BlockPlaceables.GMATHS_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
                 .unlockedBy("has_gmaths_block", has(DepED_BlockPlaceables.BLOCK_OF_GMATHS))
@@ -218,7 +219,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .define('C', DepED_CoreItems.GMANHS_CORE)
                 .define('S', Ingredient.of(ItemTags.SLABS))
                 .unlockedBy("has_gmanhs_core", has(DepED_CoreItems.GMANHS_CORE))
-                .save(recipeOutput);
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "block_of_gmanhs_recipe"));
 
         stairBuilder(DepED_BlockPlaceables.GMANHS_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
                 .unlockedBy("has_gmanhs_block", has(DepED_BlockPlaceables.BLOCK_OF_GMANHS))
@@ -258,7 +259,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .define('C', DepED_CoreItems.SJCHS_CORE)
                 .define('S', Ingredient.of(ItemTags.SLABS))
                 .unlockedBy("has_sjchs_core", has(DepED_CoreItems.SJCHS_CORE))
-                .save(recipeOutput);
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "sjchs_block_recipe"));
 
         stairBuilder(DepED_BlockPlaceables.SJCHS_STAIRS.get(), Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK))
                 .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
@@ -290,6 +291,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .save(recipeOutput, "deped_matatag:sjchs_wall_from_stonecutting");
 
         //DepED_BlockPlaceables - Misc
+
 
         //DepED_CoreItems
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.DEPED_CORE, 8)
@@ -377,6 +379,28 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .save(recipeOutput, "deped_matatag:uphg_ccs_core_recipe");
 
         //Consumables
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.ENCHANTED_GOLDEN_APPLE, 2)
+                .pattern("NGN")
+                .pattern("GCG")
+                .pattern("NGN")
+                .define('G', Items.GOLD_INGOT)
+                .define('N', Items.GOLD_NUGGET)
+                .define('C', DepED_CoreItems.KVA_SBO_CORE)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, "deped_matatag:enchanted_golden_apple_recipe");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.TOTEM_OF_UNDYING)
+                .pattern("TBT")
+                .pattern("GCG")
+                .pattern("TRT")
+                .define('G', DepED_CoreItems.GMANHS_CORE)
+                .define('T', Items.GOLD_INGOT)
+                .define('B', Items.BLAZE_POWDER)
+                .define('R', Items.WIND_CHARGE)
+                .define('C', DepED_CoreItems.KVA_SBO_CORE)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, "deped_matatag:totem_of_undying_recipe");
+
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

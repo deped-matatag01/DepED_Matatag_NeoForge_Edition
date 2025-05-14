@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "deped_matatag:block_of_gmanhs"
+        "recipe": "deped_matatag:block_of_gmanhs_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "deped_matatag:block_of_gmanhs"
+      "deped_matatag:block_of_gmanhs_recipe"
     ]
   }
 }
