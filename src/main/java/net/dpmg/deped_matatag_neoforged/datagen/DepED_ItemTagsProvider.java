@@ -75,7 +75,6 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_5"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_6"));
 
-
         tag(DEPED_RAW_MINERALS)
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "raw_deped"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "raw_gmaths"))
