@@ -2,9 +2,11 @@ package net.dpmg.deped_matatag_neoforged.block;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -17,17 +19,17 @@ public class DepED_OreSector {
     public static final DeferredRegister.Blocks DEPED_ORE_RAW_MATERIALS = DeferredRegister.createBlocks(DepEDMatatagNeoForgeEdition.MOD_ID);
 
     //DepED Ores
-    public static final DeferredBlock<Block> DEPED_ORE = register_DepED_OreMinerals("deped_ore", () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> DEPED_ORE = register_DepED_OreMinerals("deped_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
             .strength(1.5f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> DEEPSLATE_DEPED_ORE = register_DepED_OreMinerals("deepslate_deped_ore", () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> DEEPSLATE_DEPED_ORE = register_DepED_OreMinerals("deepslate_deped_ore", () -> new DropExperienceBlock(UniformInt.of(4, 8), BlockBehaviour.Properties.of()
             .strength(3f, 5f).lightLevel(state -> 5).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-    public static final DeferredBlock<Block> GMATHS_ORE = register_DepED_OreMinerals("gmaths_ore", () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> GMATHS_ORE = register_DepED_OreMinerals("gmaths_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
             .strength(1.5f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> DEEPSLATE_GMATHS_ORE = register_DepED_OreMinerals("deepslate_gmaths_ore", () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> DEEPSLATE_GMATHS_ORE = register_DepED_OreMinerals("deepslate_gmaths_ore", () -> new DropExperienceBlock(UniformInt.of(4, 8), BlockBehaviour.Properties.of()
             .strength(3f, 5f).lightLevel(state -> 5).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-    public static final DeferredBlock<Block> GMANHS_ORE = register_DepED_OreMinerals("gmanhs_ore", () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> GMANHS_ORE = register_DepED_OreMinerals("gmanhs_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
             .strength(1.5f, 4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> DEEPSLATE_GMANHS_ORE = register_DepED_OreMinerals("deepslate_gmanhs_ore", () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> DEEPSLATE_GMANHS_ORE = register_DepED_OreMinerals("deepslate_gmanhs_ore", () -> new DropExperienceBlock(UniformInt.of(4, 8), BlockBehaviour.Properties.of()
             .strength(3f, 5f).lightLevel(state -> 5).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     //DepED Raw Block Materials
