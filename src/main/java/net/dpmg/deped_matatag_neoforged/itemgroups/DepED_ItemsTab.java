@@ -2,6 +2,7 @@ package net.dpmg.deped_matatag_neoforged.itemgroups;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
+import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -42,6 +43,38 @@ public class DepED_ItemsTab {
                     output.accept(DepED_CoreItems.SGII_ES_CORE);
                     output.accept(DepED_CoreItems.SETA_HEAD);
                     output.accept(DepED_CoreItems.UPHG_CCS_CORE);
+
+                    //DepED Core Upgrades - Upgrade Template
+                    output.accept(DepED_CoreUpgrades.CORE_UPGRADE_TIER_1);
+                    output.accept(DepED_CoreUpgrades.CORE_UPGRADE_TIER_2);
+                    output.accept(DepED_CoreUpgrades.CORE_UPGRADE_TIER_3);
+                    output.accept(DepED_CoreUpgrades.CORE_UPGRADE_TIER_4);
+                    output.accept(DepED_CoreUpgrades.CORE_UPGRADE_TIER_5);
+                    output.accept(DepED_CoreUpgrades.CORE_UPGRADE_TIER_6);
+
+                    //DepED Core Upgrades - GMANHS Core Upgrade
+                    output.accept(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_1);
+                    output.accept(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_2);
+                    output.accept(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_3);
+                    output.accept(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_4);
+                    output.accept(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_5);
+                    output.accept(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_6);
+
+                    //DepED Core Upgrades - KVA SBO Core Upgrade
+                    output.accept(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_1);
+                    output.accept(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_2);
+                    output.accept(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_3);
+                    output.accept(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_4);
+                    output.accept(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_5);
+                    output.accept(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_6);
+
+                    //DepED Core Upgrades - UPHG CCS Core Upgrade
+                    output.accept(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_1);
+                    output.accept(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_2);
+                    output.accept(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_3);
+                    output.accept(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_4);
+                    output.accept(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_5);
+                    output.accept(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_6);
 
                     }).build());
 

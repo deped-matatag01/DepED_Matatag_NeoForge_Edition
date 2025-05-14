@@ -3,6 +3,7 @@ package net.dpmg.deped_matatag_neoforged.datagen;
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
+import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -28,6 +29,38 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         basicItem(DepED_CoreItems.SGII_ES_CORE.get());
         basicItem(DepED_CoreItems.SETA_HEAD.get());
         basicItem(DepED_CoreItems.UPHG_CCS_CORE.get());
+
+        //DepED Core Upgrades - Upgrade Template
+        basicItem(DepED_CoreUpgrades.CORE_UPGRADE_TIER_1.get());
+        basicItem(DepED_CoreUpgrades.CORE_UPGRADE_TIER_2.get());
+        basicItem(DepED_CoreUpgrades.CORE_UPGRADE_TIER_3.get());
+        basicItem(DepED_CoreUpgrades.CORE_UPGRADE_TIER_4.get());
+        basicItem(DepED_CoreUpgrades.CORE_UPGRADE_TIER_5.get());
+        basicItem(DepED_CoreUpgrades.CORE_UPGRADE_TIER_6.get());
+
+        //DepED Core Upgrades - GMANHS Core Upgrade
+        basicItem(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_1.get());
+        basicItem(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_2.get());
+        basicItem(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_3.get());
+        basicItem(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_4.get());
+        basicItem(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_5.get());
+        basicItem(DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_6.get());
+
+        //DepED Core Upgrades - KVA SBO Core Upgrade
+        basicItem(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_1.get());
+        basicItem(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_2.get());
+        basicItem(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_3.get());
+        basicItem(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_4.get());
+        basicItem(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_5.get());
+        basicItem(DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_6.get());
+
+        //DepED Core Upgrades - UPHG CCS Core Upgrade
+        basicItem(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_1.get());
+        basicItem(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_2.get());
+        basicItem(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_3.get());
+        basicItem(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_4.get());
+        basicItem(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_5.get());
+        basicItem(DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_6.get());
 
         //DepED Mineral Items
         basicItem(DepED_MineralItems.RAW_DEPED.get());

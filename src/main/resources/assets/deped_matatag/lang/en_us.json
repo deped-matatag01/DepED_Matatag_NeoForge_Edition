@@ -56,5 +56,33 @@
   "item.deped_matatag.sjchs_core": "SJCHS Core",
   "item.deped_matatag.sgii_es_core": "SG2 ES Core",
   "item.deped_matatag.seta_head": "Elizer T. Alvarez",
-  "item.deped_matatag.uphg_ccs_core": "UPHS College of Computer Studies Core"
+  "item.deped_matatag.uphg_ccs_core": "UPHS College of Computer Studies Core",
+
+  "item.deped_matatag.core_upgrade_tier_1": "Core Upgrade Tier 1",
+  "item.deped_matatag.core_upgrade_tier_2": "Core Upgrade Tier 2",
+  "item.deped_matatag.core_upgrade_tier_3": "Core Upgrade Tier 3",
+  "item.deped_matatag.core_upgrade_tier_4": "Core Upgrade Tier 4",
+  "item.deped_matatag.core_upgrade_tier_5": "Core Upgrade Tier 5",
+  "item.deped_matatag.core_upgrade_tier_6": "Core Upgrade Tier 6",
+
+  "item.deped_matatag.gmanhs_core_upgrade_tier_1": "GMANHS Core Upgrade Tier 1",
+  "item.deped_matatag.gmanhs_core_upgrade_tier_2": "GMANHS Core Upgrade Tier 2",
+  "item.deped_matatag.gmanhs_core_upgrade_tier_3": "GMANHS Core Upgrade Tier 3",
+  "item.deped_matatag.gmanhs_core_upgrade_tier_4": "GMANHS Core Upgrade Tier 4",
+  "item.deped_matatag.gmanhs_core_upgrade_tier_5": "GMANHS Core Upgrade Tier 5",
+  "item.deped_matatag.gmanhs_core_upgrade_tier_6": "GMANHS Core Upgrade Tier 6",
+
+  "item.deped_matatag.kva_sbo_core_upgrade_tier_1": "KVA SBO Core Upgrade Tier 1",
+  "item.deped_matatag.kva_sbo_core_upgrade_tier_2": "KVA SBO Core Upgrade Tier 2",
+  "item.deped_matatag.kva_sbo_core_upgrade_tier_3": "KVA SBO Core Upgrade Tier 3",
+  "item.deped_matatag.kva_sbo_core_upgrade_tier_4": "KVA SBO Core Upgrade Tier 4",
+  "item.deped_matatag.kva_sbo_core_upgrade_tier_5": "KVA SBO Core Upgrade Tier 5",
+  "item.deped_matatag.kva_sbo_core_upgrade_tier_6": "KVA SBO Core Upgrade Tier 6",
+
+  "item.deped_matatag.uphg_ccs_core_upgrade_tier_1": "UPHG CCS Core Upgrade Tier 1",
+  "item.deped_matatag.uphg_ccs_core_upgrade_tier_2": "UPHG CCS Core Upgrade Tier 2",
+  "item.deped_matatag.uphg_ccs_core_upgrade_tier_3": "UPHG CCS Core Upgrade Tier 3",
+  "item.deped_matatag.uphg_ccs_core_upgrade_tier_4": "UPHG CCS Core Upgrade Tier 4",
+  "item.deped_matatag.uphg_ccs_core_upgrade_tier_5": "UPHG CCS Core Upgrade Tier 5",
+  "item.deped_matatag.uphg_ccs_core_upgrade_tier_6": "UPHG CCS Core Upgrade Tier 6"
 }

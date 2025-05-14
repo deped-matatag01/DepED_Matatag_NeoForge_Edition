@@ -3,6 +3,7 @@ package net.dpmg.deped_matatag_neoforged;
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
+import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_BlocksTab;
 import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_ItemsTab;
@@ -45,6 +46,7 @@ public class DepEDMatatagNeoForgeEdition {
 
         //DepED_Items
         DepED_CoreItems.registerDPMG_Items(modEventBus);
+        DepED_CoreUpgrades.registerDPMG_CoreUpgrades(modEventBus);
         DepED_MineralItems.registerDPMG_MineralItems(modEventBus);
 
         //DepED_CustomTags

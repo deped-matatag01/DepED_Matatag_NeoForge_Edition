@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "deped_matatag:gmanhs_core_upgrade_tier_1",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmanhs_core_upgrade_tier_2",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmanhs_core_upgrade_tier_3",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmanhs_core_upgrade_tier_4",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmanhs_core_upgrade_tier_5",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:gmanhs_core_upgrade_tier_6",
+      "required": false
+    }
+  ]
+}

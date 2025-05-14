@@ -21,6 +21,11 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
 
     //JSON-Based Tagging
     public static final TagKey<Item> DEPED_CORES_TAG = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_cores"));
+    public static final TagKey<Item> DEPED_CORE_UPGRADE_TEMPLATES_TAG = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_core_upgrade_templates"));
+    public static final TagKey<Item> GMANHS_CORE_UPGRADES = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrades"));
+    public static final TagKey<Item> KVA_SBO_CORE_UPGRADES = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrades"));
+    public static final TagKey<Item> UPHG_CCS_CORE_UPGRADES = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrades"));
+
     public static final TagKey<Item> DEPED_RAW_MINERALS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_raw_minerals"));
     public static final TagKey<Item> DEPED_INGOTS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_ingots"));
     public static final TagKey<Item> DEPED_NUGGETS= TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_nuggets"));
@@ -37,6 +42,39 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "seta_heas"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("minecraft", "heavy_core"));
+
+        tag(DEPED_CORE_UPGRADE_TEMPLATES_TAG)
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_1"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_2"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_3"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_4"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_5"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_6"));
+
+        tag(GMANHS_CORE_UPGRADES)
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_1"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_2"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_3"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_4"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_5"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_6"));
+
+        tag(KVA_SBO_CORE_UPGRADES)
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_1"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_2"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_3"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_4"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_5"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_6"));
+
+        tag(UPHG_CCS_CORE_UPGRADES)
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_1"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_2"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_3"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_4"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_5"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_6"));
+
 
         tag(DEPED_RAW_MINERALS)
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "raw_deped"))
