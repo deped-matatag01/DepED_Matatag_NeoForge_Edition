@@ -22,7 +22,6 @@
   "block.deped_matatag.sjchs_slab": "SJCHS Slab",
   "block.deped_matatag.sjchs_wall": "SJCHS Wall",
 
-
   "block.deped_matatag.sir_elie_block": "Sir Elizer Alvarez Block",
   "block.deped_matatag.sir_elie_block_body": "Body of Sir Elizer Alvarez Block",
   "block.deped_matatag.the_gmaths_torch": "The GMATHS Torch",
@@ -84,5 +83,14 @@
   "item.deped_matatag.uphg_ccs_core_upgrade_tier_3": "UPHG CCS Core Upgrade Tier 3",
   "item.deped_matatag.uphg_ccs_core_upgrade_tier_4": "UPHG CCS Core Upgrade Tier 4",
   "item.deped_matatag.uphg_ccs_core_upgrade_tier_5": "UPHG CCS Core Upgrade Tier 5",
-  "item.deped_matatag.uphg_ccs_core_upgrade_tier_6": "UPHG CCS Core Upgrade Tier 6"
+  "item.deped_matatag.uphg_ccs_core_upgrade_tier_6": "UPHG CCS Core Upgrade Tier 6",
+
+  "painting.deped_matatag.gmaths_visa-ii_entry.title": "A GMATHSians VISA for Robloxian Passports",
+  "painting.deped_matatag.gmaths_visa-ii_entry.author": "JAL Creations",
+  "painting.deped_matatag.gmaths-id_piled.title": "Piles of Unused GMATHSians Identification Cards",
+  "painting.deped_matatag.gmaths-id_piled.author": "HDM-X PhotoArt",
+  "painting.deped_matatag.gmaths_logo-seal.title": "GMATHS Logo/Seal",
+  "painting.deped_matatag.gmaths_logo-seal.author": "Mr. Lorenzo Inofre",
+  "painting.deped_matatag.gmaths_2025-2026_banner.title": "GMATHS 2025-2026 Banner",
+  "painting.deped_matatag.gmaths_2025-2026_banner.author": "Mr. Lorenzo Inofre"
 }
