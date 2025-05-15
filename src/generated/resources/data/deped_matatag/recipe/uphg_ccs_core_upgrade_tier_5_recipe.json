@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "deped_matatag:uphg_ccs_core_upgrade_tier_4"
+    },
+    "M": {
+      "item": "deped_matatag:core_upgrade_tier_5"
+    },
+    "S": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "MSM",
+    "SCS",
+    "MSM"
+  ],
+  "result": {
+    "count": 2,
+    "id": "deped_matatag:uphg_ccs_core_upgrade_tier_5"
+  }
+}

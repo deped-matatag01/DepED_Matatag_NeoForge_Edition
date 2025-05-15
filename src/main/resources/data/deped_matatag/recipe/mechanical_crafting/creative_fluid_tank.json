@@ -7,13 +7,13 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:nether_star"
+      "item": "deped_matatag:kva_sbo_core_upgrade_tier_6"
     },
     "B": {
       "item": "create:fluid_tank"
     },
     "E": {
-      "item": "minecraft:crying_obsidian"
+      "item": "createcasing:creative_casing"
     }
   },
   "result": {

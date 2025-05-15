@@ -4,6 +4,7 @@ import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
+import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -383,7 +384,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .pattern("GCG")
                 .pattern("NGN")
                 .define('G', Items.GOLD_INGOT)
-                .define('N', Items.GOLD_NUGGET)
+                .define('N', DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_4)
                 .define('C', DepED_CoreItems.KVA_SBO_CORE)
                 .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
                 .save(recipeOutput, "deped_matatag:enchanted_golden_apple_recipe");
@@ -400,6 +401,249 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
                 .save(recipeOutput, "deped_matatag:totem_of_undying_recipe");
 
+        //Core Upgrades - Upgrade Templates
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.CORE_UPGRADE_TIER_1, 4)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', Ingredient.of(ItemTags.STONE_TOOL_MATERIALS))
+                .define('S', DepED_MineralItems.DEPED_INGOT)
+                .define('C', DepED_CoreItems.DEPED_CORE)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_1_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.CORE_UPGRADE_TIER_2, 4)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', Items.COPPER_INGOT)
+                .define('S', DepED_MineralItems.DEPED_INGOT)
+                .define('C', DepED_CoreUpgrades.CORE_UPGRADE_TIER_1)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_2_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.CORE_UPGRADE_TIER_3, 4)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', Items.IRON_INGOT)
+                .define('S', DepED_MineralItems.GMATHS_INGOT)
+                .define('C', DepED_CoreUpgrades.CORE_UPGRADE_TIER_2)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_3_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.CORE_UPGRADE_TIER_4, 4)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', Items.GOLD_INGOT)
+                .define('S', DepED_MineralItems.GMATHS_INGOT)
+                .define('C',DepED_CoreUpgrades.CORE_UPGRADE_TIER_3)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_4_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.CORE_UPGRADE_TIER_5, 4)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', Items.DIAMOND)
+                .define('S', DepED_MineralItems.GMANHS_INGOT)
+                .define('C', DepED_CoreUpgrades.CORE_UPGRADE_TIER_4)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_5_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.CORE_UPGRADE_TIER_6, 4)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', Items.NETHERITE_INGOT)
+                .define('S', DepED_MineralItems.GMANHS_INGOT)
+                .define('C', DepED_CoreUpgrades.CORE_UPGRADE_TIER_5)
+                .unlockedBy("has_deped_core", has(DepED_CoreItems.DEPED_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "core_upgrade_tier_6_recipe"));
+
+        //Core Upgrades - GMANHS Core Upgrades
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_1, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_1)
+                .define('S', Ingredient.of(ItemTags.STONE_TOOL_MATERIALS))
+                .define('C', DepED_CoreItems.GMANHS_CORE)
+                .unlockedBy("has_gmanhs_core", has(DepED_CoreItems.GMANHS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_1_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_2, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_2)
+                .define('S', Items.COPPER_INGOT)
+                .define('C', DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_1)
+                .unlockedBy("has_gmanhs_core", has(DepED_CoreItems.GMANHS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_2_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_3, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_3)
+                .define('S', Items.IRON_INGOT)
+                .define('C', DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_2)
+                .unlockedBy("has_gmanhs_core", has(DepED_CoreItems.GMANHS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_3_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_4, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_4)
+                .define('S', Items.GOLD_INGOT)
+                .define('C', DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_3)
+                .unlockedBy("has_gmanhs_core", has(DepED_CoreItems.GMANHS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_4_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_5, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_5)
+                .define('S', Items.DIAMOND)
+                .define('C', DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_4)
+                .unlockedBy("has_gmanhs_core", has(DepED_CoreItems.GMANHS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_5_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_6, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_6)
+                .define('S', Items.NETHERITE_INGOT)
+                .define('C', DepED_CoreUpgrades.GMANHS_CORE_UPGRADE_TIER_5)
+                .unlockedBy("has_gmanhs_core", has(DepED_CoreItems.GMANHS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmanhs_core_upgrade_tier_6_recipe"));
+
+        //Core Upgrades - KVA SBO Core Upgrades
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_1, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_1)
+                .define('S', Ingredient.of(ItemTags.STONE_TOOL_MATERIALS))
+                .define('C', DepED_CoreItems.KVA_SBO_CORE)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_1_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_2, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_2)
+                .define('S', Items.COPPER_INGOT)
+                .define('C', DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_1)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_2_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_3, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_3)
+                .define('S', Items.IRON_INGOT)
+                .define('C', DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_2)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_3_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_4, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_4)
+                .define('S', Items.GOLD_INGOT)
+                .define('C', DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_3)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_4_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_5, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_5)
+                .define('S', Items.DIAMOND)
+                .define('C', DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_4)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_5_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_6, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_6)
+                .define('S', Items.NETHERITE_INGOT)
+                .define('C', DepED_CoreUpgrades.KVA_SBO_CORE_UPGRADE_TIER_5)
+                .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_6_recipe"));
+
+        //Core Upgrades - KVA SBO Core Upgrades
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_1, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_1)
+                .define('S', Ingredient.of(ItemTags.STONE_TOOL_MATERIALS))
+                .define('C', DepED_CoreItems.UPHG_CCS_CORE)
+                .unlockedBy("has_uphg_ccs_core", has(DepED_CoreItems.UPHG_CCS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_1_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_2, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_2)
+                .define('S', Items.COPPER_INGOT)
+                .define('C', DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_1)
+                .unlockedBy("has_uphg_ccs_core", has(DepED_CoreItems.UPHG_CCS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_2_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_3, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_3)
+                .define('S', Items.IRON_INGOT)
+                .define('C', DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_2)
+                .unlockedBy("has_uphg_ccs_core", has(DepED_CoreItems.UPHG_CCS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_3_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_4, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_4)
+                .define('S', Items.GOLD_INGOT)
+                .define('C', DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_3)
+                .unlockedBy("has_uphg_ccs_core", has(DepED_CoreItems.UPHG_CCS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_4_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_5, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_5)
+                .define('S', Items.DIAMOND)
+                .define('C', DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_4)
+                .unlockedBy("has_uphg_ccs_core", has(DepED_CoreItems.UPHG_CCS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_5_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_6, 2)
+                .pattern("MSM")
+                .pattern("SCS")
+                .pattern("MSM")
+                .define('M', DepED_CoreUpgrades.CORE_UPGRADE_TIER_6)
+                .define('S', Items.NETHERITE_INGOT)
+                .define('C', DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_5)
+                .unlockedBy("has_uphg_ccs_core", has(DepED_CoreItems.UPHG_CCS_CORE))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "uphg_ccs_core_upgrade_tier_6_recipe"));
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

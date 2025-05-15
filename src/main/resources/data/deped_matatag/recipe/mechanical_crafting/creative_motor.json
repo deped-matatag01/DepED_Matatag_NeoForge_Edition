@@ -8,19 +8,19 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:crying_obsidian"
+      "item": "createcasing:creative_casing"
     },
     "B": {
       "item": "create:shaft"
     },
     "D": {
-      "item": "minecraft:dragon_egg"
+      "item": "deped_matatag:uphg_ccs_core_upgrade_tier_6"
     },
     "C": {
-      "item": "create:andesite_casing"
+      "item": "create:brass_casing"
     },
     "E": {
-      "item": "minecraft:nether_star"
+      "item": "deped_matatag:kva_sbo_core_upgrade_tier_5"
     }
   },
   "result": {

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "deped_matatag:uphg_ccs_core_upgrade_tier_2_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_uphg_ccs_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "deped_matatag:uphg_ccs_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_uphg_ccs_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "deped_matatag:uphg_ccs_core_upgrade_tier_2_recipe"
+    ]
+  }
+}

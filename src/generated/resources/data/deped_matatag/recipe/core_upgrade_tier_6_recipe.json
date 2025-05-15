@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "deped_matatag:core_upgrade_tier_5"
+    },
+    "M": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+      "item": "deped_matatag:gmanhs_ingot"
+    }
+  },
+  "pattern": [
+    "MSM",
+    "SCS",
+    "MSM"
+  ],
+  "result": {
+    "count": 4,
+    "id": "deped_matatag:core_upgrade_tier_6"
+  }
+}
