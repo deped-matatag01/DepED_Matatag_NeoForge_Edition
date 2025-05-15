@@ -31,7 +31,9 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
     public static final TagKey<Item> DEPED_NUGGETS= TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_nuggets"));
 
     @Override
-    protected void addTags(HolderLookup.Provider provider) {
+    protected void addTags(HolderLookup.Provider provider) {;
+
+        //JSON-Based Tagging
         tag(DEPED_CORES_TAG)
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_core"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmaths_core"))

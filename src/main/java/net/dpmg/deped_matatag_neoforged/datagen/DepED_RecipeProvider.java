@@ -292,7 +292,6 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
 
         //DepED_BlockPlaceables - Misc
 
-
         //DepED_CoreItems
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.DEPED_CORE, 8)
                 .pattern("DAD")

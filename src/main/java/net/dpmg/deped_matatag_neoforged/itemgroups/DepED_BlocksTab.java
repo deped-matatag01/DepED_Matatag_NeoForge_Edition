@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public class DepED_BlocksTab {
     public static final DeferredRegister<CreativeModeTab> DPMG_BLOCKS_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, DepEDMatatagNeoForgeEdition.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> DEPED_MATATAG_ITEMS = DPMG_BLOCKS_TAB.register("deped_matatag_blocks",
+    public static final Supplier<CreativeModeTab> DEPED_MATATAG_BLOCKS = DPMG_BLOCKS_TAB.register("deped_matatag_blocks",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(DepED_BlockPlaceables.DEPED_BLOCK.get()))
                     .title(Component.translatable("creativemodetabs.deped_matatag.deped_matatag_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
