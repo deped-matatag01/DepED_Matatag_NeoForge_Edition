@@ -3,6 +3,8 @@
     "deped_matatag:deped_wall",
     "deped_matatag:gmaths_wall",
     "deped_matatag:gmanhs_wall",
-    "deped_matatag:sjchs_wall"
+    "deped_matatag:sjchs_wall",
+    "deped_matatag:white_oak_wall",
+    "deped_matatag:light_gray_oak_wall"
   ]
 }

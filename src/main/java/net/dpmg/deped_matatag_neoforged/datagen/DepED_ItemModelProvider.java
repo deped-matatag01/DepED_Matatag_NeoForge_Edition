@@ -2,6 +2,7 @@ package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
+import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
@@ -81,7 +82,13 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         DPMG_WallItem(DepED_BlockPlaceables.GMANHS_WALL, DepED_BlockPlaceables.BLOCK_OF_GMANHS);
         DPMG_WallItem(DepED_BlockPlaceables.SJCHS_WALL, DepED_BlockPlaceables.SJCHS_BLOCK);
 
+        //Colored Plank Wall Presets
+        DPMG_WallItem(DepED_ColoredPlanks.WHITE_OAK_WALL, DepED_ColoredPlanks.WHITE_OAK_PLANKS);
+        DPMG_WallItem(DepED_ColoredPlanks.LIGHT_GRAY_OAK_WALL, DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS);
+
         //Fence Presets
+        DPMG_FenceItem(DepED_ColoredPlanks.WHITE_OAK_FENCE, DepED_ColoredPlanks.WHITE_OAK_PLANKS);
+        DPMG_FenceItem(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE, DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS);
 
     }
 

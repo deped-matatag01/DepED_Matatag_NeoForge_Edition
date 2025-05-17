@@ -2,6 +2,7 @@ package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
+import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
@@ -16,6 +17,58 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+
+        //White Oak Planks
+        DPMG_BlockWithItem(DepED_ColoredPlanks.WHITE_OAK_PLANKS);
+        stairsBlock(DepED_ColoredPlanks.WHITE_OAK_STAIRS.get(), blockTexture(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get()));
+        slabBlock(DepED_ColoredPlanks.WHITE_OAK_SLAB.get(), blockTexture(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get()), blockTexture(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get()));
+        wallBlock(DepED_ColoredPlanks.WHITE_OAK_WALL.get(), blockTexture(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get()));
+        fenceBlock(DepED_ColoredPlanks.WHITE_OAK_FENCE.get(), blockTexture(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get()));
+        fenceGateBlock(DepED_ColoredPlanks.WHITE_OAK_FENCE_GATE.get(), blockTexture(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get()));
+
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.WHITE_OAK_STAIRS);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.WHITE_OAK_SLAB);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.WHITE_OAK_FENCE_GATE);
+
+        //Light Gray Oak Planks
+        DPMG_BlockWithItem(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS);
+        stairsBlock(DepED_ColoredPlanks.LIGHT_GRAY_OAK_STAIRS.get(), blockTexture(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get()));
+        slabBlock(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get(), blockTexture(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get()), blockTexture(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get()));
+        wallBlock(DepED_ColoredPlanks.LIGHT_GRAY_OAK_WALL.get(), blockTexture(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get()));
+        fenceBlock(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE.get(), blockTexture(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get()));
+        fenceGateBlock(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get(), blockTexture(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get()));
+
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.LIGHT_GRAY_OAK_STAIRS);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE);
+
+        //Gray Oak Planks
+
+        //Black Oak Planks
+
+        //Brown Oak Planks
+
+        //Red Oak Planks
+
+        //Orange Oak Planks
+
+        //Yellow Oak Planks
+
+        //Lime Oak Planks
+
+        //Green Oak Planks
+
+        //Cyan Oak Planks
+
+        //Light Blue Oak Planks
+
+        //Blue Oak Planks
+
+        //Purple Oak Planks
+
+        //Magenta Oak Planks
+
+        //Pink Oak Planks
 
         //DepED_BlockPlaceables - DepED Block Variants
         DPMG_BlockWithItem(DepED_BlockPlaceables.DEPED_BLOCK);

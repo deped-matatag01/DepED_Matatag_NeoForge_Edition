@@ -2,6 +2,7 @@ package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
+import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -19,14 +20,83 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+
+
+        tag(BlockTags.PLANKS)
+                .add(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get());
+
+        tag(BlockTags.WOODEN_STAIRS)
+                .add(DepED_ColoredPlanks.WHITE_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_STAIRS.get());
+
+        tag(BlockTags.WOODEN_SLABS)
+                .add(DepED_ColoredPlanks.WHITE_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get());
+
+        tag(BlockTags.WOODEN_FENCES)
+                .add(DepED_ColoredPlanks.WHITE_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE.get());
+
+        tag(BlockTags.FENCE_GATES)
+                .add(DepED_ColoredPlanks.WHITE_OAK_FENCE_GATE.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get());
+
         tag(BlockTags.WALLS)
                 .add(DepED_BlockPlaceables.DEPED_WALL.get())
                 .add(DepED_BlockPlaceables.GMATHS_WALL.get())
                 .add(DepED_BlockPlaceables.GMANHS_WALL.get())
-                .add(DepED_BlockPlaceables.SJCHS_WALL.get());
+                .add(DepED_BlockPlaceables.SJCHS_WALL.get())
 
-        tag(BlockTags.MINEABLE_WITH_HOE)
-                .add(DepED_BlockPlaceables.YES_O.get());
+                //Wooden Walls
+                .add(DepED_ColoredPlanks.WHITE_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_WALL.get());
+
+        tag(BlockTags.MINEABLE_WITH_AXE)
+
+                //White Oak Planks
+                .add(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.WHITE_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.WHITE_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.WHITE_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.WHITE_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.WHITE_OAK_FENCE_GATE.get())
+
+                //Light Gray Oak Planks
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get());
+
+                //Gray Oak Planks
+
+                 //Black Oak Planks
+
+                 //Brown Oak Planks
+
+                //Red Oak Planks
+
+                //Orange Oak Planks
+
+                 //Yellow Oak Planks
+
+                //Lime Oak Planks
+
+                 //Green Oak Planks
+
+                //Cyan Oak Planks
+
+                 //Light Blue Oak Planks
+
+                 //Blue Oak Planks
+
+                 //Purple Oak Planks
+
+                //Magenta Oak Planks
+
+                //Pink Oak Planks
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 //DepED_BlockPlaceables - DepED Variants
@@ -72,6 +142,9 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
                 .add(DepED_OreSector.RAW_DEPED_BLOCK.get())
                 .add(DepED_OreSector.RAW_GMATHS_BLOCK.get())
                 .add(DepED_OreSector.RAW_GMANHS_BLOCK.get());
+
+        tag(BlockTags.MINEABLE_WITH_HOE)
+                .add(DepED_BlockPlaceables.YES_O.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 //DepED_BlockPlaceables - DepED Variants

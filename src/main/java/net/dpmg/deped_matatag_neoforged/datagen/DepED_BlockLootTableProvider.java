@@ -1,6 +1,7 @@
 package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
+import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
 import net.minecraft.core.Holder;
@@ -28,6 +29,50 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+
+        //White Oak Planks
+        dropSelf(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.WHITE_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.WHITE_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.WHITE_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.WHITE_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.WHITE_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.WHITE_OAK_FENCE_GATE.get());
+
+        //Light Gray Oak Planks
+        dropSelf(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.LIGHT_GRAY_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.LIGHT_GRAY_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get());
+
+        //Gray Oak Planks
+
+        //Black Oak Planks
+
+        //Brown Oak Planks
+
+        //Red Oak Planks
+
+        //Orange Oak Planks
+
+        //Yellow Oak Planks
+
+        //Lime Oak Planks
+
+        //Green Oak Planks
+
+        //Cyan Oak Planks
+
+        //Light Blue Oak Planks
+
+        //Blue Oak Planks
+
+        //Purple Oak Planks
+
+        //Magenta Oak Planks
+
+        //Pink Oak Planks
 
         //DepED BlockPlaceables - DepED Variants
         dropSelf(DepED_BlockPlaceables.DEPED_BLOCK.get());
@@ -88,6 +133,7 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
 
                 //Grouped Package
                 DepED_BlockPlaceables.DEPED_BLOCKS.getEntries().stream(),
+                DepED_ColoredPlanks.DEPED_COLORED_PLANKS.getEntries().stream(),
                 DepED_OreSector.DEPED_ORE_RAW_MATERIALS.getEntries().stream()
 
         ).flatMap(stream -> stream.map(Holder::value))::iterator;

@@ -1,11 +1,13 @@
 package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
+import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -31,7 +33,12 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
     public static final TagKey<Item> DEPED_NUGGETS= TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_nuggets"));
 
     @Override
-    protected void addTags(HolderLookup.Provider provider) {;
+    protected void addTags(HolderLookup.Provider provider) {
+
+                tag(ItemTags.PLANKS)
+
+                .add(DepED_ColoredPlanks.WHITE_OAK_PLANKS.asItem())
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.asItem());
 
         //JSON-Based Tagging
         tag(DEPED_CORES_TAG)

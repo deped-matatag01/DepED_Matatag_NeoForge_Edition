@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-14T20:15:58.3010184	Item Models: deped_matatag
+// 1.21.1	2025-05-17T21:25:14.5052567	Item Models: deped_matatag
 da274aa1904af19eec843a104d182489e81b8479 assets/deped_matatag/models/item/core_upgrade_tier_1.json
 938b5f3c5533918be605e3531216c69e589b70e9 assets/deped_matatag/models/item/core_upgrade_tier_2.json
 9b4bec9769d70936666ab2d525ff8e55807f9528 assets/deped_matatag/models/item/core_upgrade_tier_3.json
@@ -30,6 +30,8 @@ c976283cc824924ecdb13194a544e696fb00f1a4 assets/deped_matatag/models/item/kva_sb
 da5b35e8ac7ca1449d3194cc2bbafeac800279e2 assets/deped_matatag/models/item/kva_sbo_core_upgrade_tier_4.json
 ea27841eb5ef963ed6c31dd89283350a2e4186be assets/deped_matatag/models/item/kva_sbo_core_upgrade_tier_5.json
 50245d6ef10dc83e0e7f702981b107b94e33a9d8 assets/deped_matatag/models/item/kva_sbo_core_upgrade_tier_6.json
+46f64a540424553e4bed0780df4e4081ed1ee619 assets/deped_matatag/models/item/light_gray_oak_fence.json
+17279cef9b5dfe66808d0e9f04afd01344e6deb4 assets/deped_matatag/models/item/light_gray_oak_wall.json
 12836b381133c3aa68da7b9b158dd1ef5226d5a3 assets/deped_matatag/models/item/raw_deped.json
 1089bbd9add4d46436e78c5454bb586faeee5397 assets/deped_matatag/models/item/raw_gmanhs.json
 104881c0f5926164a23fbcf605dd34dd4bd0420e assets/deped_matatag/models/item/raw_gmaths.json
@@ -44,3 +46,5 @@ dc63ea3637c86486c4af07bcbac8bbebaa42047d assets/deped_matatag/models/item/uphg_c
 76df2fd02c51a02c81547eae049053e1355e367a assets/deped_matatag/models/item/uphg_ccs_core_upgrade_tier_4.json
 4c869895531990565c4f147e7056534ec41fe4f7 assets/deped_matatag/models/item/uphg_ccs_core_upgrade_tier_5.json
 79545c42a22d1d452c10b627c13577ca9dfb0304 assets/deped_matatag/models/item/uphg_ccs_core_upgrade_tier_6.json
+94e1daf58f4f389eb546626afe5d6688895ce62e assets/deped_matatag/models/item/white_oak_fence.json
+0e172ee7ddf5a9ec288120c1e5a5eb5222b10df4 assets/deped_matatag/models/item/white_oak_wall.json
