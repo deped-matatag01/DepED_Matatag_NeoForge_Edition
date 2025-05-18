@@ -36,12 +36,36 @@ public class DepED_ColoredPlanksTab {
                         output.accept(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE);
 
                         //Gray Oak Planks
+                        output.accept(DepED_ColoredPlanks.GRAY_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.GRAY_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.GRAY_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.GRAY_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.GRAY_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.GRAY_OAK_FENCE_GATE);
 
                         //Black Oak Planks
+                        output.accept(DepED_ColoredPlanks.BLACK_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.BLACK_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.BLACK_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.BLACK_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.BLACK_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.BLACK_OAK_FENCE_GATE);
 
                         //Brown Oak Planks
+                        output.accept(DepED_ColoredPlanks.BROWN_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.BROWN_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.BROWN_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.BROWN_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.BROWN_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.BROWN_OAK_FENCE_GATE);
 
                         //Red Oak Planks
+                        output.accept(DepED_ColoredPlanks.RED_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.RED_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.RED_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.RED_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.RED_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.RED_OAK_FENCE_GATE);
 
                         //Orange Oak Planks
 

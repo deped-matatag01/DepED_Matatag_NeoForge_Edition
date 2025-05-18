@@ -47,12 +47,36 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get());
 
         //Gray Oak Planks
+        dropSelf(DepED_ColoredPlanks.GRAY_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.GRAY_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.GRAY_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.GRAY_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.GRAY_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.GRAY_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.GRAY_OAK_FENCE_GATE.get());
 
         //Black Oak Planks
+        dropSelf(DepED_ColoredPlanks.BLACK_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.BLACK_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.BLACK_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.BLACK_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.BLACK_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.BLACK_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.BLACK_OAK_FENCE_GATE.get());
 
         //Brown Oak Planks
+        dropSelf(DepED_ColoredPlanks.BROWN_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.BROWN_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.BROWN_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.BROWN_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.BROWN_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.BROWN_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.BROWN_OAK_FENCE_GATE.get());
 
         //Red Oak Planks
+        dropSelf(DepED_ColoredPlanks.RED_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.RED_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.RED_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.RED_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.RED_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.RED_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.RED_OAK_FENCE_GATE.get());
 
         //Orange Oak Planks
 

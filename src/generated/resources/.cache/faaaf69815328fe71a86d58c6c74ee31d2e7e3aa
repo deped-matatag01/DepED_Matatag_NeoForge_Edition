@@ -1,4 +1,8 @@
-// 1.21.1	2025-05-17T21:25:14.5052567	Item Models: deped_matatag
+// 1.21.1	2025-05-18T19:35:09.2350033	Item Models: deped_matatag
+0972d98d21ce2cd588fe4f885e75dda21adbdb73 assets/deped_matatag/models/item/black_oak_fence.json
+3e39a29efa86fe0a876401c730fb20ca9751d181 assets/deped_matatag/models/item/black_oak_wall.json
+952d826cb46610ea82cea9458e101d1f3b14b53d assets/deped_matatag/models/item/brown_oak_fence.json
+2a4c42b50925827ea80934de2a3470bfa1b202cd assets/deped_matatag/models/item/brown_oak_wall.json
 da274aa1904af19eec843a104d182489e81b8479 assets/deped_matatag/models/item/core_upgrade_tier_1.json
 938b5f3c5533918be605e3531216c69e589b70e9 assets/deped_matatag/models/item/core_upgrade_tier_2.json
 9b4bec9769d70936666ab2d525ff8e55807f9528 assets/deped_matatag/models/item/core_upgrade_tier_3.json
@@ -23,6 +27,8 @@ ddd9142b06d8236c1dba44c9c6bd23128e541158 assets/deped_matatag/models/item/gmanhs
 210063c4131baecb1d677d557a5368368b82f2a7 assets/deped_matatag/models/item/gmaths_ingot.json
 8fe695ffcc68351b6b2704715651463c3590b276 assets/deped_matatag/models/item/gmaths_nugget.json
 4caaef1a2429c94c35ae286be8617716321e5e44 assets/deped_matatag/models/item/gmaths_wall.json
+2be4c51489e81e86b4c21d2db07b35ad345f244f assets/deped_matatag/models/item/gray_oak_fence.json
+8bf535df25cb3534b22c258cc6bda792cb964826 assets/deped_matatag/models/item/gray_oak_wall.json
 2245478e9302549447801bb501f2c870ffc01d9f assets/deped_matatag/models/item/kva_sbo_core.json
 fa596dae757fa2e549732e73d1d1f5ab2790c09c assets/deped_matatag/models/item/kva_sbo_core_upgrade_tier_1.json
 c976283cc824924ecdb13194a544e696fb00f1a4 assets/deped_matatag/models/item/kva_sbo_core_upgrade_tier_2.json
@@ -35,6 +41,8 @@ ea27841eb5ef963ed6c31dd89283350a2e4186be assets/deped_matatag/models/item/kva_sb
 12836b381133c3aa68da7b9b158dd1ef5226d5a3 assets/deped_matatag/models/item/raw_deped.json
 1089bbd9add4d46436e78c5454bb586faeee5397 assets/deped_matatag/models/item/raw_gmanhs.json
 104881c0f5926164a23fbcf605dd34dd4bd0420e assets/deped_matatag/models/item/raw_gmaths.json
+6f5507edf2103df6b51778b8855123a854cb228d assets/deped_matatag/models/item/red_oak_fence.json
+ce6db0026faf5c8d696c61af393f7a50e8846d4a assets/deped_matatag/models/item/red_oak_wall.json
 a64f84a458d926f068b50f4c5aad322dd70f6c75 assets/deped_matatag/models/item/seta_head.json
 7b3b308562ce13cfe861af1f096cdf15b31b1003 assets/deped_matatag/models/item/sgii_es_core.json
 f95e889204c9819c83771f32042b21a5b5ef39dd assets/deped_matatag/models/item/sjchs_core.json

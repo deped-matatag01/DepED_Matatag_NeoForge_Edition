@@ -5,6 +5,10 @@
     "deped_matatag:gmanhs_wall",
     "deped_matatag:sjchs_wall",
     "deped_matatag:white_oak_wall",
-    "deped_matatag:light_gray_oak_wall"
+    "deped_matatag:light_gray_oak_wall",
+    "deped_matatag:gray_oak_wall",
+    "deped_matatag:black_oak_wall",
+    "deped_matatag:brown_oak_wall",
+    "deped_matatag:red_oak_wall"
   ]
 }

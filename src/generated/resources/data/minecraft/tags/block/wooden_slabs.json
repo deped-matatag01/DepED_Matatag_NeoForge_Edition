@@ -1,6 +1,10 @@
 {
   "values": [
     "deped_matatag:white_oak_slab",
-    "deped_matatag:light_gray_oak_slab"
+    "deped_matatag:light_gray_oak_slab",
+    "deped_matatag:gray_oak_slab",
+    "deped_matatag:black_oak_slab",
+    "deped_matatag:brown_oak_slab",
+    "deped_matatag:red_oak_slab"
   ]
 }

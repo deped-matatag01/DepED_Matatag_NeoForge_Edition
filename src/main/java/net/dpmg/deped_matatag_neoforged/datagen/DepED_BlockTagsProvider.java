@@ -24,23 +24,43 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
 
         tag(BlockTags.PLANKS)
                 .add(DepED_ColoredPlanks.WHITE_OAK_PLANKS.get())
-                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get());
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.RED_OAK_PLANKS.get());
 
         tag(BlockTags.WOODEN_STAIRS)
                 .add(DepED_ColoredPlanks.WHITE_OAK_STAIRS.get())
-                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_STAIRS.get());
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.RED_OAK_STAIRS.get());
 
         tag(BlockTags.WOODEN_SLABS)
                 .add(DepED_ColoredPlanks.WHITE_OAK_SLAB.get())
-                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get());
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.RED_OAK_SLAB.get());
 
         tag(BlockTags.WOODEN_FENCES)
                 .add(DepED_ColoredPlanks.WHITE_OAK_FENCE.get())
-                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE.get());
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.RED_OAK_PLANKS.get());
 
         tag(BlockTags.FENCE_GATES)
                 .add(DepED_ColoredPlanks.WHITE_OAK_FENCE_GATE.get())
-                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get());
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_FENCE_GATE.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_FENCE_GATE.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_FENCE_GATE.get())
+                .add(DepED_ColoredPlanks.RED_OAK_FENCE_GATE.get());
 
         tag(BlockTags.WALLS)
                 .add(DepED_BlockPlaceables.DEPED_WALL.get())
@@ -50,7 +70,11 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
 
                 //Wooden Walls
                 .add(DepED_ColoredPlanks.WHITE_OAK_WALL.get())
-                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_WALL.get());
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.RED_OAK_WALL.get());
 
         tag(BlockTags.MINEABLE_WITH_AXE)
 
@@ -68,15 +92,39 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
                 .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get())
                 .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_WALL.get())
                 .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE.get())
-                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get());
+                .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_FENCE_GATE.get())
 
                 //Gray Oak Planks
+                .add(DepED_ColoredPlanks.GRAY_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.GRAY_OAK_FENCE_GATE.get())
 
                  //Black Oak Planks
+                .add(DepED_ColoredPlanks.BLACK_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.BLACK_OAK_FENCE_GATE.get())
 
-                 //Brown Oak Planks
+                //Brown Oak Planks
+                .add(DepED_ColoredPlanks.BROWN_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.BROWN_OAK_FENCE_GATE.get())
 
                 //Red Oak Planks
+                .add(DepED_ColoredPlanks.RED_OAK_PLANKS.get())
+                .add(DepED_ColoredPlanks.RED_OAK_STAIRS.get())
+                .add(DepED_ColoredPlanks.RED_OAK_SLAB.get())
+                .add(DepED_ColoredPlanks.RED_OAK_WALL.get())
+                .add(DepED_ColoredPlanks.RED_OAK_FENCE.get())
+                .add(DepED_ColoredPlanks.RED_OAK_FENCE_GATE.get());
 
                 //Orange Oak Planks
 

@@ -1,6 +1,10 @@
 {
   "values": [
     "deped_matatag:white_oak_planks",
-    "deped_matatag:light_gray_oak_planks"
+    "deped_matatag:light_gray_oak_planks",
+    "deped_matatag:gray_oak_planks",
+    "deped_matatag:black_oak_planks",
+    "deped_matatag:brown_oak_planks",
+    "deped_matatag:red_oak_planks"
   ]
 }

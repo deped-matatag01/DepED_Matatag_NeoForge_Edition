@@ -45,12 +45,60 @@ public class DepED_ColoredPlanks {
             BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Gray Oak Planks
+    public static final DeferredBlock<Block> GRAY_OAK_PLANKS = registerDepED_ColoredPlanks("gray_oak_planks", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> GRAY_OAK_STAIRS = registerDepED_ColoredPlanks("gray_oak_stairs", () -> new StairBlock(DepED_ColoredPlanks.GRAY_OAK_PLANKS.get().defaultBlockState(),
+            BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> GRAY_OAK_SLAB = registerDepED_ColoredPlanks("gray_oak_slab", () -> new SlabBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> GRAY_OAK_WALL = registerDepED_ColoredPlanks("gray_oak_wall", () -> new WallBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> GRAY_OAK_FENCE = registerDepED_ColoredPlanks("gray_oak_fence", () -> new FenceBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> GRAY_OAK_FENCE_GATE = registerDepED_ColoredPlanks("gray_oak_fence_gate", () -> new FenceGateBlock(WoodType.OAK,
+            BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Black Oak Planks
+    public static final DeferredBlock<Block> BLACK_OAK_PLANKS = registerDepED_ColoredPlanks("black_oak_planks", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> BLACK_OAK_STAIRS = registerDepED_ColoredPlanks("black_oak_stairs", () -> new StairBlock(DepED_ColoredPlanks.BLACK_OAK_PLANKS.get().defaultBlockState(),
+            BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> BLACK_OAK_SLAB = registerDepED_ColoredPlanks("black_oak_slab", () -> new SlabBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> BLACK_OAK_WALL = registerDepED_ColoredPlanks("black_oak_wall", () -> new WallBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> BLACK_OAK_FENCE = registerDepED_ColoredPlanks("black_oak_fence", () -> new FenceBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> BLACK_OAK_FENCE_GATE = registerDepED_ColoredPlanks("black_oak_fence_gate", () -> new FenceGateBlock(WoodType.OAK,
+            BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Brown Oak Planks
+    public static final DeferredBlock<Block> BROWN_OAK_PLANKS = registerDepED_ColoredPlanks("brown_oak_planks", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> BROWN_OAK_STAIRS = registerDepED_ColoredPlanks("brown_oak_stairs", () -> new StairBlock(DepED_ColoredPlanks.BROWN_OAK_PLANKS.get().defaultBlockState(),
+            BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> BROWN_OAK_SLAB = registerDepED_ColoredPlanks("brown_oak_slab", () -> new SlabBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> BROWN_OAK_WALL = registerDepED_ColoredPlanks("brown_oak_wall", () -> new WallBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> BROWN_OAK_FENCE = registerDepED_ColoredPlanks("brown_oak_fence", () -> new FenceBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> BROWN_OAK_FENCE_GATE = registerDepED_ColoredPlanks("brown_oak_fence_gate", () -> new FenceGateBlock(WoodType.OAK,
+            BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Red Oak Planks
+    public static final DeferredBlock<Block> RED_OAK_PLANKS = registerDepED_ColoredPlanks("red_oak_planks", () -> new Block(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> RED_OAK_STAIRS = registerDepED_ColoredPlanks("red_oak_stairs", () -> new StairBlock(DepED_ColoredPlanks.RED_OAK_PLANKS.get().defaultBlockState(),
+            BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> RED_OAK_SLAB = registerDepED_ColoredPlanks("red_oak_slab", () -> new SlabBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> RED_OAK_WALL = registerDepED_ColoredPlanks("red_oak_wall", () -> new WallBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> RED_OAK_FENCE = registerDepED_ColoredPlanks("red_oak_fence", () -> new FenceBlock(BlockBehaviour.Properties.of()
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> RED_OAK_FENCE_GATE = registerDepED_ColoredPlanks("red_oak_fence_gate", () -> new FenceGateBlock(WoodType.OAK,
+            BlockBehaviour.Properties.of().strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Orange Oak Planks
 
