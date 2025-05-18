@@ -35,8 +35,7 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
 
-                tag(ItemTags.PLANKS)
-
+        tag(ItemTags.PLANKS)
                 .add(DepED_ColoredPlanks.WHITE_OAK_PLANKS.asItem())
                 .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_PLANKS.asItem());
 
