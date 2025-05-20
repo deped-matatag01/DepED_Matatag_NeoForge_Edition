@@ -119,14 +119,44 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(DepED_ColoredPlanks.CYAN_OAK_FENCE_GATE.get());
 
         //Light Blue Oak Planks
+        dropSelf(DepED_ColoredPlanks.LIGHT_BLUE_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.LIGHT_BLUE_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.LIGHT_BLUE_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.LIGHT_BLUE_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.LIGHT_BLUE_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.LIGHT_BLUE_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.LIGHT_BLUE_OAK_FENCE_GATE.get());
 
         //Blue Oak Planks
+        dropSelf(DepED_ColoredPlanks.BLUE_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.BLUE_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.BLUE_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.BLUE_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.BLUE_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.BLUE_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.BLUE_OAK_FENCE_GATE.get());
 
         //Purple Oak Planks
+        dropSelf(DepED_ColoredPlanks.PURPLE_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.PURPLE_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.PURPLE_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.PURPLE_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.PURPLE_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.PURPLE_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.PURPLE_OAK_FENCE_GATE.get());
 
         //Magenta Oak Planks
+        dropSelf(DepED_ColoredPlanks.MAGENTA_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.MAGENTA_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.MAGENTA_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.MAGENTA_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.MAGENTA_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.MAGENTA_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.MAGENTA_OAK_FENCE_GATE.get());
 
         //Pink Oak Planks
+        dropSelf(DepED_ColoredPlanks.PINK_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.PINK_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.PINK_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.PINK_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.PINK_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.PINK_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.PINK_OAK_FENCE_GATE.get());
 
         //DepED BlockPlaceables - DepED Variants
         dropSelf(DepED_BlockPlaceables.DEPED_BLOCK.get());

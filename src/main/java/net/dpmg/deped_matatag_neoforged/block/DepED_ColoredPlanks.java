@@ -176,15 +176,74 @@ public class DepED_ColoredPlanks {
             .strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Light Blue Oak Planks
+    public static final DeferredBlock<Block> LIGHT_BLUE_OAK_PLANKS = registerDepED_ColoredPlanks("light_blue_oak_planks", () -> flammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> LIGHT_BLUE_OAK_STAIRS = registerDepED_ColoredPlanks("light_blue_oak_stairs", () -> flammableStairs(LIGHT_BLUE_OAK_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> LIGHT_BLUE_OAK_SLAB = registerDepED_ColoredPlanks("light_blue_oak_slab", () -> flammableSlab(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> LIGHT_BLUE_OAK_WALL = registerDepED_ColoredPlanks("light_blue_oak_wall", () -> flammableWall(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> LIGHT_BLUE_OAK_FENCE = registerDepED_ColoredPlanks("light_blue_oak_fence", () -> flammableFence(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> LIGHT_BLUE_OAK_FENCE_GATE = registerDepED_ColoredPlanks("light_blue_oak_fence_gate", () -> flammableFenceGate(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE_GATE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Blue Oak Planks
+    public static final DeferredBlock<Block> BLUE_OAK_PLANKS = registerDepED_ColoredPlanks("blue_oak_planks", () -> flammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> BLUE_OAK_STAIRS = registerDepED_ColoredPlanks("blue_oak_stairs", () -> flammableStairs(BLUE_OAK_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> BLUE_OAK_SLAB = registerDepED_ColoredPlanks("blue_oak_slab", () -> flammableSlab(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> BLUE_OAK_WALL = registerDepED_ColoredPlanks("blue_oak_wall", () -> flammableWall(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> BLUE_OAK_FENCE = registerDepED_ColoredPlanks("blue_oak_fence", () -> flammableFence(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> BLUE_OAK_FENCE_GATE = registerDepED_ColoredPlanks("blue_oak_fence_gate", () -> flammableFenceGate(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE_GATE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Purple Oak Planks
+    public static final DeferredBlock<Block> PURPLE_OAK_PLANKS = registerDepED_ColoredPlanks("purple_oak_planks", () -> flammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> PURPLE_OAK_STAIRS = registerDepED_ColoredPlanks("purple_oak_stairs", () -> flammableStairs(PURPLE_OAK_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> PURPLE_OAK_SLAB = registerDepED_ColoredPlanks("purple_oak_slab", () -> flammableSlab(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> PURPLE_OAK_WALL = registerDepED_ColoredPlanks("purple_oak_wall", () -> flammableWall(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> PURPLE_OAK_FENCE = registerDepED_ColoredPlanks("purple_oak_fence", () -> flammableFence(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> PURPLE_OAK_FENCE_GATE = registerDepED_ColoredPlanks("purple_oak_fence_gate", () -> flammableFenceGate(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE_GATE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Magenta Oak Planks
+    public static final DeferredBlock<Block> MAGENTA_OAK_PLANKS = registerDepED_ColoredPlanks("magenta_oak_planks", () -> flammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> MAGENTA_OAK_STAIRS = registerDepED_ColoredPlanks("magenta_oak_stairs", () -> flammableStairs(MAGENTA_OAK_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> MAGENTA_OAK_SLAB = registerDepED_ColoredPlanks("magenta_oak_slab", () -> flammableSlab(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> MAGENTA_OAK_WALL = registerDepED_ColoredPlanks("magenta_oak_wall", () -> flammableWall(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> MAGENTA_OAK_FENCE = registerDepED_ColoredPlanks("magenta_oak_fence", () -> flammableFence(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> MAGENTA_OAK_FENCE_GATE = registerDepED_ColoredPlanks("magenta_oak_fence_gate", () -> flammableFenceGate(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE_GATE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
 
     //Pink Oak Planks
-
+    public static final DeferredBlock<Block> PINK_OAK_PLANKS = registerDepED_ColoredPlanks("pink_oak_planks", () -> flammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<StairBlock> PINK_OAK_STAIRS = registerDepED_ColoredPlanks("pink_oak_stairs", () -> flammableStairs(PINK_OAK_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<SlabBlock> PINK_OAK_SLAB = registerDepED_ColoredPlanks("pink_oak_slab", () -> flammableSlab(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<WallBlock> PINK_OAK_WALL = registerDepED_ColoredPlanks("pink_oak_wall", () -> flammableWall(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE_BRICK_WALL)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceBlock> PINK_OAK_FENCE = registerDepED_ColoredPlanks("pink_oak_fence", () -> flammableFence(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<FenceGateBlock> PINK_OAK_FENCE_GATE = registerDepED_ColoredPlanks("pink_oak_fence_gate", () -> flammableFenceGate(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE_GATE)
+            .strength(2f, 3f).sound(SoundType.WOOD)));
 
     private static final int FLAMMABILITY = 20;
     private static final int FIRE_SPREAD = 5;

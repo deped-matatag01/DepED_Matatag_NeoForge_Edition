@@ -108,14 +108,44 @@ public class DepED_ColoredPlanksTab {
                         output.accept(DepED_ColoredPlanks.CYAN_OAK_FENCE_GATE);
 
                         //Light Blue Oak Planks
+                        output.accept(DepED_ColoredPlanks.LIGHT_BLUE_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.LIGHT_BLUE_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.LIGHT_BLUE_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.LIGHT_BLUE_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.LIGHT_BLUE_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.LIGHT_BLUE_OAK_FENCE_GATE);
 
                         //Blue Oak Planks
+                        output.accept(DepED_ColoredPlanks.BLUE_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.BLUE_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.BLUE_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.BLUE_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.BLUE_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.BLUE_OAK_FENCE_GATE);
 
                         //Purple Oak Planks
+                        output.accept(DepED_ColoredPlanks.PURPLE_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.PURPLE_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.PURPLE_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.PURPLE_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.PURPLE_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.PURPLE_OAK_FENCE_GATE);
 
                         //Magenta Oak Planks
+                        output.accept(DepED_ColoredPlanks.MAGENTA_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.MAGENTA_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.MAGENTA_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.MAGENTA_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.MAGENTA_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.MAGENTA_OAK_FENCE_GATE);
 
                         //Pink Oak Planks
+                        output.accept(DepED_ColoredPlanks.PINK_OAK_PLANKS);
+                        output.accept(DepED_ColoredPlanks.PINK_OAK_STAIRS);
+                        output.accept(DepED_ColoredPlanks.PINK_OAK_SLAB);
+                        output.accept(DepED_ColoredPlanks.PINK_OAK_WALL);
+                        output.accept(DepED_ColoredPlanks.PINK_OAK_FENCE);
+                        output.accept(DepED_ColoredPlanks.PINK_OAK_FENCE_GATE);
 
                     }).build());
 

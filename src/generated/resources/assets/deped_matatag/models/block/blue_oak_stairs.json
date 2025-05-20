@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "deped_matatag:block/blue_oak_planks",
+    "side": "deped_matatag:block/blue_oak_planks",
+    "top": "deped_matatag:block/blue_oak_planks"
+  }
+}

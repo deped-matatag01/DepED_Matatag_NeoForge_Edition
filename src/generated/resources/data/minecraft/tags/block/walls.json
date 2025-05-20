@@ -14,6 +14,11 @@
     "deped_matatag:yellow_oak_wall",
     "deped_matatag:lime_oak_wall",
     "deped_matatag:green_oak_wall",
-    "deped_matatag:cyan_oak_wall"
+    "deped_matatag:cyan_oak_wall",
+    "deped_matatag:light_blue_oak_wall",
+    "deped_matatag:blue_oak_wall",
+    "deped_matatag:purple_oak_wall",
+    "deped_matatag:magenta_oak_wall",
+    "deped_matatag:pink_oak_wall"
   ]
 }
