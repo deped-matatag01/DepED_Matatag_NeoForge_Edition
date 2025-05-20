@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "deped_matatag:sir_elie_block"
+    },
+    "W": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WCW",
+    "WWW"
+  ],
+  "result": {
+    "count": 6,
+    "id": "deped_matatag:sir_elie_block_body"
+  }
+}

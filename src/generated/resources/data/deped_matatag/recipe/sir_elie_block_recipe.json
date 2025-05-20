@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "deped_matatag:seta_head"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "SCS",
+    "WSW"
+  ],
+  "result": {
+    "count": 6,
+    "id": "deped_matatag:sir_elie_block"
+  }
+}

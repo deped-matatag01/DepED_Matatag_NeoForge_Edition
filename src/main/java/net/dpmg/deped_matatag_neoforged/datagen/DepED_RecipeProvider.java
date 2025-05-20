@@ -293,6 +293,24 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .save(recipeOutput, "deped_matatag:sjchs_wall_from_stonecutting");
 
         //DepED_BlockPlaceables - Misc
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SIR_ELIE_BLOCK.get(), 6)
+                .pattern("WSW")
+                .pattern("SCS")
+                .pattern("WSW")
+                .define('W',Items.AMETHYST_BLOCK)
+                .define('C', DepED_CoreItems.SETA_HEAD)
+                .define('S', Items.STICK)
+                .unlockedBy("has_seta_head", has(DepED_CoreItems.SETA_HEAD))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "sir_elie_block_recipe"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SIR_ELIE_BLOCK_BODY.get(), 6)
+                .pattern("WWW")
+                .pattern("WCW")
+                .pattern("WWW")
+                .define('W', Items.PORKCHOP)
+                .define('C', DepED_BlockPlaceables.SIR_ELIE_BLOCK)
+                .unlockedBy("has_seta_head", has(DepED_CoreItems.SETA_HEAD))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "sir_elie_block_body_recipe"));
 
         //DepED_CoreItems
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreItems.DEPED_CORE, 8)
