@@ -89,6 +89,11 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         DPMG_WallItem(DepED_ColoredPlanks.BLACK_OAK_WALL, DepED_ColoredPlanks.BLACK_OAK_PLANKS);
         DPMG_WallItem(DepED_ColoredPlanks.BROWN_OAK_WALL, DepED_ColoredPlanks.BROWN_OAK_PLANKS);
         DPMG_WallItem(DepED_ColoredPlanks.RED_OAK_WALL, DepED_ColoredPlanks.RED_OAK_PLANKS);
+        DPMG_WallItem(DepED_ColoredPlanks.ORANGE_OAK_WALL, DepED_ColoredPlanks.ORANGE_OAK_PLANKS);
+        DPMG_WallItem(DepED_ColoredPlanks.YELLOW_OAK_WALL, DepED_ColoredPlanks.YELLOW_OAK_PLANKS);
+        DPMG_WallItem(DepED_ColoredPlanks.LIME_OAK_WALL, DepED_ColoredPlanks.LIME_OAK_PLANKS);
+        DPMG_WallItem(DepED_ColoredPlanks.GREEN_OAK_WALL, DepED_ColoredPlanks.GREEN_OAK_PLANKS);
+        DPMG_WallItem(DepED_ColoredPlanks.CYAN_OAK_WALL, DepED_ColoredPlanks.CYAN_OAK_PLANKS);
 
         //Fence Presets
         DPMG_FenceItem(DepED_ColoredPlanks.WHITE_OAK_FENCE, DepED_ColoredPlanks.WHITE_OAK_PLANKS);
@@ -97,6 +102,11 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         DPMG_FenceItem(DepED_ColoredPlanks.BLACK_OAK_FENCE, DepED_ColoredPlanks.BLACK_OAK_PLANKS);
         DPMG_FenceItem(DepED_ColoredPlanks.BROWN_OAK_FENCE, DepED_ColoredPlanks.BROWN_OAK_PLANKS);
         DPMG_FenceItem(DepED_ColoredPlanks.RED_OAK_FENCE, DepED_ColoredPlanks.RED_OAK_PLANKS);
+        DPMG_FenceItem(DepED_ColoredPlanks.ORANGE_OAK_FENCE, DepED_ColoredPlanks.ORANGE_OAK_PLANKS);
+        DPMG_FenceItem(DepED_ColoredPlanks.YELLOW_OAK_FENCE, DepED_ColoredPlanks.YELLOW_OAK_PLANKS);
+        DPMG_FenceItem(DepED_ColoredPlanks.LIME_OAK_FENCE, DepED_ColoredPlanks.LIME_OAK_PLANKS);
+        DPMG_FenceItem(DepED_ColoredPlanks.GREEN_OAK_FENCE, DepED_ColoredPlanks.GREEN_OAK_PLANKS);
+        DPMG_FenceItem(DepED_ColoredPlanks.CYAN_OAK_FENCE, DepED_ColoredPlanks.CYAN_OAK_PLANKS);
 
     }
 

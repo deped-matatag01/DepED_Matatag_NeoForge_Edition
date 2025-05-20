@@ -79,14 +79,44 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(DepED_ColoredPlanks.RED_OAK_FENCE_GATE.get());
 
         //Orange Oak Planks
+        dropSelf(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.ORANGE_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.ORANGE_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.ORANGE_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.ORANGE_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.ORANGE_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.ORANGE_OAK_FENCE_GATE.get());
 
         //Yellow Oak Planks
+        dropSelf(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.YELLOW_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.YELLOW_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.YELLOW_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.YELLOW_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.YELLOW_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.YELLOW_OAK_FENCE_GATE.get());
 
         //Lime Oak Planks
+        dropSelf(DepED_ColoredPlanks.LIME_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.LIME_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.LIME_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.LIME_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.LIME_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.LIME_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.LIME_OAK_FENCE_GATE.get());
 
         //Green Oak Planks
+        dropSelf(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.GREEN_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.GREEN_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.GREEN_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.GREEN_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.GREEN_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.GREEN_OAK_FENCE_GATE.get());
 
         //Cyan Oak Planks
+        dropSelf(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get());
+        dropSelf(DepED_ColoredPlanks.CYAN_OAK_STAIRS.get());
+        add(DepED_ColoredPlanks.CYAN_OAK_SLAB.get(), block -> createSlabItemTable(DepED_ColoredPlanks.CYAN_OAK_SLAB.get()));
+        dropSelf(DepED_ColoredPlanks.CYAN_OAK_WALL.get());
+        dropSelf(DepED_ColoredPlanks.CYAN_OAK_FENCE.get());
+        dropSelf(DepED_ColoredPlanks.CYAN_OAK_FENCE_GATE.get());
 
         //Light Blue Oak Planks
 

@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-18T19:35:09.2470053	Tags for minecraft:item mod id deped_matatag
+// 1.21.1	2025-05-20T11:48:43.418523	Tags for minecraft:item mod id deped_matatag
 bf56a396eb88fe1e69fe9f071cfb7ce10a9fef39 data/deped_matatag/tags/item/deped_cores.json
 96c54149df138aefe5ad03188f0d0a3fa73bedf5 data/deped_matatag/tags/item/deped_core_upgrade_templates.json
 9af6078301b7bb0d8100fb1bed18cb109aa3f218 data/deped_matatag/tags/item/deped_ingots.json
@@ -7,4 +7,4 @@ ae02e3a4e119b9e7cc8390e358e3ee3d4682bd41 data/deped_matatag/tags/item/deped_raw_
 9cb000abb61f3c7b7a36d61e2c6aa6281a5905b4 data/deped_matatag/tags/item/gmanhs_core_upgrades.json
 577b682b0d4154b81a5e4e76a6dbe51971e0fd59 data/deped_matatag/tags/item/kva_sbo_core_upgrades.json
 57a6dc830757e1279f62c1515a5c1abb493e203c data/deped_matatag/tags/item/uphg_ccs_core_upgrades.json
-34f50d45115d03fb21218e5c662681af49e124a2 data/minecraft/tags/item/planks.json
+833778bfb8c2a298bf7bd1ac47e1f273b74ba7d0 data/minecraft/tags/item/planks.json

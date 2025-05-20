@@ -41,7 +41,12 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
                 .add(DepED_ColoredPlanks.GRAY_OAK_PLANKS.asItem())
                 .add(DepED_ColoredPlanks.BLACK_OAK_PLANKS.asItem())
                 .add(DepED_ColoredPlanks.BROWN_OAK_PLANKS.asItem())
-                .add(DepED_ColoredPlanks.RED_OAK_PLANKS.asItem());
+                .add(DepED_ColoredPlanks.RED_OAK_PLANKS.asItem())
+                .add(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.asItem())
+                .add(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.asItem())
+                .add(DepED_ColoredPlanks.LIME_OAK_PLANKS.asItem())
+                .add(DepED_ColoredPlanks.GREEN_OAK_PLANKS.asItem())
+                .add(DepED_ColoredPlanks.CYAN_OAK_PLANKS.asItem());
 
         //JSON-Based Tagging
         tag(DEPED_CORES_TAG)

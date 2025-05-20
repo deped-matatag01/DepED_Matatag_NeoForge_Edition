@@ -91,14 +91,64 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
         DPMG_BlockItemHandler(DepED_ColoredPlanks.RED_OAK_FENCE_GATE);
 
         //Orange Oak Planks
+        DPMG_BlockWithItem(DepED_ColoredPlanks.ORANGE_OAK_PLANKS);
+        stairsBlock(DepED_ColoredPlanks.ORANGE_OAK_STAIRS.get(), blockTexture(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()));
+        slabBlock(DepED_ColoredPlanks.ORANGE_OAK_SLAB.get(), blockTexture(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()), blockTexture(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()));
+        wallBlock(DepED_ColoredPlanks.ORANGE_OAK_WALL.get(), blockTexture(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()));
+        fenceBlock(DepED_ColoredPlanks.ORANGE_OAK_FENCE.get(), blockTexture(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()));
+        fenceGateBlock(DepED_ColoredPlanks.ORANGE_OAK_FENCE_GATE.get(), blockTexture(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()));
+
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.ORANGE_OAK_STAIRS);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.ORANGE_OAK_SLAB);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.ORANGE_OAK_FENCE_GATE);
 
         //Yellow Oak Planks
+        DPMG_BlockWithItem(DepED_ColoredPlanks.YELLOW_OAK_PLANKS);
+        stairsBlock(DepED_ColoredPlanks.YELLOW_OAK_STAIRS.get(), blockTexture(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()));
+        slabBlock(DepED_ColoredPlanks.YELLOW_OAK_SLAB.get(), blockTexture(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()), blockTexture(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()));
+        wallBlock(DepED_ColoredPlanks.YELLOW_OAK_WALL.get(), blockTexture(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()));
+        fenceBlock(DepED_ColoredPlanks.YELLOW_OAK_FENCE.get(), blockTexture(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()));
+        fenceGateBlock(DepED_ColoredPlanks.YELLOW_OAK_FENCE_GATE.get(), blockTexture(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()));
+
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.YELLOW_OAK_STAIRS);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.YELLOW_OAK_SLAB);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.YELLOW_OAK_FENCE_GATE);
 
         //Lime Oak Planks
+        DPMG_BlockWithItem(DepED_ColoredPlanks.LIME_OAK_PLANKS);
+        stairsBlock(DepED_ColoredPlanks.LIME_OAK_STAIRS.get(), blockTexture(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()));
+        slabBlock(DepED_ColoredPlanks.LIME_OAK_SLAB.get(), blockTexture(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()), blockTexture(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()));
+        wallBlock(DepED_ColoredPlanks.LIME_OAK_WALL.get(), blockTexture(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()));
+        fenceBlock(DepED_ColoredPlanks.LIME_OAK_FENCE.get(), blockTexture(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()));
+        fenceGateBlock(DepED_ColoredPlanks.LIME_OAK_FENCE_GATE.get(), blockTexture(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()));
+
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.LIME_OAK_STAIRS);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.LIME_OAK_SLAB);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.LIME_OAK_FENCE_GATE);
 
         //Green Oak Planks
+        DPMG_BlockWithItem(DepED_ColoredPlanks.GREEN_OAK_PLANKS);
+        stairsBlock(DepED_ColoredPlanks.GREEN_OAK_STAIRS.get(), blockTexture(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()));
+        slabBlock(DepED_ColoredPlanks.GREEN_OAK_SLAB.get(), blockTexture(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()), blockTexture(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()));
+        wallBlock(DepED_ColoredPlanks.GREEN_OAK_WALL.get(), blockTexture(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()));
+        fenceBlock(DepED_ColoredPlanks.GREEN_OAK_FENCE.get(), blockTexture(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()));
+        fenceGateBlock(DepED_ColoredPlanks.GREEN_OAK_FENCE_GATE.get(), blockTexture(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()));
+
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.GREEN_OAK_STAIRS);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.GREEN_OAK_SLAB);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.GREEN_OAK_FENCE_GATE);
 
         //Cyan Oak Planks
+        DPMG_BlockWithItem(DepED_ColoredPlanks.CYAN_OAK_PLANKS);
+        stairsBlock(DepED_ColoredPlanks.CYAN_OAK_STAIRS.get(), blockTexture(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()));
+        slabBlock(DepED_ColoredPlanks.CYAN_OAK_SLAB.get(), blockTexture(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()), blockTexture(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()));
+        wallBlock(DepED_ColoredPlanks.CYAN_OAK_WALL.get(), blockTexture(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()));
+        fenceBlock(DepED_ColoredPlanks.CYAN_OAK_FENCE.get(), blockTexture(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()));
+        fenceGateBlock(DepED_ColoredPlanks.CYAN_OAK_FENCE_GATE.get(), blockTexture(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()));
+
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.CYAN_OAK_STAIRS);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.CYAN_OAK_SLAB);
+        DPMG_BlockItemHandler(DepED_ColoredPlanks.CYAN_OAK_FENCE_GATE);
 
         //Light Blue Oak Planks
 

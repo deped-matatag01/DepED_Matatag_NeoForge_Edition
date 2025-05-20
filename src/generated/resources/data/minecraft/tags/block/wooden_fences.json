@@ -5,6 +5,11 @@
     "deped_matatag:gray_oak_fence",
     "deped_matatag:black_oak_fence",
     "deped_matatag:brown_oak_fence",
-    "deped_matatag:red_oak_planks"
+    "deped_matatag:red_oak_fence",
+    "deped_matatag:orange_oak_fence",
+    "deped_matatag:yellow_oak_fence",
+    "deped_matatag:lime_oak_fence",
+    "deped_matatag:green_oak_fence",
+    "deped_matatag:cyan_oak_fence"
   ]
 }
