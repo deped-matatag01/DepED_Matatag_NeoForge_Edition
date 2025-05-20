@@ -251,7 +251,7 @@ public class DepED_ColoredPlanks {
         DepED_CoreUpgrades.DPMG_CORE_UPGRADES.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
-    public static void registerDPMG_BlockPlaceables(IEventBus eventBus) {
+    public static void registerDPMG_ColoredPlanks(IEventBus eventBus) {
         DEPED_COLORED_PLANKS.register(eventBus);
     }
 }

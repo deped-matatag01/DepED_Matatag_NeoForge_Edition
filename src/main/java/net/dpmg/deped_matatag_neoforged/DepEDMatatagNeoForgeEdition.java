@@ -46,7 +46,7 @@ public class DepEDMatatagNeoForgeEdition {
         //DepED_Blocks
         DepED_BlockPlaceables.registerDPMG_BlockPlaceables(modEventBus);
         DepED_OreSector.registerDPMG_OreSector(modEventBus);
-        DepED_ColoredPlanks.registerDPMG_BlockPlaceables(modEventBus);
+        DepED_ColoredPlanks.registerDPMG_ColoredPlanks(modEventBus);
 
         //DepED_Items
         DepED_CoreItems.registerDPMG_Items(modEventBus);
