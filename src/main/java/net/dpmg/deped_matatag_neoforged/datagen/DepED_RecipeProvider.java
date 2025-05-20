@@ -855,6 +855,181 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
         fenceGateBuilder(DepED_ColoredPlanks.RED_OAK_FENCE_GATE.get(), Ingredient.of(DepED_ColoredPlanks.RED_OAK_PLANKS.get()))
                 .unlockedBy("has_red_oak_planks", has(DepED_ColoredPlanks.RED_OAK_PLANKS))
                 .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "red_oak_fence_gate"));
+
+        //Colored Planks Recipe - Orange
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get(), 8)
+                .pattern("PPP")
+                .pattern("PCP")
+                .pattern("PPP")
+                .define('P', Ingredient.of(ItemTags.PLANKS))
+                .define('C', Items.ORANGE_DYE)
+                .unlockedBy("has_wooden_planks", has(ItemTags.PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "orange_oak_planks"));
+
+        stairBuilder(DepED_ColoredPlanks.ORANGE_OAK_STAIRS.get(), Ingredient.of(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()))
+                .unlockedBy("has_orange_oak_planks", has(DepED_ColoredPlanks.ORANGE_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "orange_oak_stairs"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.ORANGE_OAK_SLAB.get(), 6)
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.ORANGE_OAK_PLANKS)
+                .unlockedBy("has_orange_oak_planks", has(DepED_ColoredPlanks.ORANGE_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "orange_oak_slab"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.ORANGE_OAK_WALL.get(), 6)
+                .pattern("PPP")
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.ORANGE_OAK_PLANKS)
+                .unlockedBy("has_orange_oak_planks", has(DepED_ColoredPlanks.ORANGE_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "orange_oak_wall"));
+
+        fenceBuilder(DepED_ColoredPlanks.ORANGE_OAK_FENCE.get(), Ingredient.of(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()))
+                .unlockedBy("has_orange_oak_planks", has(DepED_ColoredPlanks.ORANGE_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "orange_oak_fence"));
+
+        fenceGateBuilder(DepED_ColoredPlanks.ORANGE_OAK_FENCE_GATE.get(), Ingredient.of(DepED_ColoredPlanks.ORANGE_OAK_PLANKS.get()))
+                .unlockedBy("has_orange_oak_planks", has(DepED_ColoredPlanks.ORANGE_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "orange_oak_fence_gate"));
+
+        //Colored Planks Recipe - Yellow
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get(), 8)
+                .pattern("PPP")
+                .pattern("PCP")
+                .pattern("PPP")
+                .define('P', Ingredient.of(ItemTags.PLANKS))
+                .define('C', Items.YELLOW_DYE)
+                .unlockedBy("has_wooden_planks", has(ItemTags.PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "yellow_oak_planks"));
+
+        stairBuilder(DepED_ColoredPlanks.YELLOW_OAK_STAIRS.get(), Ingredient.of(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()))
+                .unlockedBy("has_yellow_oak_planks", has(DepED_ColoredPlanks.YELLOW_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "yellow_oak_stairs"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.YELLOW_OAK_SLAB.get(), 6)
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.YELLOW_OAK_PLANKS)
+                .unlockedBy("has_yellow_oak_planks", has(DepED_ColoredPlanks.YELLOW_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "yellow_oak_slab"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.YELLOW_OAK_WALL.get(), 6)
+                .pattern("PPP")
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.YELLOW_OAK_PLANKS)
+                .unlockedBy("has_yellow_oak_planks", has(DepED_ColoredPlanks.YELLOW_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "yellow_oak_wall"));
+
+        fenceBuilder(DepED_ColoredPlanks.YELLOW_OAK_FENCE.get(), Ingredient.of(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()))
+                .unlockedBy("has_yellow_oak_planks", has(DepED_ColoredPlanks.YELLOW_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "yellow_oak_fence"));
+
+        fenceGateBuilder(DepED_ColoredPlanks.YELLOW_OAK_FENCE_GATE.get(), Ingredient.of(DepED_ColoredPlanks.YELLOW_OAK_PLANKS.get()))
+                .unlockedBy("has_yellow_oak_planks", has(DepED_ColoredPlanks.YELLOW_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "yellow_oak_fence_gate"));
+
+        //Colored Planks Recipe - Lime
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.LIME_OAK_PLANKS.get(), 8)
+                .pattern("PPP")
+                .pattern("PCP")
+                .pattern("PPP")
+                .define('P', Ingredient.of(ItemTags.PLANKS))
+                .define('C', Items.LIME_DYE)
+                .unlockedBy("has_wooden_planks", has(ItemTags.PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "lime_oak_planks"));
+
+        stairBuilder(DepED_ColoredPlanks.LIME_OAK_STAIRS.get(), Ingredient.of(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()))
+                .unlockedBy("has_lime_oak_planks", has(DepED_ColoredPlanks.LIME_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "lime_oak_stairs"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.LIME_OAK_SLAB.get(), 6)
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.LIME_OAK_PLANKS)
+                .unlockedBy("has_lime_oak_planks", has(DepED_ColoredPlanks.LIME_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "lime_oak_slab"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.LIME_OAK_WALL.get(), 6)
+                .pattern("PPP")
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.LIME_OAK_PLANKS)
+                .unlockedBy("has_lime_oak_planks", has(DepED_ColoredPlanks.LIME_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "lime_oak_wall"));
+
+        fenceBuilder(DepED_ColoredPlanks.LIME_OAK_FENCE.get(), Ingredient.of(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()))
+                .unlockedBy("has_lime_oak_planks", has(DepED_ColoredPlanks.LIME_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "lime_oak_fence"));
+
+        fenceGateBuilder(DepED_ColoredPlanks.LIME_OAK_FENCE_GATE.get(), Ingredient.of(DepED_ColoredPlanks.LIME_OAK_PLANKS.get()))
+                .unlockedBy("has_lime_oak_planks", has(DepED_ColoredPlanks.LIME_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "lime_oak_fence_gate"));
+
+        //Colored Planks Recipe - Green
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.GREEN_OAK_PLANKS.get(), 8)
+                .pattern("PPP")
+                .pattern("PCP")
+                .pattern("PPP")
+                .define('P', Ingredient.of(ItemTags.PLANKS))
+                .define('C', Items.GREEN_DYE)
+                .unlockedBy("has_wooden_planks", has(ItemTags.PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "green_oak_planks"));
+
+        stairBuilder(DepED_ColoredPlanks.GREEN_OAK_STAIRS.get(), Ingredient.of(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()))
+                .unlockedBy("has_green_oak_planks", has(DepED_ColoredPlanks.GREEN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "green_oak_stairs"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.GREEN_OAK_SLAB.get(), 6)
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.GREEN_OAK_PLANKS)
+                .unlockedBy("has_green_oak_planks", has(DepED_ColoredPlanks.GREEN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "green_oak_slab"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.GREEN_OAK_WALL.get(), 6)
+                .pattern("PPP")
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.GREEN_OAK_PLANKS)
+                .unlockedBy("has_green_oak_planks", has(DepED_ColoredPlanks.GREEN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "green_oak_wall"));
+
+        fenceBuilder(DepED_ColoredPlanks.GREEN_OAK_FENCE.get(), Ingredient.of(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()))
+                .unlockedBy("has_green_oak_planks", has(DepED_ColoredPlanks.GREEN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "green_oak_fence"));
+
+        fenceGateBuilder(DepED_ColoredPlanks.GREEN_OAK_FENCE_GATE.get(), Ingredient.of(DepED_ColoredPlanks.GREEN_OAK_PLANKS.get()))
+                .unlockedBy("has_green_oak_planks", has(DepED_ColoredPlanks.GREEN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "green_oak_fence_gate"));
+
+        //Colored Planks Recipe - Cyan
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.CYAN_OAK_PLANKS.get(), 8)
+                .pattern("PPP")
+                .pattern("PCP")
+                .pattern("PPP")
+                .define('P', Ingredient.of(ItemTags.PLANKS))
+                .define('C', Items.CYAN_DYE)
+                .unlockedBy("has_wooden_planks", has(ItemTags.PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "cyan_oak_planks"));
+
+        stairBuilder(DepED_ColoredPlanks.CYAN_OAK_STAIRS.get(), Ingredient.of(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()))
+                .unlockedBy("has_cyan_oak_planks", has(DepED_ColoredPlanks.CYAN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "cyan_oak_stairs"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.CYAN_OAK_SLAB.get(), 6)
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.CYAN_OAK_PLANKS)
+                .unlockedBy("has_cyan_oak_planks", has(DepED_ColoredPlanks.CYAN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "cyan_oak_slab"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_ColoredPlanks.CYAN_OAK_WALL.get(), 6)
+                .pattern("PPP")
+                .pattern("PPP")
+                .define('P', DepED_ColoredPlanks.CYAN_OAK_PLANKS)
+                .unlockedBy("has_cyan_oak_planks", has(DepED_ColoredPlanks.CYAN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "cyan_oak_wall"));
+
+        fenceBuilder(DepED_ColoredPlanks.CYAN_OAK_FENCE.get(), Ingredient.of(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()))
+                .unlockedBy("has_cyan_oak_planks", has(DepED_ColoredPlanks.CYAN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "cyan_oak_fence"));
+
+        fenceGateBuilder(DepED_ColoredPlanks.CYAN_OAK_FENCE_GATE.get(), Ingredient.of(DepED_ColoredPlanks.CYAN_OAK_PLANKS.get()))
+                .unlockedBy("has_cyan_oak_planks", has(DepED_ColoredPlanks.CYAN_OAK_PLANKS))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "cyan_oak_fence_gate"));
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

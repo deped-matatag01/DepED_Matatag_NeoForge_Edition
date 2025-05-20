@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cyan_oak_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "deped_matatag:cyan_oak_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "deped_matatag:cyan_oak_wall"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cyan_oak_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "deped_matatag:cyan_oak_wall"
+    ]
+  }
+}
