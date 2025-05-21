@@ -43,5 +43,8 @@ public class DepED_DataGenerators {
 
         //RECIPE PROVIDER
         generator.addProvider(event.includeServer(), new DepED_RecipeProvider(packOutput, lookupProvider));
+
+        //DATAPACK PROVIDER
+        generator.addProvider(event.includeServer(), new DepED_DatapackProvider(packOutput, lookupProvider));
     }
 }
