@@ -18,6 +18,10 @@ public class DepED_SoundSystem {
     public static final Supplier<SoundEvent> EAT_BULAGA_THEME_OLD = registerSoundEvent("eat_bulaga_theme_old");
     public static final ResourceKey<JukeboxSong> EAT_BULAGA_THEME_OLD_KEY = createSong("eat_bulaga_theme_old");
 
+    public static final Supplier<SoundEvent> WALTZ_OF_THE_FLOWERS = registerSoundEvent("waltz_of_the_flowers");
+    public static final ResourceKey<JukeboxSong> WALTZ_OF_THE_FLOWERS_KEY = createSong("waltz_of_the_flowers");
+
+
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(DepEDMatatagNeoForgeEdition.MOD_ID, name));

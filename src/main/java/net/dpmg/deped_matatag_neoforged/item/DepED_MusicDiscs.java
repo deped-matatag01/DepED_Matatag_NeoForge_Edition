@@ -14,6 +14,9 @@ public class DepED_MusicDiscs {
     public static final DeferredItem<Item> DISC_EAT_BULAGA = DPMG_MUSIC_DISCS.register("disc_eat_bulaga", () -> new Item(new Item.Properties()
             .jukeboxPlayable(DepED_SoundSystem.EAT_BULAGA_THEME_OLD_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
+    public static final DeferredItem<Item> DISC_WALTZ_OF_THE_FLOWERS = DPMG_MUSIC_DISCS.register("disc_waltz_of_the_flowers", () -> new Item(new Item.Properties()
+            .jukeboxPlayable(DepED_SoundSystem.WALTZ_OF_THE_FLOWERS_KEY).stacksTo(1).rarity(Rarity.RARE)));
+
 
     public static void registerDPMG_MusicDiscs(IEventBus eventBus) {
         DPMG_MUSIC_DISCS.register(eventBus);
