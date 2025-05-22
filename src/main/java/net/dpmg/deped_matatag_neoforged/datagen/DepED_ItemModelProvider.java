@@ -6,6 +6,7 @@ import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
+import net.dpmg.deped_matatag_neoforged.item.DepED_MusicDiscs;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
@@ -20,6 +21,9 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        //DepED SoundSystem
+        basicItem(DepED_MusicDiscs.DISC_EAT_BULAGA.get());
 
         //DepED Core Items
         basicItem(DepED_CoreItems.DEPED_CORE.get());

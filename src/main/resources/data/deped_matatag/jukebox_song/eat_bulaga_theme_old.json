@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.deped_matatag.disc_eat_bulaga.desc"
+  },
+  "length_in_seconds": 133.25,
+  "sound_event": "deped_matatag:eat_bulaga_theme_old"
+}

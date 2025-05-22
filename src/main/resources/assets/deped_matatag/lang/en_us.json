@@ -151,6 +151,9 @@
   "block.deped_matatag.raw_gmaths_block": "Raw GMATHS Block",
   "block.deped_matatag.raw_gmanhs_block": "Raw GMANHS Block",
 
+  "item.deped_matatag.disc_eat_bulaga": "Music Disc",
+  "item.deped_matatag.disc_eat_bulaga.desc": "Eat Bulaga Theme (Old Version) · Eat Bulaga Dabarkads",
+
   "item.deped_matatag.raw_deped": "Raw DepED",
   "item.deped_matatag.deped_ingot": "DepED Ingot",
   "item.deped_matatag.deped_nugget": "DepED Nugget",

@@ -1,0 +1,10 @@
+{
+  "eat_bulaga_theme_old": {
+    "sounds": [
+      {
+        "name": "deped_matatag:eat_bulaga_theme_old",
+        "stream": true
+      }
+    ]
+  }
+}
