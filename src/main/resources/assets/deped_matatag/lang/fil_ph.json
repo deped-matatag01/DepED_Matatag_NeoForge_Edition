@@ -150,6 +150,13 @@
   "block.deped_matatag.raw_gmaths_block": "Blokeng Hilaw na Mineral ng GMATHS",
   "block.deped_matatag.raw_gmanhs_block": "Blokeng Hilaw na Mineral ng GMANHS",
 
+  "item.deped_matatag.disc_eat_bulaga": "Diskong Pangmusika",
+  "item.deped_matatag.disc_eat_bulaga.desc": "Eat Bulaga Theme (Old Version) · Eat Bulaga Dabarkads",
+  "item.deped_matatag.disc_waltz_of_the_flowers": "Diskong Pangmusika",
+  "item.deped_matatag.disc_waltz_of_the_flowers.desc": "Tchaikovsky · Waltz of the Flowers",
+  "item.deped_matatag.disc_disco_ghostmix_2000": "Diskong Pangmusika",
+  "item.deped_matatag.disc_disco_ghostmix_2000.desc": "VIRTUAL DJ · Disco Ghostmix 2000",
+
   "item.deped_matatag.raw_deped": "Hilaw na Mineral ng DepED",
   "item.deped_matatag.deped_ingot": "Lingoteng DepED",
   "item.deped_matatag.deped_nugget": "Pirasong DepED",

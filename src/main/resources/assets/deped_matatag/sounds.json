@@ -14,5 +14,13 @@
         "stream": true
       }
     ]
+  },
+  "disco_ghostmix_2000": {
+    "sounds": [
+      {
+        "name": "deped_matatag:disco_ghostmix_2000",
+        "stream": true
+      }
+    ]
   }
 }

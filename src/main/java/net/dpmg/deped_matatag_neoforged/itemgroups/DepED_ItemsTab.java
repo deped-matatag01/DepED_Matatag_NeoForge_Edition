@@ -25,6 +25,7 @@ public class DepED_ItemsTab {
                     //DepED SoundSystem
                     output.accept(DepED_MusicDiscs.DISC_EAT_BULAGA);
                     output.accept(DepED_MusicDiscs.DISC_WALTZ_OF_THE_FLOWERS);
+                    output.accept(DepED_MusicDiscs.DISC_DISCO_GHOSTMIX_2000);
 
                     //DepED Mineral Items
                     output.accept(DepED_MineralItems.RAW_DEPED);

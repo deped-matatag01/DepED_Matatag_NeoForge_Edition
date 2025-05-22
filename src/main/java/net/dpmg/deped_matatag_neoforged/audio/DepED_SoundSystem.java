@@ -21,6 +21,9 @@ public class DepED_SoundSystem {
     public static final Supplier<SoundEvent> WALTZ_OF_THE_FLOWERS = registerSoundEvent("waltz_of_the_flowers");
     public static final ResourceKey<JukeboxSong> WALTZ_OF_THE_FLOWERS_KEY = createSong("waltz_of_the_flowers");
 
+    public static final Supplier<SoundEvent> DISCO_GHOSTMIX_2000 = registerSoundEvent("disco_ghostmix_2000");
+    public static final ResourceKey<JukeboxSong> DISCO_GHOSTMIX_2000_KEY = createSong("disco_ghostmix_2000");
+
 
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
