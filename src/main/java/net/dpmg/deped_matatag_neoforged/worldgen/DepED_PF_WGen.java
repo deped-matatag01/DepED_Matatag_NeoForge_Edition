@@ -24,13 +24,13 @@ public class DepED_PF_WGen {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, DEPED_ORE_OVERWORLD_PLACED_KEY, configuredFeatures.getOrThrow(DepED_CF_WGen.DEPED_ORE_OVERWOLD_KEY),
-                ModOrePlacement.commonOrePlacement(20, HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(70))));
+                ModOrePlacement.commonOrePlacement(21, HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(70))));
 
         register(context, GMATHS_ORE_OVERWORLD_PLACED_KEY, configuredFeatures.getOrThrow(DepED_CF_WGen.GMATHS_ORE_OVERWOLD_KEY),
-                ModOrePlacement.commonOrePlacement(10, HeightRangePlacement.uniform(VerticalAnchor.absolute(-27), VerticalAnchor.absolute(24))));
+                ModOrePlacement.commonOrePlacement(14, HeightRangePlacement.uniform(VerticalAnchor.absolute(-27), VerticalAnchor.absolute(24))));
 
         register(context, GMANHS_ORE_OVERWORLD_PLACED_KEY, configuredFeatures.getOrThrow(DepED_CF_WGen.GMANHS_ORE_OVERWOLD_KEY),
-                ModOrePlacement.commonOrePlacement(5, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(12))));
+                ModOrePlacement.commonOrePlacement(7, HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(12))));
 
     }
 
