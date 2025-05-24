@@ -188,6 +188,9 @@ public class DepED_BlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(DepED_BlockPlaceables.THE_GMATHS_TORCH.get());
         dropSelf(DepED_BlockPlaceables.YES_O.get());
 
+        dropSelf(DepED_BlockPlaceables.SUGARCANE_BLOCK.get());
+        dropSelf(DepED_BlockPlaceables.BAKED_SUGARCANE_BLOCK.get());
+
         //DepED OreSector - Raw Materials
         dropSelf(DepED_OreSector.RAW_DEPED_BLOCK.get());
         dropSelf(DepED_OreSector.RAW_GMATHS_BLOCK.get());

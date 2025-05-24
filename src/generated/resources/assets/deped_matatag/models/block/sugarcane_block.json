@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "deped_matatag:block/sugarcane_block"
+  }
+}

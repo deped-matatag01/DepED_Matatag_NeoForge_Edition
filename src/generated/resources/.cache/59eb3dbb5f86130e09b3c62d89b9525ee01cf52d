@@ -1,4 +1,5 @@
-// 1.21.1	2025-05-20T20:03:13.8791489	Loot Tables
+// 1.21.1	2025-05-24T13:18:35.819982	Loot Tables
+6725b711c6f9bc2cc0110925a789e00b246400e5 data/deped_matatag/loot_table/blocks/baked_sugarcane_block.json
 fdee7350fd0c57e9c1c7c0411a8c38e9914da796 data/deped_matatag/loot_table/blocks/black_oak_fence.json
 ca6bf50785df8e8fa6a00d7f6790927c60f8807c data/deped_matatag/loot_table/blocks/black_oak_fence_gate.json
 c80ee167b469ebe41a12d88a136e0d1765830e13 data/deped_matatag/loot_table/blocks/black_oak_planks.json
@@ -110,6 +111,7 @@ f1008650058540a764768e0e6a6d97a36ca43b65 data/deped_matatag/loot_table/blocks/si
 698b55110325bc6c4f597781b20a6af27c8c6ba5 data/deped_matatag/loot_table/blocks/sjchs_slab.json
 8483873768954e6cc4b7a281de91b66083f2d17e data/deped_matatag/loot_table/blocks/sjchs_stairs.json
 7c4735e0eab4c73a0dfb6eeca4cc3248ef6ff626 data/deped_matatag/loot_table/blocks/sjchs_wall.json
+e3634930fa38f5628d3fb306a39a3b48ab84b394 data/deped_matatag/loot_table/blocks/sugarcane_block.json
 376ca898a2fb9e7600cf3239840a0d8e878acd40 data/deped_matatag/loot_table/blocks/the_gmaths_torch.json
 58105bd25f5a94ce4f3bd10c1d6a8bc12202d1a2 data/deped_matatag/loot_table/blocks/white_oak_fence.json
 3f7b96564c9b9ebf69feda7a31849d8d00cbc9b4 data/deped_matatag/loot_table/blocks/white_oak_fence_gate.json

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "baked_sugarcane_block",
+  "ingredient": {
+    "item": "deped_matatag:sugarcane_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "deped_matatag:baked_sugarcane_block"
+  }
+}

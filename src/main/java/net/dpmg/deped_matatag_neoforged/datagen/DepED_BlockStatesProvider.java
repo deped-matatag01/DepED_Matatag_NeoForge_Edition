@@ -5,6 +5,8 @@ import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -251,6 +253,9 @@ public class DepED_BlockStatesProvider extends BlockStateProvider {
         DPMG_BlockWithItem(DepED_BlockPlaceables.SIR_ELIE_BLOCK_BODY);
         DPMG_BlockWithItem(DepED_BlockPlaceables.THE_GMATHS_TORCH);
         DPMG_BlockWithItem(DepED_BlockPlaceables.YES_O);
+
+        DPMG_BlockWithItem(DepED_BlockPlaceables.SUGARCANE_BLOCK);
+        DPMG_BlockWithItem(DepED_BlockPlaceables.BAKED_SUGARCANE_BLOCK);
 
         //DepED_OreSector - Ores
         DPMG_BlockWithItem(DepED_OreSector.DEPED_ORE);

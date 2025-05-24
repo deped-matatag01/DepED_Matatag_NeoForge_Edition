@@ -65,6 +65,12 @@ public class DepED_BlockPlaceables {
     public static final DeferredBlock<Block> YES_O = registerDepED_Blocks("yes_o", () -> new Block(BlockBehaviour.Properties.of()
             .strength(0.8f, 1.5f).sound(SoundType.CHERRY_LEAVES)));
 
+    //Custom
+    public static final DeferredBlock<Block> SUGARCANE_BLOCK = registerDepED_Blocks("sugarcane_block", () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.9f, 1f).sound(SoundType.GRASS)));
+    public static final DeferredBlock<Block> BAKED_SUGARCANE_BLOCK = registerDepED_Blocks("baked_sugarcane_block", () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.9f, 1f).sound(SoundType.GRASS)));
+
     private static <T extends Block> DeferredBlock<T> registerDepED_Blocks(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = DEPED_BLOCKS.register(name, block);
         registerDepED_BlockItem(name, toReturn);

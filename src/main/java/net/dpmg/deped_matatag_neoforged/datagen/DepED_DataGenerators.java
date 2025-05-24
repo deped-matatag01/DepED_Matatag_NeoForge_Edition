@@ -32,6 +32,7 @@ public class DepED_DataGenerators {
 
         //BLOCKSTATES AND ITEM MODEL PROVIDER
         generator.addProvider(event.includeClient(), new DepED_BlockStatesProvider(packOutput, existingFileHelper));
+
         generator.addProvider(event.includeClient(), new DepED_ItemModelProvider(packOutput, existingFileHelper));
 
         //BLOCKTAGS PROVIDER

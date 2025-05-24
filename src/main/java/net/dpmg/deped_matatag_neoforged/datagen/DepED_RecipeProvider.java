@@ -293,6 +293,27 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .save(recipeOutput, "deped_matatag:sjchs_wall_from_stonecutting");
 
         //DepED_BlockPlaceables - Misc
+
+        //Sugarcane Misc
+        List<ItemLike> SUGARCANE_COOKING = List.of(
+                DepED_BlockPlaceables.SUGARCANE_BLOCK);
+
+        oreSmelting(recipeOutput, SUGARCANE_COOKING, RecipeCategory.MISC, DepED_BlockPlaceables.BAKED_SUGARCANE_BLOCK.get(), 1f, 200, "baked_sugarcane_block");
+        oreSmoking(recipeOutput, SUGARCANE_COOKING, RecipeCategory.MISC, DepED_BlockPlaceables.BAKED_SUGARCANE_BLOCK.get(), 1f, 100, "baked_sugarcane_block");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.SUGAR_CANE, 9)
+                .requires(DepED_BlockPlaceables.SUGARCANE_BLOCK)
+                .unlockedBy("has_sugar_cane", has(Items.SUGAR_CANE))
+                .save(recipeOutput, "deped_matatag:sugar_cane_from_sugarcane_block");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_BlockPlaceables.SUGARCANE_BLOCK.get())
+                .pattern("GGG")
+                .pattern("GGG")
+                .pattern("GGG")
+                .define('G', Items.SUGAR_CANE)
+                .unlockedBy("has_sugarcane_block", has(DepED_BlockPlaceables.SUGARCANE_BLOCK))
+                .save(recipeOutput, "deped_matatag:sugarcane_block_from_sugar_cane");
+
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SIR_ELIE_BLOCK.get(), 6)
                 .pattern("WSW")
                 .pattern("SCS")
@@ -1229,6 +1250,12 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                                       float pExperience, int pCookingTIme, String pGroup) {
         oreCooking(recipeOutput, RecipeSerializer.SMELTING_RECIPE, SmeltingRecipe::new, pIngredients, pCategory, pResult,
                 pExperience, pCookingTIme, pGroup, "_from_smelting");
+    }
+
+    protected static void oreSmoking(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
+                                      float pExperience, int pCookingTIme, String pGroup) {
+        oreCooking(recipeOutput, RecipeSerializer.SMOKING_RECIPE, SmokingRecipe::new, pIngredients, pCategory, pResult,
+                pExperience, pCookingTIme, pGroup, "_from_smoking");
     }
 
     protected static void oreBlasting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

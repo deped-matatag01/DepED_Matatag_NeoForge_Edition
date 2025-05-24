@@ -312,7 +312,9 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
                 .add(DepED_OreSector.RAW_GMANHS_BLOCK.get());
 
         tag(BlockTags.MINEABLE_WITH_HOE)
-                .add(DepED_BlockPlaceables.YES_O.get());
+                .add(DepED_BlockPlaceables.YES_O.get())
+                .add(DepED_BlockPlaceables.SUGARCANE_BLOCK.get())
+                .add(DepED_BlockPlaceables.BAKED_SUGARCANE_BLOCK.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 //DepED_BlockPlaceables - DepED Variants

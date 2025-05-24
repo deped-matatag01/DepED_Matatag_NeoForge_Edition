@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "baked_sugarcane_block",
+  "ingredient": {
+    "item": "deped_matatag:sugarcane_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "deped_matatag:baked_sugarcane_block"
+  }
+}

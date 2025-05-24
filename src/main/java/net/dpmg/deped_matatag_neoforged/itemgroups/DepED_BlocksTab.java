@@ -63,6 +63,10 @@ public class DepED_BlocksTab {
                     output.accept(DepED_BlockPlaceables.THE_GMATHS_TORCH);
                     output.accept(DepED_BlockPlaceables.YES_O);
 
+                    //Custom
+                    output.accept(DepED_BlockPlaceables.SUGARCANE_BLOCK);
+                    output.accept(DepED_BlockPlaceables.BAKED_SUGARCANE_BLOCK);
+
                     }).build());
 
     public static void registerDPMG_BlocksTabs(IEventBus eventBus) {
