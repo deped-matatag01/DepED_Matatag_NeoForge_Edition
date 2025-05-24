@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deped_matatag:baked_sugarcane_block"
+    }
+  ],
+  "result": {
+    "count": 27,
+    "id": "minecraft:sugar"
+  }
+}

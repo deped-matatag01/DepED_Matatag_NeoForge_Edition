@@ -5,8 +5,6 @@ import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.minecraft.data.PackOutput;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;

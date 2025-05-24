@@ -306,6 +306,11 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .unlockedBy("has_sugar_cane", has(Items.SUGAR_CANE))
                 .save(recipeOutput, "deped_matatag:sugar_cane_from_sugarcane_block");
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.SUGAR, 27)
+                .requires(DepED_BlockPlaceables.BAKED_SUGARCANE_BLOCK)
+                .unlockedBy("has_baked_sugarcane_block", has(DepED_BlockPlaceables.BAKED_SUGARCANE_BLOCK))
+                .save(recipeOutput, "deped_matatag:sugar_from_baked_sugarcane_block");
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_BlockPlaceables.SUGARCANE_BLOCK.get())
                 .pattern("GGG")
                 .pattern("GGG")
