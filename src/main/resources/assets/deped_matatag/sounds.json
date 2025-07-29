@@ -22,5 +22,13 @@
         "stream": true
       }
     ]
+  },
+  "whatever_we_imagine": {
+    "sounds": [
+      {
+        "name": "deped_matatag:whatever_we_imagine",
+        "stream": true
+      }
+    ]
   }
 }

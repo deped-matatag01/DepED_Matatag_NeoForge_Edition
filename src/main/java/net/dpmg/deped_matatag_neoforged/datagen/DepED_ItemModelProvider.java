@@ -26,6 +26,7 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         basicItem(DepED_MusicDiscs.DISC_EAT_BULAGA.get());
         basicItem(DepED_MusicDiscs.DISC_WALTZ_OF_THE_FLOWERS.get());
         basicItem(DepED_MusicDiscs.DISC_DISCO_GHOSTMIX_2000.get());
+        basicItem(DepED_MusicDiscs.DISC_WHATEVER_WE_IMAGINE.get());
 
         //DepED Core Items
         basicItem(DepED_CoreItems.DEPED_CORE.get());
