@@ -23,6 +23,11 @@ public class DepED_MusicDiscs {
     public static final DeferredItem<Item> DISC_WHATEVER_WE_IMAGINE = DPMG_MUSIC_DISCS.register("disc_whatever_we_imagine", () -> new Item(new Item.Properties()
             .jukeboxPlayable(DepED_SoundSystem.WHATEVER_WE_IMAGINE_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
+    public static final DeferredItem<Item> DISC_UPHS_UNIVERSITY_HYMN = DPMG_MUSIC_DISCS.register("disc_uphs_unversity_hymn", () -> new Item(new Item.Properties()
+            .jukeboxPlayable(DepED_SoundSystem.UPHS_UNIVERSITY_HYMN_KEY).stacksTo(1)));
+
+    public static final DeferredItem<Item> DISC_MUSIC_ALWAYS = DPMG_MUSIC_DISCS.register("disc_music_always", () -> new Item(new Item.Properties()
+            .jukeboxPlayable(DepED_SoundSystem.MUSIC_ALWAYS_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
     public static void registerDPMG_MusicDiscs(IEventBus eventBus) {
         DPMG_MUSIC_DISCS.register(eventBus);

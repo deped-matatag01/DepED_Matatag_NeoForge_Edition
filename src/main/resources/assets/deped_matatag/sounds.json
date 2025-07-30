@@ -30,5 +30,21 @@
         "stream": true
       }
     ]
+  },
+  "uphs_university_hymn": {
+    "sounds": [
+      {
+        "name": "deped_matatag:uphs_university_hymn",
+        "stream": true
+      }
+    ]
+  },
+  "music_always": {
+    "sounds": [
+      {
+        "name": "deped_matatag:music_always",
+        "stream": true
+      }
+    ]
   }
 }
