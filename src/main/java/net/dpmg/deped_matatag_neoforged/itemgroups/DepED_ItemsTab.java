@@ -1,10 +1,7 @@
 package net.dpmg.deped_matatag_neoforged.itemgroups;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
-import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
-import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
-import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
-import net.dpmg.deped_matatag_neoforged.item.DepED_MusicDiscs;
+import net.dpmg.deped_matatag_neoforged.item.*;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +18,11 @@ public class DepED_ItemsTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(DepED_CoreItems.DEPED_CORE.get()))
                     .title(Component.translatable("creativemodetabs.deped_matatag.deped_matatag_items"))
                     .displayItems((itemDisplayParameters, output) -> {
+
+                    output.accept(DepED_Weaponries.DEPED_HELMET);
+                    output.accept(DepED_Weaponries.DEPED_CHESTPLATE);
+                    output.accept(DepED_Weaponries.DEPED_LEGGINGS);
+                    output.accept(DepED_Weaponries.DEPED_BOOTS);
 
                     //DepED SoundSystem
                     output.accept(DepED_MusicDiscs.DISC_EAT_BULAGA);

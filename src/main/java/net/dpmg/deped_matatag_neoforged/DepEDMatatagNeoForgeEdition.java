@@ -4,10 +4,7 @@ import net.dpmg.deped_matatag_neoforged.audio.DepED_SoundSystem;
 import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
-import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
-import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
-import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
-import net.dpmg.deped_matatag_neoforged.item.DepED_MusicDiscs;
+import net.dpmg.deped_matatag_neoforged.item.*;
 import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_BlocksTab;
 import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_ColoredPlanksTab;
 import net.dpmg.deped_matatag_neoforged.itemgroups.DepED_ItemsTab;
@@ -55,6 +52,7 @@ public class DepEDMatatagNeoForgeEdition {
         DepED_CoreUpgrades.registerDPMG_CoreUpgrades(modEventBus);
         DepED_MineralItems.registerDPMG_MineralItems(modEventBus);
         DepED_MusicDiscs.registerDPMG_MusicDiscs(modEventBus);
+        DepED_Weaponries.registerDPMG_Weaponries(modEventBus);
 
         //DepED_CustomTags
         DepED_SoundSystem.register_DPMGSoundSystem(modEventBus);

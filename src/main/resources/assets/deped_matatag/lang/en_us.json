@@ -153,6 +153,11 @@
   "block.deped_matatag.raw_gmaths_block": "Raw GMATHS Block",
   "block.deped_matatag.raw_gmanhs_block": "Raw GMANHS Block",
 
+  "item.deped_matatag.deped_helmet": "DepED Helmet",
+  "item.deped_matatag.deped_chestplate": "DepED Chestplate",
+  "item.deped_matatag.deped_leggings": "DepED Leggings",
+  "item.deped_matatag.deped_boots": "DepED Boots",
+
   "item.deped_matatag.disc_eat_bulaga": "Music Disc",
   "item.deped_matatag.disc_eat_bulaga.desc": "Eat Bulaga Theme (Old Version) · Eat Bulaga Dabarkads",
   "item.deped_matatag.disc_waltz_of_the_flowers": "Music Disc",

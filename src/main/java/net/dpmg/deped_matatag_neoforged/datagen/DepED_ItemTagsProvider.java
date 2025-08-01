@@ -2,6 +2,7 @@ package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
 import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
+import net.dpmg.deped_matatag_neoforged.item.DepED_Weaponries;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
@@ -34,6 +35,25 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+
+        //Tools and Armor Weaponries Tagging
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(DepED_Weaponries.DEPED_HELMET.get())
+                .add(DepED_Weaponries.DEPED_CHESTPLATE.get())
+                .add(DepED_Weaponries.DEPED_LEGGINGS.get())
+                .add(DepED_Weaponries.DEPED_BOOTS.get());
+
+        this.tag(ItemTags.HEAD_ARMOR)
+                .add(DepED_Weaponries.DEPED_HELMET.get());
+
+        this.tag(ItemTags.CHEST_ARMOR)
+                .add(DepED_Weaponries.DEPED_CHESTPLATE.get());
+
+        this.tag(ItemTags.LEG_ARMOR)
+                .add(DepED_Weaponries.DEPED_LEGGINGS.get());
+
+        this.tag(ItemTags.FOOT_ARMOR)
+                .add(DepED_Weaponries.DEPED_BOOTS.get());
 
         tag(ItemTags.PLANKS)
                 .add(DepED_ColoredPlanks.WHITE_OAK_PLANKS.asItem())

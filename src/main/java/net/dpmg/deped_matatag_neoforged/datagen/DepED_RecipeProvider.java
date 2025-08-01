@@ -7,6 +7,7 @@ import net.dpmg.deped_matatag_neoforged.block.DepED_OreSector;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreItems;
 import net.dpmg.deped_matatag_neoforged.item.DepED_CoreUpgrades;
 import net.dpmg.deped_matatag_neoforged.item.DepED_MineralItems;
+import net.dpmg.deped_matatag_neoforged.item.DepED_Weaponries;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -291,6 +292,37 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(DepED_BlockPlaceables.SJCHS_BLOCK), RecipeCategory.BUILDING_BLOCKS, DepED_BlockPlaceables.SJCHS_WALL)
                 .unlockedBy("has_sjchs_block", has(DepED_BlockPlaceables.SJCHS_BLOCK))
                 .save(recipeOutput, "deped_matatag:sjchs_wall_from_stonecutting");
+
+        //Armors
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, DepED_Weaponries.DEPED_HELMET.get())
+                .pattern("QQQ")
+                .pattern("Q Q")
+                .define('Q', DepED_MineralItems.DEPED_INGOT)
+                .unlockedBy("has_deped_ingot", has(DepED_MineralItems.DEPED_INGOT))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "armor_deped_helmet"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, DepED_Weaponries.DEPED_CHESTPLATE.get())
+                .pattern("Q Q")
+                .pattern("QQQ")
+                .pattern("QQQ")
+                .define('Q', DepED_MineralItems.DEPED_INGOT)
+                .unlockedBy("has_deped_ingot", has(DepED_MineralItems.DEPED_INGOT))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "armor_deped_chestplate"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, DepED_Weaponries.DEPED_LEGGINGS.get())
+                .pattern("QQQ")
+                .pattern("Q Q")
+                .pattern("Q Q")
+                .define('Q', DepED_MineralItems.DEPED_INGOT)
+                .unlockedBy("has_deped_ingot", has(DepED_MineralItems.DEPED_INGOT))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "armor_deped_leggings"));
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, DepED_Weaponries.DEPED_BOOTS.get())
+                .pattern("Q Q")
+                .pattern("Q Q")
+                .define('Q', DepED_MineralItems.DEPED_INGOT)
+                .unlockedBy("has_deped_ingot", has(DepED_MineralItems.DEPED_INGOT))
+                .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "armor_deped_boots"));
 
         //DepED_BlockPlaceables - Misc
 
