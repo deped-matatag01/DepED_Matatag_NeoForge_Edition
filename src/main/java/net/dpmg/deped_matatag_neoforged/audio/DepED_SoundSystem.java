@@ -22,6 +22,7 @@ public class DepED_SoundSystem {
     public static final Supplier<SoundEvent> WHATEVER_WE_IMAGINE = registerSoundEvent("whatever_we_imagine");
     public static final Supplier<SoundEvent> UPHS_UNIVERSITY_HYMN = registerSoundEvent("uphs_university_hymn");
     public static final Supplier<SoundEvent> MUSIC_ALWAYS = registerSoundEvent("music_always");
+    public static final Supplier<SoundEvent> MUSIC_SSAB = registerSoundEvent("music_ssab");
 
     //RESOURCEKEYS
     public static final ResourceKey<JukeboxSong> EAT_BULAGA_THEME_OLD_KEY = createSong("eat_bulaga_theme_old");
@@ -30,7 +31,7 @@ public class DepED_SoundSystem {
     public static final ResourceKey<JukeboxSong> WHATEVER_WE_IMAGINE_KEY = createSong("whatever_we_imagine");
     public static final ResourceKey<JukeboxSong> UPHS_UNIVERSITY_HYMN_KEY = createSong("uphs_university_hymn");
     public static final ResourceKey<JukeboxSong> MUSIC_ALWAYS_KEY = createSong("music_always");
-
+    public static final ResourceKey<JukeboxSong> MUSIC_SSAB_KEY = createSong("music_ssab");
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(DepEDMatatagNeoForgeEdition.MOD_ID, name));

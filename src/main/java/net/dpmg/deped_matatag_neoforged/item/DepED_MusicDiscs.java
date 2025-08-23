@@ -29,6 +29,9 @@ public class DepED_MusicDiscs {
     public static final DeferredItem<Item> DISC_MUSIC_ALWAYS = DPMG_MUSIC_DISCS.register("disc_music_always", () -> new Item(new Item.Properties()
             .jukeboxPlayable(DepED_SoundSystem.MUSIC_ALWAYS_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
+    public static final DeferredItem<Item> DISC_MUSIC_SSAB = DPMG_MUSIC_DISCS.register("disc_music_ssab", () -> new Item(new Item.Properties()
+            .jukeboxPlayable(DepED_SoundSystem.MUSIC_SSAB_KEY).stacksTo(1).rarity(Rarity.EPIC)));
+
     public static void registerDPMG_MusicDiscs(IEventBus eventBus) {
         DPMG_MUSIC_DISCS.register(eventBus);
     }

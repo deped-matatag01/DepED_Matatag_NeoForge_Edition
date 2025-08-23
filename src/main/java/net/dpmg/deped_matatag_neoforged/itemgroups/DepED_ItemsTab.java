@@ -19,6 +19,7 @@ public class DepED_ItemsTab {
                     .title(Component.translatable("creativemodetabs.deped_matatag.deped_matatag_items"))
                     .displayItems((itemDisplayParameters, output) -> {
 
+                    //DepED Tools
                     output.accept(DepED_Weaponries.DEPED_HELMET);
                     output.accept(DepED_Weaponries.DEPED_CHESTPLATE);
                     output.accept(DepED_Weaponries.DEPED_LEGGINGS);
@@ -31,6 +32,7 @@ public class DepED_ItemsTab {
                     output.accept(DepED_MusicDiscs.DISC_WHATEVER_WE_IMAGINE);
                     output.accept(DepED_MusicDiscs.DISC_UPHS_UNIVERSITY_HYMN);
                     output.accept(DepED_MusicDiscs.DISC_MUSIC_ALWAYS);
+                    output.accept(DepED_MusicDiscs.DISC_MUSIC_SSAB);
 
                     //DepED Mineral Items
                     output.accept(DepED_MineralItems.RAW_DEPED);

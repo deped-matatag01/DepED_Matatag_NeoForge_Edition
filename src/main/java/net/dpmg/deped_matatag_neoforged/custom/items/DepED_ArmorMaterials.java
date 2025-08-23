@@ -22,16 +22,16 @@ public class DepED_ArmorMaterials {
 
     public static final Holder<ArmorMaterial> DEPED_ARMOR_MATERIAL = DPMG_ArmorMaterials("deped", Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
         attribute.put(ArmorItem.Type.HELMET, 3);
-        attribute.put(ArmorItem.Type.CHESTPLATE, 6);
-        attribute.put(ArmorItem.Type.LEGGINGS, 7);
-        attribute.put(ArmorItem.Type.BOOTS, 3);
-        attribute.put(ArmorItem.Type.BODY, 6);
-    }), 10, 0F, 0F, () -> DepED_MineralItems.DEPED_INGOT.get());
+        attribute.put(ArmorItem.Type.CHESTPLATE, 7);
+        attribute.put(ArmorItem.Type.LEGGINGS, 6);
+        attribute.put(ArmorItem.Type.BOOTS, 2);
+        attribute.put(ArmorItem.Type.BODY, 7);
+    }), 15, 1.25F, 0F, () -> DepED_MineralItems.DEPED_INGOT.get(), SoundEvents.ARMOR_EQUIP_IRON);
 
     private static Holder<ArmorMaterial> DPMG_ArmorMaterials(String name, EnumMap<ArmorItem.Type, Integer> typeProtection, int enchantability, float toughness, float knockbackResistance,
-                                                                    Supplier<Item> ingredientItem) {
+                                                                    Supplier<Item> ingredientItem, Holder<SoundEvent> equipSound) {
+
         ResourceLocation location = ResourceLocation.fromNamespaceAndPath(DepEDMatatagNeoForgeEdition.MOD_ID, name);
-        Holder<SoundEvent> equipSound = SoundEvents.ARMOR_EQUIP_NETHERITE;
         Supplier<Ingredient> ingredient = () -> Ingredient.of(ingredientItem.get());
         List<ArmorMaterial.Layer> layers = List.of(new ArmorMaterial.Layer(location));
 
@@ -40,8 +40,8 @@ public class DepED_ArmorMaterials {
             typeMap.put(type, typeProtection.get(type));
         }
 
-        return Registry.registerForHolder(BuiltInRegistries.ARMOR_MATERIAL, location, new ArmorMaterial(typeProtection, enchantability, equipSound, ingredient,
-                layers, toughness, knockbackResistance));
+        return Registry.registerForHolder(BuiltInRegistries.ARMOR_MATERIAL, location, new
+                ArmorMaterial(typeProtection, enchantability, equipSound, ingredient, layers, toughness, knockbackResistance));
 
     }
 }

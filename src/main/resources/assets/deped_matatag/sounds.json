@@ -46,5 +46,13 @@
         "stream": true
       }
     ]
+  },
+  "music_ssab": {
+    "sounds": [
+      {
+        "name": "deped_matatag:music_ssab",
+        "stream": true
+      }
+    ]
   }
 }

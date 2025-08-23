@@ -1,7 +1,7 @@
 {
   "creativemodetabs.deped_matatag.deped_matatag_items": "DepED Matatag - Items",
   "creativemodetabs.deped_matatag.deped_matatag_blocks": "DepED Matatag - Blocks",
-  "creativemodetabs.deped_matatag.deped_matatag_colored_planks": "DepED_Matatag - Colored Planks",
+  "creativemodetabs.deped_matatag.deped_matatag_colored_planks": "DepED Matatag - Colored Planks",
 
   "block.deped_matatag.white_oak_planks": "White Oak Planks",
   "block.deped_matatag.white_oak_stairs": "White Oak Stairs",
@@ -170,6 +170,8 @@
   "item.deped_matatag.disc_uphs_unversity_hymn.desc": "UPHSJ Hymn - Perpetual Help Hymn",
   "item.deped_matatag.disc_music_always": "Music Disc",
   "item.deped_matatag.disc_music_always.desc": "Atlantic Starr - Always (EXTENDED MIX By Extended Music Play)",
+  "item.deped_matatag.disc_music_ssab": "Music Disc",
+  "item.deped_matatag.disc_music_ssab.desc": "Sayaw sa Bangko (12-ICT1 - Spectrolite)",
 
   "item.deped_matatag.raw_deped": "Raw DepED",
   "item.deped_matatag.deped_ingot": "DepED Ingot",
@@ -229,5 +231,7 @@
   "painting.deped_matatag.huawei_01.title": "Huawei 01",
   "painting.deped_matatag.huawei_01.author": "Unknown Author (Shot on Huawei Nova 5T)",
   "painting.deped_matatag.gmaths_2025-2026_banner.title": "GMATHS 2025-2026 Banner",
-  "painting.deped_matatag.gmaths_2025-2026_banner.author": "Mr. Lorenzo Inofre"
+  "painting.deped_matatag.gmaths_2025-2026_banner.author": "Mr. Lorenzo Inofre",
+  "painting.deped_matatag.vote_for_saints.title": "Vote for Saints! Vote for Saints! Vote for Saints!",
+  "painting.deped_matatag.vote_for_saints.author": "MAKE PERPETUALITE GREAT AGAIN"
 }
