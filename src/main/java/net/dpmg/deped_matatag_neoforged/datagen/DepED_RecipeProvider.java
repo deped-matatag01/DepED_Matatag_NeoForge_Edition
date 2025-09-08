@@ -661,7 +661,7 @@ public class DepED_RecipeProvider extends RecipeProvider implements IConditionBu
                 .unlockedBy("has_kva_sbo_core", has(DepED_CoreItems.KVA_SBO_CORE))
                 .save(recipeOutput, ResourceLocation.fromNamespaceAndPath("deped_matatag", "kva_sbo_core_upgrade_tier_6_recipe"));
 
-        //Core Upgrades - KVA SBO Core Upgrades
+        //Core Upgrades - UPHG CCS Core Upgrades
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, DepED_CoreUpgrades.UPHG_CCS_CORE_UPGRADE_TIER_1, 2)
                 .pattern("MSM")
                 .pattern("SCS")
