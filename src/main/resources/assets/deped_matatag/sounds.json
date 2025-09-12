@@ -54,5 +54,13 @@
         "stream": true
       }
     ]
+  },
+  "music_palarong_pambansa": {
+    "sounds": [
+      {
+        "name": "deped_matatag:music_palarong_pambansa",
+        "stream": true
+      }
+    ]
   }
 }

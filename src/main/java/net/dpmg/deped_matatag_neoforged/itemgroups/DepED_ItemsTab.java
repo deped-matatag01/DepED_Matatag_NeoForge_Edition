@@ -33,6 +33,7 @@ public class DepED_ItemsTab {
                     output.accept(DepED_MusicDiscs.DISC_UPHS_UNIVERSITY_HYMN);
                     output.accept(DepED_MusicDiscs.DISC_MUSIC_ALWAYS);
                     output.accept(DepED_MusicDiscs.DISC_MUSIC_SSAB);
+                    output.accept(DepED_MusicDiscs.DISC_PALARONG_PAMBANSA);
 
                     //DepED Mineral Items
                     output.accept(DepED_MineralItems.RAW_DEPED);
