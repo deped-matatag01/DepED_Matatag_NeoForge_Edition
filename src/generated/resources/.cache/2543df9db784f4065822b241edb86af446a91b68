@@ -1,7 +1,8 @@
-// 1.21.1	2025-09-08T22:43:45.394765	Tags for minecraft:item mod id deped_matatag
+// 1.21.1	2026-03-29T20:00:02.3005373	Tags for minecraft:item mod id deped_matatag
 bf56a396eb88fe1e69fe9f071cfb7ce10a9fef39 data/deped_matatag/tags/item/deped_cores.json
 96c54149df138aefe5ad03188f0d0a3fa73bedf5 data/deped_matatag/tags/item/deped_core_upgrade_templates.json
 9af6078301b7bb0d8100fb1bed18cb109aa3f218 data/deped_matatag/tags/item/deped_ingots.json
+10e19af1a97931d1e152f53dd94d544529a324fd data/deped_matatag/tags/item/deped_music_discs.json
 87ec06f96c0f53d5b7992836e0c3a64e20ec5bb1 data/deped_matatag/tags/item/deped_nuggets.json
 ae02e3a4e119b9e7cc8390e358e3ee3d4682bd41 data/deped_matatag/tags/item/deped_raw_minerals.json
 9cb000abb61f3c7b7a36d61e2c6aa6281a5905b4 data/deped_matatag/tags/item/gmanhs_core_upgrades.json
@@ -13,6 +14,7 @@ ee0d65ef1f4f36ad868e1d07a4fe5f5cd006f46e data/minecraft/tags/item/foot_armor.jso
 f590394e0eeeea2699f874880ecc2b27ce7183be data/minecraft/tags/item/head_armor.json
 8367016c82042d03e88a9c882007a39a32b6e844 data/minecraft/tags/item/leg_armor.json
 fd96f6701e156b27849a10471ad0de9ed4662775 data/minecraft/tags/item/planks.json
+f8fcbca16f74bc6a3739b40eeb8cad3a4ed82c55 data/minecraft/tags/item/slabs.json
 c38714ede8cd099ab58c5da26045887bb35a87b9 data/minecraft/tags/item/trimmable_armor.json
 7bc2b27936cc2d80d19508c17c058feb9ebd4616 data/minecraft/tags/item/wooden_fences.json
 524a27f4bd3a28769ebb2d4a1c1486ef33b0be74 data/minecraft/tags/item/wooden_slabs.json

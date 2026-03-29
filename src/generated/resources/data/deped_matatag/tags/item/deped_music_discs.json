@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "deped_matatag:disc_eat_bulaga",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:disc_waltz_of_the_flowers",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:disc_disco_ghostmix_2000",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:disc_whatever_we_imagine",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:disc_palarong_pambansa",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:disc_uphs_unversity_hymn",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:disc_music_always",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:disc_music_ssab",
+      "required": false
+    },
+    {
+      "id": "deped_matatag:disc_custom_song_1",
+      "required": false
+    }
+  ]
+}

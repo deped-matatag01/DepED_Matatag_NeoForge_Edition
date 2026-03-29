@@ -37,6 +37,7 @@ public class DepED_ItemModelProvider extends ItemModelProvider {
         basicItem(DepED_MusicDiscs.DISC_MUSIC_ALWAYS.get());
         basicItem(DepED_MusicDiscs.DISC_MUSIC_SSAB.get());
         basicItem(DepED_MusicDiscs.DISC_PALARONG_PAMBANSA.get());
+        basicItem(DepED_MusicDiscs.CCDISC_1.get());
 
         //DepED Core Items
         basicItem(DepED_CoreItems.DEPED_CORE.get());

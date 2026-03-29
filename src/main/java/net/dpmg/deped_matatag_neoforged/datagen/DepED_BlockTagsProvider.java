@@ -58,6 +58,12 @@ public class DepED_BlockTagsProvider extends BlockTagsProvider {
                 .add(DepED_ColoredPlanks.MAGENTA_OAK_STAIRS.get())
                 .add(DepED_ColoredPlanks.PINK_OAK_STAIRS.get());
 
+        tag(BlockTags.SLABS)
+                .add(DepED_BlockPlaceables.DEPED_SLAB.get())
+                .add(DepED_BlockPlaceables.GMATHS_SLAB.get())
+                .add(DepED_BlockPlaceables.GMANHS_SLAB.get())
+                .add(DepED_BlockPlaceables.SJCHS_SLAB.get());
+
         tag(BlockTags.WOODEN_SLABS)
                 .add(DepED_ColoredPlanks.WHITE_OAK_SLAB.get())
                 .add(DepED_ColoredPlanks.LIGHT_GRAY_OAK_SLAB.get())

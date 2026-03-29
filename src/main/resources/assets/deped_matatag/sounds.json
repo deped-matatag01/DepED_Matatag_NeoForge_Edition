@@ -62,5 +62,13 @@
         "stream": true
       }
     ]
+  },
+  "custom_disc_1": {
+    "sounds": [
+      {
+        "name": "deped_matatag:custom_disc_1",
+        "stream": true
+      }
+    ]
   }
 }

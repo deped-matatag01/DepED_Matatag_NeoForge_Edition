@@ -27,13 +27,16 @@ public class DepED_MusicDiscs {
             .jukeboxPlayable(DepED_SoundSystem.MUSIC_PALARONG_PAMBANSA_KEY).stacksTo(1).rarity(Rarity.EPIC)));
 
     public static final DeferredItem<Item> DISC_UPHS_UNIVERSITY_HYMN = DPMG_MUSIC_DISCS.register("disc_uphs_unversity_hymn", () -> new Item(new Item.Properties()
-            .jukeboxPlayable(DepED_SoundSystem.UPHS_UNIVERSITY_HYMN_KEY).stacksTo(1)));
+            .jukeboxPlayable(DepED_SoundSystem.UPHS_UNIVERSITY_HYMN_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
     public static final DeferredItem<Item> DISC_MUSIC_ALWAYS = DPMG_MUSIC_DISCS.register("disc_music_always", () -> new Item(new Item.Properties()
             .jukeboxPlayable(DepED_SoundSystem.MUSIC_ALWAYS_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
     public static final DeferredItem<Item> DISC_MUSIC_SSAB = DPMG_MUSIC_DISCS.register("disc_music_ssab", () -> new Item(new Item.Properties()
             .jukeboxPlayable(DepED_SoundSystem.MUSIC_SSAB_KEY).stacksTo(1).rarity(Rarity.EPIC)));
+
+    public static final DeferredItem<Item> CCDISC_1 = DPMG_MUSIC_DISCS.register("disc_custom_song_1", () -> new Item(new Item.Properties()
+            .jukeboxPlayable(DepED_SoundSystem.CCDISC_1_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
     public static void registerDPMG_MusicDiscs(IEventBus eventBus) {
         DPMG_MUSIC_DISCS.register(eventBus);

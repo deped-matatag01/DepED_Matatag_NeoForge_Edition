@@ -1,6 +1,7 @@
 package net.dpmg.deped_matatag_neoforged.datagen;
 
 import net.dpmg.deped_matatag_neoforged.DepEDMatatagNeoForgeEdition;
+import net.dpmg.deped_matatag_neoforged.block.DepED_BlockPlaceables;
 import net.dpmg.deped_matatag_neoforged.block.DepED_ColoredPlanks;
 import net.dpmg.deped_matatag_neoforged.item.DepED_Weaponries;
 import net.minecraft.core.HolderLookup;
@@ -31,7 +32,9 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
 
     public static final TagKey<Item> DEPED_RAW_MINERALS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_raw_minerals"));
     public static final TagKey<Item> DEPED_INGOTS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_ingots"));
-    public static final TagKey<Item> DEPED_NUGGETS= TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_nuggets"));
+    public static final TagKey<Item> DEPED_NUGGETS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_nuggets"));
+
+    public static final TagKey<Item> DEPED_MUSIC_DISCS = TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_music_discs"));
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
@@ -54,6 +57,12 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.FOOT_ARMOR)
                 .add(DepED_Weaponries.DEPED_BOOTS.get());
+
+        tag(ItemTags.SLABS)
+                .add(DepED_BlockPlaceables.DEPED_SLAB.asItem())
+                .add(DepED_BlockPlaceables.GMATHS_SLAB.asItem())
+                .add(DepED_BlockPlaceables.GMANHS_SLAB.asItem())
+                .add(DepED_BlockPlaceables.SJCHS_SLAB.asItem());
 
         tag(ItemTags.PLANKS)
                 .add(DepED_ColoredPlanks.WHITE_OAK_PLANKS.asItem())
@@ -146,6 +155,17 @@ public class DepED_ItemTagsProvider extends ItemTagsProvider {
                 .add(DepED_ColoredPlanks.PINK_OAK_FENCE_GATE.asItem());
 
         //JSON-Based Tagging
+        tag(DEPED_MUSIC_DISCS)
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_eat_bulaga"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_waltz_of_the_flowers"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_disco_ghostmix_2000"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_whatever_we_imagine"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_palarong_pambansa"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_uphs_unversity_hymn"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_music_always"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_music_ssab"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "disc_custom_song_1"));
+
         tag(DEPED_CORES_TAG)
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "deped_core"))
                 .addOptional(ResourceLocation.fromNamespaceAndPath("deped_matatag", "gmaths_core"))
